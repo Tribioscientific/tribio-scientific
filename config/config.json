@@ -1,0 +1,58 @@
+{
+  "site": {
+    "title": "Tribio Scienctific",
+    "base_url": "/",
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/logo.jpeg",
+    "logo_width": "200",
+    "logo_height": "50",
+    "logo_text": "Tribio Scienctific"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 200,
+    "blog_folder": "posts"
+  },
+
+  "params": {
+    "tag_manager_id": "",
+    "contact_form_action": "#",
+    "footer_content": "Mission to serve industries with innovative products and technologies to improve productivity and add value to manufacturing processes.",
+    "copyright": "Designed & Developed By [Tribio Scienctific](https:www.tribio.com)"
+  },
+
+  "contact_info": {
+    "phone": "Phone :  +91-7699069609",
+    "email": "sales@tribioscientific.com",
+    "location": " Address : Suite No. E/1, B-8, 3rd Floor, M/S ARNAVI SOLUTION, Sector 2, Noida, Gautam Buddha Uttar Pradesh, 201301."
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Contact us",
+    "link": "/contact"
+  },
+
+  "metadata": {
+    "meta_author": "Tribio Scienctific",
+    "meta_image": "/images/logo.jpeg",
+    "meta_description": "Formulator and manufacturing company"
+  },
+
+  "call_to_action": {
+    "enable": true,
+    "title": "Get Custom Quote",
+    "content": "We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.",
+    "button": {
+      "label": "Contact Us",
+      "link": "https://tribioscientific.com/contact"
+    }
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "Tribio Scienctific",
+    "settings": {}
+  }
+}
