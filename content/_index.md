@@ -4,11 +4,14 @@ banner:
   subtitle: "On a mission to serve industries with innovative products and technologies to improve productivity."
   image: /images/lab.jpg
   bgimg: /images/bg.png
+  b1: /images/b1.png
+  b2: /images/b3.png
+  b3: /images/b2.png
   link:
     label: Request Quote Today !
     href: "/contact"
 
-##brands
+
 brands:
   - /images/brands/iso15.jpg
   - /images/brands/iso18.jpg
@@ -17,7 +20,7 @@ brands:
   - /images/brands/iso15.jpg
   - /images/brands/iso18.jpg
   - /images/brands/gmp.jpg
-  
+   
 
 #features
 features: 
@@ -116,5 +119,10 @@ testimonial:
       avatar: /images/user-img/08.jpg
       profession: CEO, Nexuspay
       content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+
+swipers:
+  - /images/b1.png
+  - /images/b2.png
+  - /images/b3.png
 
 ---

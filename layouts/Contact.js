@@ -8,9 +8,13 @@ const Contact = ({ data }) => {
 
   return (
     <section className="section">
-      <Banner title={title} />
+      {/* <Banner title={title} /> */}
+      <h3 className="text-center text-primary">Contact Us</h3>
+    
       <div className="container">
+      
         <div className="section row items-center justify-center">
+      
           <div className="animate lg:col-5">
           <div className="mb-12 max-w-[570px] lg:mb-0">
               {/* <span className="text-primary mb-4 block text-base font-semibold">
@@ -87,7 +91,7 @@ const Contact = ({ data }) => {
                 </div>
                 <div className="w-full">
                   <h4 className="text-dark mb-1 text-xl font-bold">Email Address</h4>
-                  <p className="text-body-color text-base">sales@tribioscientific.com</p>
+                  <p className="text-body-color text-base">info@tribioscientific.com</p>
                 </div>
               </div>
             </div> 

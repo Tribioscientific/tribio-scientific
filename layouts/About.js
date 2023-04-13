@@ -23,7 +23,7 @@ const About = ({ data }) => {
   return (
     <>
       <section className="section pt-0">
-        <Banner title={title} />
+        {/* <Banner title={title} /> */}
         {/* About */}
         <div className="section container">
           <div className="row items-center justify-center">
@@ -81,7 +81,7 @@ const About = ({ data }) => {
         {/* Works */}
         <div className="section container">
           <div className="animate text-center">
-            <p className="justify-center">{works.subtitle}</p>
+            <b className="justify-center">{works.subtitle}</b>
             {markdownify(works.title, "h2", "section-title mt-10")}
             {markdownify(works.content, "p", "mt-10")}
           </div>

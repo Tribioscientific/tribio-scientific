@@ -3,6 +3,9 @@ import About from "@layouts/About";
 import Base from "@layouts/Baseof";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
+import Our from "@layouts/our-alliance";
+ 
+
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
 // for all regular pages
@@ -26,6 +29,8 @@ const RegularPages = ({ data }) => {
         <About data={data} />
       ) : layout === "contact" ? (
         <Contact data={data} />
+      ) : layout === "our-alliance" ? (
+        <Our data={data} />
       ) : (
         <Default data={data} />
       )}

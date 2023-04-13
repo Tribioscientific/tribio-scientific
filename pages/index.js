@@ -13,8 +13,11 @@ import { TbQuote } from "react-icons/tb";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
-const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
+
+const Home = ({ banner, swipers, brands, features, intro, speciality, testimonial }) => {
   const paginationRef = useRef(null);
   const testimonialPaginationRef = useRef(null);
 
@@ -26,30 +29,30 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       const header = document.querySelector(".header");
       const tl = gsap.timeline();
 
-      tl.fromTo(
-        ".banner-title",
-        { y: 20, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5, delay: 0.5 }
-      )
-        .fromTo(
-          ".banner-btn",
-          { y: 20, opacity: 0 },
-          { y: 0, opacity: 1, duration: 0.5 },
-          ">-0.4"
-        )
-        .fromTo(
-          ".banner-img",
-          {
-            y: 20,
-            opacity: 0,
-          },
-          {
-            y: 0,
-            opacity: 1,
-            duration: 0.5,
-          },
-          ">-.5"
-        );
+       tl.fromTo(
+         ".banner-title",
+         { y: 20, opacity: 0 },
+         { y: 0, opacity: 1, duration: 0.5, delay: 0.5 }
+       )
+         .fromTo(
+           ".banner-btn",
+           { y: 20, opacity: 0 },
+           { y: 0, opacity: 1, duration: 0.5 },
+           ">-0.4"
+         )
+         .fromTo(
+           ".banner-img",
+           {
+             y: 20,
+             opacity: 0,
+           },
+           {
+             y: 0,
+             opacity: 1,
+             duration: 0.5,
+           },
+           ">-.5"
+         );
 
       //parallax banner
       const parallaxTl = gsap.timeline({
@@ -61,44 +64,64 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
         },
       });
 
-      const position = (banner.offsetHeight - bannerBg.offsetHeight) * 0.4;
-      parallaxTl
-        .fromTo(
-          bannerBg,
-          {
-            y: 0,
-          },
-          {
-            y: -position,
-          }
-        )
-        .fromTo(
-          bannerContent,
-          {
-            y: 0,
-          },
-          {
-            y: position,
-          },
-          "<"
-        )
-        .fromTo(
-          ".banner-bg .circle",
-          {
-            y: 0,
-          },
-          {
-            y: position,
-          },
-          "<"
-        );
+    const position = (banner.offsetHeight - bannerBg.offsetHeight) * 0.4;
+     parallaxTl
+       .fromTo(
+         bannerBg,
+         {
+           y: 0,
+         },
+         {
+           y: -position,
+         }
+       )
+       .fromTo(
+         bannerContent,
+         {
+           y: 0,
+         },
+         {
+           y: position,
+         },
+         "<"
+       )
+       .fromTo(
+         ".banner-bg .circle",
+         {
+           y: 0,
+         },
+         {
+           y: position,
+         },
+         "<"
+       );
     });
 
     return () => ctx.revert();
   }, []);
+  
 
   return (
     <Base>
+    <section className="col-12"> 
+     <Carousel  autoPlay infiniteLoop dynamicHeight>
+               
+                <div>
+                    <img src={banner.b1} />
+                     
+                </div>
+                <div>
+                    <img src={banner.b2}/>
+                  
+                </div>
+                <div>
+                    <img src={banner.b3}/>
+                   
+                </div>
+            </Carousel> 
+  
+
+    </section>
       <section className="section banner pt-0">
         <div className="container-xl">
           <div className="relative">
@@ -180,7 +203,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                       </Link>
                     </div>
                   </div>
-                  <div className="col-10">
+                  {/* <div className="col-10">
                     <ImageFallback
                       className="banner-img opacity-0"
                       src={banner.image}
@@ -189,7 +212,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                       priority={true}
                       alt=""
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -243,14 +266,15 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
           </div>
           <div className="animate from-right relative mt-10">
             <Swiper
-              slidesPerView={1}
+              loop={true}
+              slidesPerView={3}
               pagination={{
                 type: "bullets",
                 el: paginationRef.current,
                 clickable: true,
                 dynamicBullets: true,
               }}
-              autoplay={{ delay: 3000 }}
+              autoplay={{ delay: 1000 }}
               onBeforeInit={(swiper) => {
                 swiper.params.pagination.el = paginationRef.current;
               }}
@@ -359,7 +383,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
 
       {/* Special Features */}
       <section className="">
-        <div className="container">
+        <div className="container  mb-11 animate">
           <div className="row items-center justify-center">
             <div className="animate lg:col-6 lg:order-2">
               <ImageFallback
@@ -380,10 +404,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               {markdownify(speciality.primary.description, "p", "mt-10")}
             </div>
           </div>
-          <div className="row items-center">
+          <div className="row items-center mt-[100px] animate">
             <div className="lg:col-6">
               <ImageFallback
-                className="mx-auto"
+                className="mx-auto rounded-md"
                 src={speciality.secondary.image}
                 width={575}
                 height={511}
@@ -400,10 +424,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               {markdownify(speciality.secondary.description, "p", "mt-10")}
             </div>
           </div>
-          <div className="row items-center justify-center">
+          <div className="row items-center justify-center mt-[100px] ">
             <div className="lg:col-6 lg:order-2">
               <ImageFallback
-                className="mx-auto"
+                className="mx-auto rounded-md"
                 src={speciality.secondary3.image}
                 width={575}
                 height={511}
@@ -420,10 +444,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               {markdownify(speciality.secondary3.description, "p", "mt-10")}
             </div>
           </div>
-          <div className="row items-center">
+          <div className="row items-center mt-[100px]">
             <div className="lg:col-6">
               <ImageFallback
-                className="mx-auto"
+                className="mx-auto rounded-md"
                 src={speciality.secondary4.image}
                 width={575}
                 height={511}
@@ -440,10 +464,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               {markdownify(speciality.secondary4.description, "p", "mt-10")}
             </div>
           </div>
-          <div className="row items-center justify-center">
+          <div className="row items-center justify-center mt-[100px]">
             <div className="lg:col-6 lg:order-2">
               <ImageFallback
-                className="mx-auto"
+                className="mx-auto rounded-md"
                 src={speciality.secondary5.image}
                 width={575}
                 height={511}
@@ -460,10 +484,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               {markdownify(speciality.secondary5.description, "p", "mt-10")}
             </div>
           </div>
-          <div className="row items-center">
+          <div className="row items-center mt-[100px]">
             <div className="lg:col-6">
               <ImageFallback
-                className="mx-auto"
+                className="mx-auto rounded-md"
                 src={speciality.secondary6.image}
                 width={575}
                 height={511}
@@ -480,10 +504,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               {markdownify(speciality.secondary6.description, "p", "mt-10")}
             </div>
           </div>
-          <div className="row items-center justify-center">
+          <div className="row items-center justify-center mt-[100px] mb-[100px]">
             <div className=" lg:col-6 lg:order-2">
               <ImageFallback
-                className="mx-auto"
+                className="mx-auto rounded-md"
                 src={speciality.secondary7.image}
                 width={575}
                 height={511}

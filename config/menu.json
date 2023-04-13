@@ -14,11 +14,7 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Pharmaceuticals",
-          "url": "/#"
-        },
-        {
-          "name": "Sugar & Distillery",
+          "name": "Sugar & Distillery ",
           "url": "/#"
         },
         {
@@ -26,11 +22,11 @@
           "url": "/#"
         },
         {
-          "name": "Agriculture",
+          "name": "Pharmaceuticals",
           "url": "/#"
         },
         {
-          "name": "Detergent",
+          "name": "Agriculture",
           "url": "/#"
         },
         {
@@ -45,11 +41,11 @@
     },  
     {
       "name": "Products & Services",
-      "url": "/ "
+      "url": "/Products-and-Services"
     },  
     {
       "name": "Our Alliance",
-      "url": "/ "
+      "url": "/our-alliance"
     }
   ],
   "footer": [
