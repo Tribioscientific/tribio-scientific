@@ -21,7 +21,7 @@ const Header = () => {
   //sticky header
   useEffect(() => {
     const header = headerRef.current;
-    const headerHeight = header.clientHeight + 200;
+    const headerHeight = header.clientHeight + 150;
     let prevScroll = 0;
     window.addEventListener("scroll", () => {
       const scrollY = window.scrollY;

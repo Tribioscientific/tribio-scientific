@@ -4,6 +4,8 @@ import Base from "@layouts/Baseof";
 import Contact from "@layouts/Contact";
 import Default from "@layouts/Default";
 import Our from "@layouts/our-alliance";
+import Nutrients from "@layouts/Nutrients ";
+import Pharmaceuticals from "@layouts/Pharmaceuticals";
  
 
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
@@ -31,6 +33,12 @@ const RegularPages = ({ data }) => {
         <Contact data={data} />
       ) : layout === "our-alliance" ? (
         <Our data={data} />
+      ) 
+      : layout === "pharmaceuticals" ? (
+        <Pharmaceuticals data={data} />
+      ) 
+      : layout === "nutrients" ? (
+        <Nutrients data={data} />
       ) : (
         <Default data={data} />
       )}

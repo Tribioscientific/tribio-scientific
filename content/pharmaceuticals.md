@@ -1,0 +1,6 @@
+---
+title: "Pharmaceuticals"
+layout: "pharmaceuticals"
+---
+
+ 
