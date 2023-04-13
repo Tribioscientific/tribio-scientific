@@ -267,7 +267,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           <div className="animate from-right relative mt-10">
             <Swiper
               loop={true}
-              slidesPerView={3}
+              slidesPerView={1}
               pagination={{
                 type: "bullets",
                 el: paginationRef.current,
