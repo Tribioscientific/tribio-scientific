@@ -26,7 +26,7 @@ const Contact = ({ data }) => {
                 Why you should contact us!
               </h2>
               <p className="text-body-color mb-9 text-base leading-relaxed">
-              . We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.  </p>
+              We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.  </p>
               <div className="mb-8 flex w-full max-w-[370px]">
                 <div
                   className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"

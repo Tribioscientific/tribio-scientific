@@ -14,7 +14,7 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import { Carousel,caption } from 'react-responsive-carousel';
 
 
 const Home = ({ banner, swipers, brands, features, intro, speciality, testimonial }) => {
@@ -64,37 +64,37 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         },
       });
 
-    const position = (banner.offsetHeight - bannerBg.offsetHeight) * 0.4;
-     parallaxTl
-       .fromTo(
-         bannerBg,
-         {
-           y: 0,
-         },
-         {
-           y: -position,
-         }
-       )
-       .fromTo(
-         bannerContent,
-         {
-           y: 0,
-         },
-         {
-           y: position,
-         },
-         "<"
-       )
-       .fromTo(
-         ".banner-bg .circle",
-         {
-           y: 0,
-         },
-         {
-           y: position,
-         },
-         "<"
-       );
+   // const position = (banner.offsetHeight - bannerBg.offsetHeight) * 0.4;
+    //  parallaxTl
+    //    .fromTo(
+    //      bannerBg,
+    //      {
+    //        y: 0,
+    //      },
+    //      {
+    //        y: -position,
+    //      }
+    //    )
+    //    .fromTo(
+    //      bannerContent,
+    //      {
+    //        y: 0,
+    //      },
+    //      {
+    //        y: position,
+    //      },
+    //      "<"
+    //    )
+    //    .fromTo(
+    //      ".banner-bg .circle",
+    //      {
+    //        y: 0,
+    //      },
+    //      {
+    //        y: position,
+    //      },
+    //      "<"
+    //    );
     });
 
     return () => ctx.revert();
@@ -103,11 +103,14 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
   return (
     <Base>
-    <section className="col-12"> 
-     <Carousel  autoPlay infiniteLoop dynamicHeight>
+    <section className="relative "> 
+     {/* <Carousel  autoPlay infiniteLoop showThumbs={false} dynamicHeight stopOnHover={false}>
                
                 <div>
                     <img src={banner.b1} />
+                    
+                      <h1>Hello.......</h1>
+                  
                      
                 </div>
                 <div>
@@ -118,11 +121,145 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                     <img src={banner.b3}/>
                    
                 </div>
-            </Carousel> 
+            </Carousel>  */}
+
+
+
+            <Swiper
+                  loop={true}
+                  slidesPerView={1}
+                  breakpoints={{
+                    992: {
+                      slidesPerView: 1,
+                    },
+                  }}
+                  spaceBetween={20}
+                  modules={[Autoplay]}
+                  autoplay={{ delay: 5000 }}
+
+                >  
+                   
+                  <SwiperSlide>
+                  <div  class="relative bg-[url(/images/b1.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+  >
+    <div
+      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/10"
+    ></div>
+  
+    <div
+      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    >
+      <div class="max-w-xl text-center sm:text-left">
+      {/* <img
+          alt="Waste Water treatment"
+          src= "/images/logo.png"
+          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
+        /> */}
+        <h1 class="text-3xl font-extrabold sm:text-5xl">
+          {/* Let us find your */}
+  
+          <strong class="block font-extrabold text-primary">
+          Tribio Scientific
+          </strong>
+        </h1>
+  
+         <p class="mt-4 max-w-lg sm:text-xl text-black sm:leading-relaxed">
+         On a mission to serve industries with innovative products and technologies to improve productivity.
+Request Quote Today !  </p>
+
+<div className="banner-btn mt-1 opacity-0">
+                      <Link className="btn btn-primary" href={banner.link.href}>
+                        {banner.link.label}
+                      </Link>
+                    </div>
+  
+      </div>
+    </div> 
+    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div  class="relative bg-[url(/images/b2.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+  >
+    <div
+      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/10"
+    ></div>
+  
+    <div
+      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    >
+      <div class="max-w-xl text-center sm:text-left">
+      {/* <img
+          alt="Waste Water treatment"
+          src= "/images/logo.png"
+          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
+        /> */}
+        <h1 class="text-3xl font-extrabold sm:text-5xl">
+          {/* Let us find your */}
+  
+          <strong class="block font-extrabold text-primary">
+          Tribio Scientific
+          </strong>
+        </h1>
+  
+         <p class="mt-4 max-w-lg sm:text-xl text-black sm:leading-relaxed">
+         On a mission to serve industries with innovative products and technologies to improve productivity.
+Request Quote Today !  </p>
+
+<div className="banner-btn mt-1 opacity-0">
+                      <Link className="btn btn-primary" href={banner.link.href}>
+                        {banner.link.label}
+                      </Link>
+                    </div>
+  
+      </div>
+    </div> 
+    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div  class="relative bg-[url(/images/b3.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+  >
+    <div
+      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/10"
+    ></div>
+  
+    <div
+      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    >
+      <div class="max-w-xl text-center sm:text-left">
+      {/* <img
+          alt="Waste Water treatment"
+          src= "/images/logo.png"
+          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
+        /> */}
+        <h1 class="text-3xl font-extrabold sm:text-5xl">
+          {/* Let us find your */}
+  
+          <strong class="block font-extrabold text-primary">
+          Tribio Scientific
+          </strong>
+        </h1>
+  
+         <p class="mt-4 max-w-lg sm:text-xl text-black sm:leading-relaxed">
+         On a mission to serve industries with innovative products and technologies to improve productivity.
+Request Quote Today !  </p>
+
+<div className="banner-btn mt-1 opacity-0">
+                      <Link className="btn btn-primary" href={banner.link.href}>
+                        {banner.link.label}
+                      </Link>
+                    </div>
+  
+      </div>
+    </div> 
+    </div>
+                  </SwiperSlide>
+                  
+                 
+                </Swiper>
   
 
     </section>
-      <section className="section banner pt-0">
+      {/* <section className="section banner pt-0">
         <div className="container-xl">
           <div className="relative">
             <div className=" banner-bg col-12 absolute top-0 left-0">
@@ -181,7 +318,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                 className="circle right-[3%] bottom-[20%]"
                 width={65}
                 height={65}
-              /> */}
+              />  
             </div>
             <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
@@ -203,7 +340,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       </Link>
                     </div>
                   </div>
-                  {/* <div className="col-10">
+                   <div className="col-10">
                     <ImageFallback
                       className="banner-img opacity-0"
                       src={banner.image}
@@ -212,7 +349,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       priority={true}
                       alt=""
                     />
-                  </div> */}
+                  </div>  
                 </div>
               </div>
             </div>
@@ -254,7 +391,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
             </div>  
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Features */}
       <section className="section">
