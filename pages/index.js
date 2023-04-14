@@ -259,7 +259,7 @@ Request Quote Today !  </p>
   
 
     </section>
-      {/* <section className="section banner pt-0">
+     <section className="section banner pt-0">
         <div className="container-xl">
           <div className="relative">
             <div className=" banner-bg col-12 absolute top-0 left-0">
@@ -351,7 +351,7 @@ Request Quote Today !  </p>
                     />
                   </div>  
                 </div>
-              </div>
+              </div>*/}
             </div>
            <div className="row border-y border-border py-5">
               <div className="animate from-right col-12">
@@ -391,7 +391,7 @@ Request Quote Today !  </p>
             </div>  
           </div>
         </div>
-      </section> */}
+      </section> 
 
       {/* Features */}
       <section className="section">
