@@ -7,12 +7,13 @@ draft: false
 about_us:
   subtitle: WHO WE ARE
   title: Hello, We’re Tribio Scientific Here For Your Help
-  content: We, Tribio Scientific is a team of young and dynamic professionals with a mission to serve industries with innovative products and technologies to improve productivity and add value to manufacturing processes. We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis. We have a group of professionals with expertise for different industrial manufacturing processes. In a very short span of time, NRBPL with its domestic and international business partner companies have built up a network of a customers in industries such as distillery, brewery, sugar, food, textile, pulp& paper, etc.
+  content: We, Tribio Scientific is a team of young and dynamic professionals with a mission to serve industries with novel products and technologies to improve productivity and add value to manufacturing processes. We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis. We have a group of professionals with domain expertise for different industrial manufacturing processes. In a very short span of time, Tribio with its domestic and international business partner companies have built up a network of a customers in industries such as Sugar & Distillery, Pharmaceuticals, Pulp & Paper, etc.Our cutting-edge technology, methodology, and modern-day laboratory infrastructure enables Tribio to meet every customer supply demand and conquer traditional challenges. Our expert team of biochemists makes sure that our products’ catalytic powers are rightly used in its applications through vigorous R&D and testing. All our in-house products are manufactured under high surveillance and go through stringent quality checks procedure to ensure that our final bio product meets the set industry standards.
+  
   image: /images/about/2.png
 
 ## our works
 works:
-  subtitle: Our company is an ISO 9001:2015 ,ISO 22000:2018,GMP & HACCP certified formulator and manufacturing company having expertise in Enzymes & Bioproduct. The Company has experience of serving the industry. Our prestigious domestic clients are Dalmia Bharat sugar industries ltd, some clients in Nepal etc.
+  subtitle: Our company is an ISO 9001:2008 & 22000:2005 certified formulator and manufacturing company having expertise in Nutrients, Enzymes & Bioproduct, Pharmacopeial impurities & Reference Standards. Our prestigious domestic clients are Dalmia Bharat Sugar & Industries Limited, Aristo Pharma, Alkem Pharma, Shri Venkatesh International Limited. If you are looking for the best nutrients, enzyme & pharmacopeial standards manufacturers and suppliers, look no further! Reach out to us today!
   title: What We Do
   list:
     - title: Reference standard
@@ -41,20 +42,18 @@ video:
 
 ## clients
 clients:
-  subtitle: OUR CLIENTS
-  title: Trusted By Thousands Companies
+  subtitle: Certifications
+  title: Certified By
   brands:
-    - /images/brands/01-colored.png
-    - /images/brands/02-colored.png
-    - /images/brands/03-colored.png
-    - /images/brands/04-colored.png
-    - /images/brands/05-colored.png
-    - /images/brands/06-colored.png
-    - /images/brands/04-colored.png
-    - /images/brands/05-colored.png
-    - /images/brands/06-colored.png
-
-
+  - /images/brands/iso15.jpg
+  - /images/brands/iso18.jpg
+  - /images/brands/gmp.jpg
+  - /images/brands/haccp.jpg
+  - /images/brands/iso15.jpg
+  - /images/brands/iso18.jpg
+  - /images/brands/gmp.jpg
+ 
+   
 ## members
 our_member:
   subtitle: OUR MEMBERS

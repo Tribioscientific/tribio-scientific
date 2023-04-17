@@ -103,28 +103,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
   return (
     <Base>
-    <section className="relative "> 
-     {/* <Carousel  autoPlay infiniteLoop showThumbs={false} dynamicHeight stopOnHover={false}>
-               
-                <div>
-                    <img src={banner.b1} />
-                    
-                      <h1>Hello.......</h1>
-                  
-                     
-                </div>
-                <div>
-                    <img src={banner.b2}/>
-                  
-                </div>
-                <div>
-                    <img src={banner.b3}/>
-                   
-                </div>
-            </Carousel>  */}
-
-
-
+    <section className="relative ">  
             <Swiper
                   loop={true}
                   slidesPerView={1}
@@ -143,7 +122,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                   <div  class="relative bg-[url(/images/b1.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
   >
     <div
-      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/10"
+      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
     ></div>
   
     <div
@@ -155,21 +134,144 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
         /> */}
-        <h1 class="text-3xl font-extrabold sm:text-5xl">
+        <h4 class="font-extrabold  ">
           {/* Let us find your */}
   
           <strong class="block font-extrabold text-primary">
           Tribio Scientific
           </strong>
-        </h1>
-  
-         <p class="mt-4 max-w-lg sm:text-xl text-black sm:leading-relaxed">
-         On a mission to serve industries with innovative products and technologies to improve productivity.
-Request Quote Today !  </p>
-
-<div className="banner-btn mt-1 opacity-0">
+        </h4>
+  <h2>
+         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
+         Variuos Scientific Solution for industries !  </strong>
+         </h2>
+<div className="banner-btn mt-5 opacity-0">
                       <Link className="btn btn-primary" href={banner.link.href}>
                         {banner.link.label}
+                      </Link>
+                    </div>
+  
+      </div>
+    </div> 
+    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div  class="relative bg-[url(/images/f2.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+  >
+    <div
+      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
+    ></div>
+  
+    <div
+      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    >
+      <div class="max-w-xl text-center sm:text-left">
+      {/* <img
+          alt="Waste Water treatment"
+          src= "/images/logo.png"
+          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
+        /> */}
+        <h4 class="  font-extrabold  ">
+          {/* Let us find your */}
+  
+          <strong class="block font-extrabold text-primary">
+          Tribio Scientific
+          </strong>
+        </h4>
+  <h2>
+         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
+         Products for Sugar and Distillery !  </strong>
+</h2>
+<div className="banner-btn mt-5 opacity-0">
+                      <Link className="btn btn-primary" href="/">
+                      Explore More
+                      </Link> 
+                      <Link className="btn btn-primary mx-4" href= "/contact">
+                        Contact Us
+                      </Link>
+                    </div>
+  
+      </div>
+    </div> 
+    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div  class="relative bg-[url(/images/f3.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+  >
+    <div
+      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
+    ></div>
+  
+    <div
+      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    >
+      <div class="max-w-xl text-center sm:text-left">
+      {/* <img
+          alt="Waste Water treatment"
+          src= "/images/logo.png"
+          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
+        /> */}
+          <h4 class="  font-extrabold  ">
+          {/* Let us find your */}
+  
+          <strong class="block font-extrabold text-primary">
+          Tribio Scientific
+          </strong>
+        </h4>
+  <h2>
+         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
+         Pulp & Paper Industry !  </strong>
+</h2> 
+<div className="banner-btn mt-5 opacity-0">
+                      <Link className="btn btn-primary" href="/">
+                      Explore More
+                      </Link> 
+                      <Link className="btn btn-primary mx-4" href= "/contact">
+                        Contact Us
+                      </Link>
+                    </div>
+  
+      </div> 
+   
+    </div> 
+
+    </div>
+    
+                  </SwiperSlide>
+                  <SwiperSlide>
+                  <div  class="relative bg-[url(/images/Pharmaceuticals.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+  >
+    <div
+      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
+    ></div>
+  
+    <div
+      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    >
+      <div class="max-w-xl text-center sm:text-left">
+      {/* <img
+          alt="Waste Water treatment"
+          src= "/images/logo.png"
+          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
+        /> */}
+          <h4 class="  font-extrabold  ">
+          {/* Let us find your */}
+  
+          <strong class="block font-extrabold text-primary">
+          Tribio Scientific
+          </strong>
+        </h4>
+  <h2>
+         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
+        Pharmaceuticals !  </strong>
+</h2>
+
+<div className="banner-btn mt-5 opacity-0">
+                      <Link className="btn btn-primary" href="/">
+                      Explore More
+                      </Link> 
+                      <Link className="btn btn-primary mx-4" href= "/contact">
+                        Contact Us
                       </Link>
                     </div>
   
@@ -181,7 +283,7 @@ Request Quote Today !  </p>
                   <div  class="relative bg-[url(/images/b2.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
   >
     <div
-      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/10"
+      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
     ></div>
   
     <div
@@ -193,59 +295,23 @@ Request Quote Today !  </p>
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
         /> */}
-        <h1 class="text-3xl font-extrabold sm:text-5xl">
+          <h4 class="  font-extrabold  ">
           {/* Let us find your */}
   
           <strong class="block font-extrabold text-primary">
           Tribio Scientific
           </strong>
-        </h1>
-  
-         <p class="mt-4 max-w-lg sm:text-xl text-black sm:leading-relaxed">
-         On a mission to serve industries with innovative products and technologies to improve productivity.
-Request Quote Today !  </p>
-
-<div className="banner-btn mt-1 opacity-0">
-                      <Link className="btn btn-primary" href={banner.link.href}>
-                        {banner.link.label}
-                      </Link>
-                    </div>
-  
-      </div>
-    </div> 
-    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                  <div  class="relative bg-[url(/images/b3.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
-  >
-    <div
-      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/10"
-    ></div>
-  
-    <div
-      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-    >
-      <div class="max-w-xl text-center sm:text-left">
-      {/* <img
-          alt="Waste Water treatment"
-          src= "/images/logo.png"
-          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        /> */}
-        <h1 class="text-3xl font-extrabold sm:text-5xl">
-          {/* Let us find your */}
-  
-          <strong class="block font-extrabold text-primary">
-          Tribio Scientific
-          </strong>
-        </h1>
-  
-         <p class="mt-4 max-w-lg sm:text-xl text-black sm:leading-relaxed">
-         On a mission to serve industries with innovative products and technologies to improve productivity.
-Request Quote Today !  </p>
-
-<div className="banner-btn mt-1 opacity-0">
-                      <Link className="btn btn-primary" href={banner.link.href}>
-                        {banner.link.label}
+        </h4>
+  <h2>
+         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
+         Agriculture & animal feed !  </strong>
+</h2>
+<div className="banner-btn mt-5 opacity-0">
+                      <Link className="btn btn-primary" href="/">
+                      Explore More
+                      </Link> 
+                      <Link className="btn btn-primary mx-4" href= "/contact">
+                        Contact Us
                       </Link>
                     </div>
   
@@ -258,150 +324,61 @@ Request Quote Today !  </p>
                 </Swiper>
   
 
-    </section>
-     <section className="section banner pt-0">
-        <div className="container-xl">
-          <div className="relative">
-            <div className=" banner-bg col-12 absolute top-0 left-0">
-               {/* <Image src={banner.bgimg} height={500}width={1500}/>   */}
-              {/* <Circle
-                className="circle left-[10%] top-12"
-                width={32}
-                height={32}
-                fill={false}
-              />
-              <Circle
-                className="circle left-[2.5%] top-[29%]"
-                width={85}
-                height={85}
-              />
-              <Circle
-                className="circle left-[22%] bottom-[48%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle left-[15%] bottom-[37%]"
-                width={47}
-                height={47}
-                fill={false}
-              />
-              <Circle
-                className="circle left-[6%] bottom-[13%]"
-                width={62}
-                height={62}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[12%] top-[15%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle right-[2%] top-[30%]"
-                width={73}
-                height={73}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[19%] top-[48%]"
-                width={37}
-                height={37}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[33%] top-[54%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle right-[3%] bottom-[20%]"
-                width={65}
-                height={65}
-              />  
-            </div>
-            <div className="row overflow-hidden rounded-2xl">
-              <div className="col-12">
-                <div className="row relative justify-center pb-10">
-                  <div className="banner-content col-10 pt-20 pb-10 text-center">
-                    {markdownify(
-                      banner.title,
-                      "h1",
-                      "text-primary mb-8 banner-title opacity-0"
-                    )}
-                     {markdownify(
-                      banner.subtitle,
-                      "h4",
-                      "mb-8 banner-title opacity-0"
-                    )} 
-                    <div className="banner-btn opacity-0">
-                      <Link className="btn btn-primary" href={banner.link.href}>
-                        {banner.link.label}
-                      </Link>
-                    </div>
-                  </div>
-                   <div className="col-10">
-                    <ImageFallback
-                      className="banner-img opacity-0"
-                      src={banner.image}
-                      width={1170}
-                      height={666}
-                      priority={true}
-                      alt=""
-                    />
-                  </div>  
-                </div>
-              </div>*/}
-            </div>
-           <div className="row border-y border-border py-5">
-              <div className="animate from-right col-12">
-              <h2 className="text-center mb-6">Certified by </h2>
-                <Swiper
-                  loop={true}
-                  slidesPerView={3}
-                  breakpoints={{
-                    992: {
-                      slidesPerView: 5,
-                    },
-                  }}
-                  spaceBetween={20}
-                  modules={[Autoplay]}
-                  autoplay={{ delay: 3000 }}
-                >  
-                  {brands.map((brand, index) => (
-                    <SwiperSlide
-                      className=" h-[150px] cursor-pointer py-6 px-6 transition hover:grayscale-0 lg:px-10"
-                      key={"brand-" + index}
-                    >
-                      <div className="relative h-full">
-                      
-                        <ImageFallback
-                          className="object-contain"
-                          src={brand}
-                          sizes="100vw"
-                          alt=""
-                          fill={true}
-                          priority={true}
-                        />
-                      </div>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </div>
-            </div>  
-          </div>
-        </div>
-      </section> 
+    </section> 
 
       {/* Features */}
-      <section className="section">
+
+      <div className="animate px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-xl  md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"> 
+        <h2 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+        Nutrients & Ingredients manufacturer , Exporter & Supplier
+        </h2> 
+        <div class="mt-2 mb-10 text-center">
+            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+        </div>
+      </div>
+     
+
+      <div className="grid gap-8 row-gap-10 lg:grid-cols-2">
+        <div className=" mt-5 sm:mx-auto sm:text-center">
+        
+          <h6 className="mb-3 text-xl  selection: leading-5"> </h6>
+          <p className="text-md text-start ">
+          Tribio is a pioneer in robust development, manufacturing and distributor of the best quality of nutrients & Ingredients for various industries globally. We expertise in the art of manufacturing the best industrial enzymes & nutrients, uniquely tailored to meet our customers’ needs.  Our production caters to Sugar & Distillery, Pulp & Paper, Pharmaceuticals, Food & Beverage, Textile, Animal Feed, Sugar & Starch Processing & Detergent industries. Our extensive knowledge in the biotech domain, comprehensive research of bioscience & continuous development, enables us to manufacture enzymes & nutrients that catalyse production for our clients while enhancing the quality of life for all  </p>
+         
+          <p className="text-start">We are equipped with modern infrastructure & biotechnologies that allows us to uniquely tailor & manufacture various enzymes for various industries to supply and export globally, helping them to overcome traditional problems of upscaling quantity and enhancing the quality of their related products. Our expert team of biochemists enables Tribio scientific to manufacture customized products according to an individual’s needs</p>
+         
+        
+           
+        </div>
+        <div className="max-w-md sm:mx-auto sm:text-center">
+         
+         <img className="mt-[100px]" src="/images/logo.png"/>
+          
+        </div> 
+        
+      </div>
+      
+    </div>
+
+
+
+      {/* <section className="section">
         <div className="container text-center">
           <div className="animate">
             <p className="uppercase">{features.sub_title}</p>
-            {markdownify(features.title, "h2", "mt-0 section-title")}
-            {markdownify(features.description, "p", "mt-10")}
+            
+            {markdownify(features.title, "h2", "mt-0 ")}
+            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            {/* {markdownify(features.description, "p", "mt-10")}  
+            <p className="mt-10">Tribio is a pioneer in robust development, manufacturing and distributor of the best quality of nutrients & Ingredients for various industries globally. We expertise in the art of manufacturing the best industrial enzymes & nutrients, uniquely tailored to meet our customers’ needs.  Our production caters to Sugar & Distillery, Pulp & Paper, Pharmaceuticals, Food & Beverage, Textile, Animal Feed, Sugar & Starch Processing & Detergent industries. Our extensive knowledge in the biotech domain, comprehensive research of bioscience & continuous development, enables us to manufacture enzymes & nutrients that catalyse production for our clients while enhancing the quality of life for all.</p>
+            <p className="">We are equipped with modern infrastructure & biotechnologies that allows us to uniquely tailor & manufacture various enzymes for various industries to supply and export globally, helping them to overcome traditional problems of upscaling quantity and enhancing the quality of their related products. Our expert team of biochemists enables Tribio scientific to manufacture customized products according to an individual’s needs</p>
           </div>
-          <div className="animate from-right relative mt-10">
+          {/* <div className="animate from-right relative mt-10">
             <Swiper
               loop={true}
               slidesPerView={1}
@@ -440,12 +417,100 @@ Request Quote Today !  </p>
             <div className="relative mt-9 flex justify-center">
               <div className="pagination " ref={paginationRef}></div>
             </div>
-          </div>
+          </div> * 
         </div>
-      </section>
+      </section> */}
+
+      
+{/*     */}
+  
+   
+
+
+
+
+  {/* Why choose us */}
+
+  <section class="animate bg-white mb-20 dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto text-center">
+        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Why Choose Us</h1>
+
+        <div class="mt-2">
+            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+        </div>
+        <p class="text-gray-500 dark:text-gray-300">
+        We provide our customers with unbeatable service, while providing top quality products at competitive prices.  </p>
+
+        <div class="mt-8 xl:mt-12 lg:flex lg:items-center">
+            <div class="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-1">
+              
+                <div class="space-y-3">
+                    <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg> */}
+                        <img className="w-10 h-10" src="/images/creativity.png" alt=""/>
+                    </span>
+
+                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Creative Inovations</h1>
+
+                    <p class="text-gray-500 dark:text-gray-300">
+                    Our dedicated R&D team is always working towards to solve client problem by innovative way and providing quality solution with innovative product and services.
+                    </p>
+                </div>
+
+
+                <div class="space-y-2">
+                    <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                    <img className="w-10 h-10" src="/images/authorization.png" alt=""/>
+                    </span>
+
+                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Quality Assurance</h1>
+
+                    <p class="text-gray-500 dark:text-gray-300">
+                    Tribio Scientific  is an ISO 9001:2015, ISO 22000:2018, GMP & HACCP certified formulator and manufacturing company having expertise in Enzymes & Bioproduct.. 
+                    </p>
+                </div> 
+            </div>
+            <div class="grid w-full grid-cols-1  gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-1">
+              
+             
+
+              <div class="space-y-3">
+                  <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                  <img className="w-10 h-10" src="/images/user-experience.png" alt=""/>
+                  </span>
+
+                  <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Experienced</h1>
+
+                  <p class="text-gray-500 dark:text-gray-300">
+                  We have a group of professionals with expertise for different industrial manufacturing processes.We have well experienced team in the industry.
+                  </p>
+              </div>
+
+              <div class="space-y-3">
+                  <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
+                  <img className="w-10 h-10" src="/images/24-hours.png" alt=""/>
+                  </span>
+
+                  <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">24/7 Support</h1>
+
+                  <p class="text-gray-500 dark:text-gray-300">
+                  We have an experienced technical team which provides guidance and troubleshoot problems of our customer on 24X7 basis.
+                  </p>
+              </div>
+          </div>
+
+           
+        </div>
+    </div>
+</section>
+
 
       {/* Short Into */}
-      <section className="section pt-0">
+      {/* <section className="section pt-0">
         <div className="container-xl">
           <div className="relative px-4 py-[70px]">
             <div className="text-center">
@@ -462,7 +527,7 @@ Request Quote Today !  </p>
         backgroundImage: `url(${banner.bgimg})`,
       }}>
            
-              {/* <Circle
+             <Circle
                 className="left-[10%] top-12"
                 width={32}
                 height={32}
@@ -512,14 +577,14 @@ Request Quote Today !  </p>
                 className="right-[5%] bottom-[18%]"
                 width={65}
                 height={65}
-              /> */}
+              />  
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Special Features */}
-      <section className="">
+      {/* <section className="">
         <div className="container  mb-11 animate">
           <div className="row items-center justify-center">
             <div className="animate lg:col-6 lg:order-2">
@@ -662,10 +727,125 @@ Request Quote Today !  </p>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+{/* 
+Product and services  */}
+ 
+ 
+    <div className="animate px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-xl  md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"> 
+        <h2 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+          Our Product Application
+        </h2> 
+        <div class="mt-2 mb-10 text-center">
+            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+        </div>
+      </div>
+     
+
+      <div className="grid gap-8 row-gap-10 lg:grid-cols-3">
+        <div className="max-w-md mt-5 sm:mx-auto sm:text-center">
+        
+          <h6 className="mb-3 text-xl  selection: leading-5">Nutrient for Distillery</h6>
+          <p className="mb-3 text-sm ">
+           Our enhanced distillery processing enzymes & nutrients gives you better and non-contaminated yield of ethanol at a faster rate.
+          </p>
+        
+          <h6 className="mb-3 mt-10 text-xl  first-letter: leading-5">Pharmaceuticals Reference Standard and Impurities</h6>
+          <p className="mb-3 text-sm ">
+            Our team of scientist develope and synthesis very hign quality of inhouse reference Standard, working Standard and impurity for Pharmaceuticals quality control. 
+            </p>
+
+        
+           
+        </div>
+        <div className="max-w-md sm:mx-auto sm:text-center">
+         
+         <img className="w-[200px] mt-[100px] " src="/images/logo.png"/>
+          
+        </div>
+        <div className="max-w-md mt-5 sm:mx-auto sm:text-center">
+        
+          <h6 className="mb-3 text-xl  selection: leading-5">Products for Water Treatment</h6>
+          <p className="mb-3 text-sm ">
+           Our enhanced distillery processing enzymes & nutrients gives you a better and non-contaminated yield of ethanol at a fasterrate.
+          </p>
+        
+          <h6 className="mb-3 mt-10 text-xl  first-letter: leading-5">Nutrient for Pulp & Paper</h6>
+          <p className="mb-3 text-sm ">
+            Tribio paper and Pulp nutrients reduce the dependency of harmful and toxic inorganic nutrients which damages the environment.
+          </p>
+           
+        </div>
+       
+        
+      </div>
+      <div className="text-center">
+      <h6 className="mb-3 mt-10 text-xl first-letter: leading-5">Ingredients for Food, cattle feed and Pharmaceuticals</h6>
+      <p className="mb-3 max-w-md text-sm ">
+           
+          </p>
+          <p className="mb-3 text-sm ">
+           We provoide various Ingredient used in Pharmaceuticals and food industry.
+          </p>
+          </div>
+          <div className="text-center">
+          <Link className="mt-10 btn btn-primary" href="/nutrients">View All</Link>  
+          </div>
+    </div>
+
+
+    {/* Certified by */}
+
+
+{/* 
+      <section className="animate section banner pt-0">
+        <div className="container-xl">
+          <div className="relative"> 
+           <div className="row border-y border-border py-5">
+              <div className="animate from-right col-12">
+              <h2 className="text-center mb-6">Certified by </h2>
+                <Swiper
+                  loop={true}
+                  slidesPerView={3}
+                  breakpoints={{
+                    992: {
+                      slidesPerView: 5,
+                    },
+                  }}
+                  spaceBetween={20}
+                  modules={[Autoplay]}
+                  autoplay={{ delay: 3000 }}
+                >  
+                  {brands.map((brand, index) => (
+                    <SwiperSlide
+                      className=" h-[150px] cursor-pointer py-6 px-6 transition hover:grayscale-0 lg:px-10"
+                      key={"brand-" + index}
+                    >
+                      <div className="relative h-full">
+                      
+                        <ImageFallback
+                          className="object-contain"
+                          src={brand}
+                          sizes="100vw"
+                          alt=""
+                          fill={true}
+                          priority={true}
+                        />
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </section>  */}
 
       {/* Testimonial */}
-      {/* <section className="section pt-0">
+        {/* <section className="section pt-0">
         <div className="container">
           <div className="animate text-center">
             <p>{testimonial.subtitle}</p>
@@ -748,10 +928,128 @@ Request Quote Today !  </p>
             </div>
           </div>
         </div>
-      </section> */}
+      </section>   */}
 
       {/* Cta */}
-      <Cta />
+
+      <section class="animate relative bg-[url(/images/bgcontact.png)] bg-cover bg-center bg-no-repeat  ">
+    <div class="flex flex-col  bg-white/20">
+        <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
+            <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
+                <div class="text-white lg:w-1/2 lg:mx-6">
+                    <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">WHY YOU SHOULD CONTACT US!</h1>
+
+                    <p class="max-w-xl text-bold text-black mt-6">
+                    We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.
+                    </p>
+
+                   
+                     
+                </div>
+
+                <div class="mt-8 lg:w-1/2 lg:mx-6">
+                    <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                        <h1 class="text-xl font-medium text-gray-700 dark:text-gray-200">Contact Us</h1>
+
+                        <p class="mt-2 text-gray-500 dark:text-gray-400">
+                            Ask us everything and we would love
+                            to hear from you..
+                        </p>
+
+                        <form class="mt-5">
+                            <div class="grid gap-8 row-gap-10 lg:grid-cols-2">
+                              <div>
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                </div>
+                                <div>
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                </div>
+                            </div>
+
+                            <div class="grid gap-8 row-gap-10 lg:grid-cols-2">
+                              <div>
+                                <label class="block m-2 text-sm text-gray-600 dark:text-gray-200">Phone Number</label>
+                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                </div>
+                                <div>
+                                <label class="block m-2 text-sm text-gray-600 dark:text-gray-200">Email</label>
+                                <input type="email" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                </div>
+                            </div>
+
+                            <div class="flex-1 mt-6">
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Your Message here</label>
+                                <textarea type="text" placeholder="" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                            </div>
+
+                            <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                              Send Now
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+      {/* <Cta />  */}
+
+       {/*Clients  */}
+ 
+       <div className=" animate px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="grid gap-10 lg:grid-cols-2">
+        <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+          
+          <div className="max-w-xl mb-6">
+          <h2 className="max-w-lg mb-6 text-primary">
+          Our Clients
+             
+            </h2>
+            <h2 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+            Trusted by world-class brands and organizations of all sizes.
+             
+            </h2>
+            <p className="text-base">
+             Our prestigious domestic clients are Dalmia Bharat sugar industries ltd, Alkem Laboratories, Aristo Pharmaceutical Private Limited, Shree Venkatesh International Limited and many clients from Nepal.
+            </p>
+          </div>
+       
+        </div>
+        <div className="flex items-center justify-center -mx-4 lg:pl-8">
+          <div className="flex flex-col items-end px-3">
+            <img
+              className="object-cover w-60 mb-6 rounded shadow-lg "
+              src="/images/c1.jpeg"
+              alt=""
+            />
+            <img
+              className="object-cover w-60  rounded shadow-lg "
+              src="/images/c2.jpeg"
+               alt=""
+            />
+          </div>
+          <div className="px-3">
+            <img
+              className="object-cover w-60  rounded shadow-lg "
+              src="/images/c3.jpeg"
+               alt=""
+            />
+             <img
+              className="object-cover w-60  rounded shadow-lg  "
+              src="/images/c4.jpeg"
+               alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     </Base>
   );
 };

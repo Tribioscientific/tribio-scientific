@@ -24,7 +24,7 @@ brands:
 
 #features
 features: 
-  title: Our Products and Services
+  title: Nutrients & Ingredients manufacturer , Exporter & Supplier
   description: We deliver pharmaceutical reference standards that help you achieve accuracy and compliance..
   list:
     - icon: '/images/services/1.jpg' # feather icon: https://feathericons.com/
