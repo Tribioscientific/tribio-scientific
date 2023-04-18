@@ -932,7 +932,7 @@ Product and services  */}
 
       {/* Cta */}
 
-      <section class="animate relative bg-[url(/images/bgcontact.png)] bg-cover bg-center bg-no-repeat  ">
+      <section class="animate relative bg-[url(/images/contbg.png)] bg-cover bg-center bg-no-repeat  ">
     <div class="flex flex-col  bg-white/20">
         <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
