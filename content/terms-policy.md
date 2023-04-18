@@ -1,5 +1,5 @@
 ---
-title: Terms & condition
+title: Terms & condition - Tribio Scientific
 description: "this is meta description"
 draft: false
 ---

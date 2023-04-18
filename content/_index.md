@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Tribio Scientific"
+  title: "Home - Tribio Scientific"
   subtitle: "On a mission to serve industries with innovative products and technologies to improve productivity."
   image: /images/lab.jpg
   bgimg: /images/bg.png

@@ -15,11 +15,11 @@
       "children": [
         {
           "name": "Sugar & Distillery ",
-          "url": "/nutrients"
+          "url": "/sugar-and-distillery"
         },
         {
           "name": "Pulp and paper industry",
-          "url": "/a"
+          "url": "/pulp-and-paper"
         },
         {
           "name": "Pharmaceuticals",
@@ -27,15 +27,15 @@
         },
         {
           "name": "Agriculture",
-          "url": "/a"
+          "url": "/agriculture"
         },
         {
           "name": "Waste to energy",
-          "url": "/a"
+          "url": "/waste-to-energy"
         },
         {
           "name": "Animal feed",
-          "url": "/a"
+          "url": "/animal-feed"
         }
       ]
     },  

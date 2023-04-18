@@ -6,6 +6,11 @@ import Default from "@layouts/Default";
 import Our from "@layouts/our-alliance";
 import Nutrients from "@layouts/Nutrients ";
 import Pharmaceuticals from "@layouts/Pharmaceuticals";
+import SugarAndDistillery from "@layouts/Sugar-and-Distillery";
+import PulpAndPaper from "@layouts/Pulp-and-Paper";
+import Agriculture from "@layouts/Agriculture";
+import WasteToEnergy from "@layouts/Waste-to-Energy";
+import AnimalFeed from "@layouts/Animal-Feed";
  
 
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
@@ -39,7 +44,22 @@ const RegularPages = ({ data }) => {
       ) 
       : layout === "nutrients" ? (
         <Nutrients data={data} />
-      ) : (
+      ) : layout === "sugar-and-distillery" ? (
+        <SugarAndDistillery data={data} />
+      )
+      : layout === "pulp-and-paper" ? (
+        <PulpAndPaper data={data} />
+      )
+      : layout === "agriculture" ? (
+        <Agriculture data={data} />
+      )
+      : layout === "waste-to-energy" ? (
+        <WasteToEnergy  data={data} />
+      )
+      : layout === "animal-feed" ? (
+        <AnimalFeed  data={data} />
+      ) 
+      : (
         <Default data={data} />
       )}
     </Base>

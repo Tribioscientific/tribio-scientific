@@ -1,5 +1,5 @@
 ---
-title: "Pharmaceuticals"
+title: "Pharmaceuticals - Tribio Scientific"
 layout: "pharmaceuticals"
 ---
 

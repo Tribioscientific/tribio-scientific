@@ -1,5 +1,5 @@
 ---
-title: "Nutrients"
+title: "Nutrients - Tribio Scientific"
 layout: "nutrients"
 ---
 

@@ -1014,7 +1014,7 @@ Product and services  */}
             Trusted by world-class brands and organizations of all sizes.
              
             </h2>
-            <p className="text-base">
+            <p className="mt-4">
              Our prestigious domestic clients are Dalmia Bharat sugar industries ltd, Alkem Laboratories, Aristo Pharmaceutical Private Limited, Shree Venkatesh International Limited and many clients from Nepal.
             </p>
           </div>

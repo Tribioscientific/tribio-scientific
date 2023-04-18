@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About - Tribio Scientific"
 layout: about
 draft: false
 
