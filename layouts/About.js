@@ -480,8 +480,8 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
                                 <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                                 </div>
                                 <div>
-                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
-                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email</label>
+                                <input type="email" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                                 </div>
                             </div>
 
@@ -491,8 +491,8 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
                                 <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                                 </div>
                                 <div>
-                                <label class="block m-2 text-sm text-gray-600 dark:text-gray-200">Email</label>
-                                <input type="email" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                <label class="block m-2 text-sm text-gray-600 dark:text-gray-200">Subject</label>
+                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                                 </div>
                             </div>
 
