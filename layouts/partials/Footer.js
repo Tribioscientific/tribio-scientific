@@ -10,12 +10,12 @@ const Footer = () => {
   const { copyright, footer_content } = config.params;
   const { email, phone, location } = config.contact_info;
   return (
-    <footer className=" bg-black text-white">
+    <footer className=" bg-[#97d0ff] text-black">
       <div className="container">
         <div className="row border-y border-border py-12">
           <div className="md:col-6 lg:col-3 mt-10">
             {/* <Logo /> */}
-            <img src="/images/logo.png" className=""   / >
+            <img src="/images/logo.png" className="" />
             {/* {markdownify(footer_content, "p", "mt-3")} */}
           </div>
           <div className="mt-8 md:col-6 lg:col-2 lg:mt-0">
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5 text-white">Quick Links</h3>
+            <h3 className="h5  ">Quick Links</h3>
             {/* footer menu */}
             <ul className="mt-5 leading-10">
               {menu.footer.map((menu) => (
@@ -43,7 +43,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5 text-white">Location & Contact</h3>
+            <h3 className="h5  ">Location & Contact</h3>
             <ul className="mt-5 leading-10">
               <li>{markdownify(location)}</li>
               {phone && (
