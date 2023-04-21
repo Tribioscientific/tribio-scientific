@@ -45,8 +45,26 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Nutrients",
+          "name": "Distillery Nutrient",
           "url": "/nutrients" 
+        },
+        {
+          "name": "ETP/CPU Nutrient",
+          "url": "/etp-cpu-nutrient" 
+        },
+        {
+          "name": "Digester Nutrient",
+          "url": "/digester-nutrient" 
+        },
+        {
+          "name": "Microbial Culture",
+          "url": "/microbial-culture" 
+        },{
+          "name": "Pharmaceuticals Standards",
+          "url": "/#"
+        },{
+          "name": "Pharmaceuticals Impurities",
+          "url": "/#"
         }
         
       ]

@@ -1,7 +1,6 @@
-import { markdownify } from "@lib/utils/textConverter";
+import Link from "next/link";
 
-const Nutrients = ({ data }) => {
-  const { frontmatter, content } = data;
+const Nutrients =  () => {
 
   return (
     <section class="overflow-hidden bg-gray-50">
@@ -24,7 +23,7 @@ const Nutrients = ({ data }) => {
           {/* Let us find your */}
   
           <strong class="block font-extrabold text-primary">
-          Nutrients
+          Distillery Nutrient 
           </strong>
         </h1>
   
@@ -37,7 +36,7 @@ const Nutrients = ({ data }) => {
   
 
 
-    <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
+    {/* <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
@@ -74,7 +73,7 @@ const Nutrients = ({ data }) => {
         </h2> 
       </div>
     
-    </div>
+    </div> */}
 
 
     <section class="mb-10 text-gray-800">
@@ -86,9 +85,9 @@ const Nutrients = ({ data }) => {
         </div> */}
         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
           <div class="px-6 py-12 md:px-12">
-            <h2 class="text-3xl text-primary font-bold mb-6">Nutri-FM</h2>
+            <h2 class="text-3xl text-primary font-bold mb-6">NutriF-M</h2>
             <i>A Synergistic blend of Bio-Nutrients & Bio catalyst for replacing inorganic nitrogen & phosphorus sources like Urea & DAP and other essential micronutrients like Zn, Mg etc.</i>
-            <p class="text-gray-500 mb-6">
+            <p class="text-gray-800 mb-6">
             NutriF-M is specially formulated blend of bio nutrients, micro and macro nutrients, proteolytic and multiple microorganism produced by controlled fermentation of selected strains of Aspergillus, Bacillus, Trichoderma species & Actinomycetes which produce assimilable nitrogen.
             </p>
 <b>Benefits:-</b>
@@ -153,6 +152,12 @@ const Nutrients = ({ data }) => {
               </div>
             
             </div>
+            <div className=" mt-5">
+                      <Link className="btn btn-primary" href="/moredetailspdf">
+                      Click Here For More details
+                      </Link>  
+                    </div>
+
           </div>
         </div>
       </div>
@@ -160,7 +165,7 @@ const Nutrients = ({ data }) => {
   </section>
 
   
-
+{/* 
   <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
@@ -207,7 +212,7 @@ const Nutrients = ({ data }) => {
         {/* <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
           <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/012.jpg" alt="Trendy Pants and Shoes"
             class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
-        </div> */}
+        </div> 
         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
           <div class="px-6 py-12 md:px-12">
             <h2 class="text-3xl text-primary font-bold mb-6">NutriX- WT</h2>
@@ -279,7 +284,7 @@ const Nutrients = ({ data }) => {
         {/* <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
           <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/012.jpg" alt="Trendy Pants and Shoes"
             class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" />
-        </div> */}
+        </div> 
         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
           <div class="px-6 py-12 md:px-12">
             <h2 class="text-3xl text-primary font-bold mb-6">Tribio Powermix</h2>
@@ -334,7 +339,7 @@ const Nutrients = ({ data }) => {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
     
      </section>
   

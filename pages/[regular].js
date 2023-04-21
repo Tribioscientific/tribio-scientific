@@ -11,6 +11,10 @@ import PulpAndPaper from "@layouts/Pulp-and-Paper";
 import Agriculture from "@layouts/Agriculture";
 import WasteToEnergy from "@layouts/Waste-to-Energy";
 import AnimalFeed from "@layouts/Animal-Feed";
+import ETPCPU from "@layouts/ETP-CPU-Nutrient";
+import DigesterNutrient from "@layouts/DigesterNutrient";
+import MicrobialCulture from "@layouts/MicrobialCulture";
+import MoreDetailsPdf from "@layouts/MoreDetailsPdf";
  
 
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
@@ -58,6 +62,18 @@ const RegularPages = ({ data }) => {
       )
       : layout === "animal-feed" ? (
         <AnimalFeed  data={data} />
+      ) 
+      : layout === "etp-cpu-nutrient" ? (
+        <ETPCPU  data={data} />
+      ) 
+      : layout === "digester-nutrient" ? (
+        <DigesterNutrient  data={data} />
+      ) 
+      : layout === "microbial-culture" ? (
+        <MicrobialCulture  data={data} />
+      )
+      : layout === "moredetailspdf" ? (
+        <MoreDetailsPdf  data={data} />
       ) 
       : (
         <Default data={data} />
