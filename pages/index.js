@@ -442,7 +442,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
         <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
           <div className="relative w-full h-48">
-            <Image
+            <img
              src="/images/creativity.png" className=" w-[100px] m-10 ml-[90px] rounded"
               alt="Plan"
             />
@@ -460,7 +460,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         </div>
         <div className="flex flex-col transition duration-300 bg-white rounded shadow-lg hover:shadow">
           <div className="relative w-full">
-            <Image
+            <img
               src="/images/user-experience.png"  className=" w-[100px] m-10 ml-[90px] rounded"
               alt="Vision"
             />
@@ -478,7 +478,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         </div>
         <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
           <div className="relative w-full h-48">
-            <Image
+            <img
               src="/images/authorization.png"
               className=" w-[100px] m-10 ml-[90px] rounded" 
               alt="Values"
