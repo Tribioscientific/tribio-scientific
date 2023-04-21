@@ -105,7 +105,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     <Base>
     <section className="relative ">  
             <Swiper
+            pagination
                   loop={true}
+                  navigation={true}
                   slidesPerView={1}
                   breakpoints={{
                     992: {
@@ -114,7 +116,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                   }}
                   spaceBetween={20}
                   modules={[Autoplay]}
-                  autoplay={{ delay: 5000 }}
+                  autoplay={{ delay: 3000 }}
 
                 >  
                    
@@ -126,37 +128,31 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     ></div>
   
     <div
-      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+      class="relative mx-auto max-w-screen-xl px-4 py-2 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
     >
-      <div class="max-w-xl text-center sm:text-left">
-      {/* <img
-          alt="Waste Water treatment"
-          src= "/images/logo.png"
-          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        /> */}
-        <h4 class="font-extrabold  ">
-          {/* Let us find your */}
-  
-          <strong class="block font-extrabold text-primary">
-          Tribio Scientific
+      <div class="max-w-2xl text-center sm:text-left">
+      
+        <h1 class=""> 
+          <strong class="block font-extrabold ">
+          Variuos Scientific Solution for Industries !
           </strong>
-        </h4>
+        </h1>
   <h2>
          <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-         Variuos Scientific Solution for industries !  </strong>
+         </strong>
          </h2>
-<div className="banner-btn mt-5 opacity-0">
+{/* <div className="banner-btn mt-5 opacity-0">
                       <Link className="btn btn-primary" href={banner.link.href}>
                         {banner.link.label}
                       </Link>
-                    </div>
+                    </div> */}
   
       </div>
     </div> 
     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                  <div  class="relative bg-[url(/images/f2.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+                  <div  class="relative bg-[url(/images/sugar.jpeg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
   >
     <div
       class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
@@ -171,24 +167,24 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
         /> */}
-        <h4 class="  font-extrabold  ">
+        <h1 class="  font-extrabold  ">
           {/* Let us find your */}
   
-          <strong class="block font-extrabold text-primary">
-          Tribio Scientific
+          <strong class="block font-extrabold">
+          Products for Sugar and Distillery !
           </strong>
-        </h4>
+        </h1>
   <h2>
          <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-         Products for Sugar and Distillery !  </strong>
+          </strong>
 </h2>
 <div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href="/">
+                      <Link className="btn btn-primary" href="/sugar-and-distillery">
                       Explore More
                       </Link> 
-                      <Link className="btn btn-primary mx-4" href= "/contact">
+                      {/* <Link className="btn btn-primary mx-4" href= "/contact">
                         Contact Us
-                      </Link>
+                      </Link> */}
                     </div>
   
       </div>
@@ -196,7 +192,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                  <div  class="relative bg-[url(/images/f3.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+                  <div  class="relative bg-[url(/images/Pulp.jpeg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
   >
     <div
       class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
@@ -211,24 +207,24 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
         /> */}
-          <h4 class="  font-extrabold  ">
+          <h1 class="  font-extrabold  ">
           {/* Let us find your */}
   
-          <strong class="block font-extrabold text-primary">
-          Tribio Scientific
+          <strong class="block font-extrabold  ">
+          Pulp & Paper Industry 
           </strong>
-        </h4>
+        </h1>
   <h2>
          <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-         Pulp & Paper Industry !  </strong>
+         </strong>
 </h2> 
 <div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href="/">
+                      <Link className="btn btn-primary" href="/pulp-and-paper">
                       Explore More
                       </Link> 
-                      <Link className="btn btn-primary mx-4" href= "/contact">
+                      {/* <Link className="btn btn-primary mx-4" href= "/contact">
                         Contact Us
-                      </Link>
+                      </Link> */}
                     </div>
   
       </div> 
@@ -254,25 +250,25 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
         /> */}
-          <h4 class="  font-extrabold  ">
+          <h1 class="  font-extrabold  ">
           {/* Let us find your */}
   
-          <strong class="block font-extrabold text-primary">
-          Tribio Scientific
+          <strong class="block font-extrabold">
+          Pharmaceuticals
           </strong>
-        </h4>
+        </h1>
   <h2>
          <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-        Pharmaceuticals !  </strong>
+         </strong>
 </h2>
 
 <div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href="/">
+                      <Link className="btn btn-primary" href="/pharmaceuticals">
                       Explore More
                       </Link> 
-                      <Link className="btn btn-primary mx-4" href= "/contact">
+                      {/* <Link className="btn btn-primary mx-4" href= "/contact">
                         Contact Us
-                      </Link>
+                      </Link> */}
                     </div>
   
       </div>
@@ -280,7 +276,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                  <div  class="relative bg-[url(/images/b2.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+                  <div  class="relative bg-[url(/images/Agriculture4.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
   >
     <div
       class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
@@ -295,24 +291,24 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
         /> */}
-          <h4 class="  font-extrabold  ">
+          <h1 class="  font-extrabold  ">
           {/* Let us find your */}
   
-          <strong class="block font-extrabold text-primary">
-          Tribio Scientific
+          <strong class="block font-extrabold">
+          Agriculture & animal feed
           </strong>
-        </h4>
+        </h1>
   <h2>
          <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-         Agriculture & animal feed !  </strong>
+          </strong>
 </h2>
 <div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href="/">
+                      <Link className="btn btn-primary" href="/agriculture">
                       Explore More
                       </Link> 
-                      <Link className="btn btn-primary mx-4" href= "/contact">
+                      {/* <Link className="btn btn-primary mx-4" href= "/contact">
                         Contact Us
-                      </Link>
+                      </Link> */}
                     </div>
   
       </div>
@@ -431,8 +427,8 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
   {/* Why choose us */}
 
-  <section class="animate bg-white mb-20 dark:bg-gray-900">
-    <div class="container px-6 py-10 mx-auto text-center">
+  <section class="animate relative bg-[url(/images/webbg.jpg)] bg-cover bg-center bg-no-repeat py-10">
+    <div class="container px-6 py-10 mx-auto text-center ">
         <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Why Choose Us</h1>
 
         <div class="mt-2">
@@ -440,71 +436,68 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
             <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
             <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
         </div>
-        <p class="text-gray-500 dark:text-gray-300">
-        We provide our customers with unbeatable service, while providing top quality products at competitive prices.  </p>
-
-        <div class="mt-8 xl:mt-12 lg:flex lg:items-center">
-            <div class="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-1">
-              
-                <div class="space-y-3">
-                    <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                        </svg> */}
-                        <img className="w-10 h-10" src="/images/creativity.png" alt=""/>
-                    </span>
-
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Creative Inovations</h1>
-
-                    <p class="text-gray-500 dark:text-gray-300">
-                    Our dedicated R&D team is always working towards to solve client problem by innovative way and providing quality solution with innovative product and services.
-                    </p>
-                </div>
-
-
-                <div class="space-y-2">
-                    <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
-                    <img className="w-10 h-10" src="/images/authorization.png" alt=""/>
-                    </span>
-
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Quality Assurance</h1>
-
-                    <p class="text-gray-500 dark:text-gray-300">
-                    Tribio Scientific  is an ISO 9001:2015, ISO 22000:2018, GMP & HACCP certified formulator and manufacturing company having expertise in Enzymes & Bioproduct.. 
-                    </p>
-                </div> 
-            </div>
-            <div class="grid w-full grid-cols-1  gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-1">
-              
-             
-
-              <div class="space-y-3">
-                  <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
-                  <img className="w-10 h-10" src="/images/user-experience.png" alt=""/>
-                  </span>
-
-                  <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Experienced</h1>
-
-                  <p class="text-gray-500 dark:text-gray-300">
-                  We have a group of professionals with expertise for different industrial manufacturing processes.We have well experienced team in the industry.
-                  </p>
-              </div>
-
-              <div class="space-y-3">
-                  <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-blue-500">
-                  <img className="w-10 h-10" src="/images/24-hours.png" alt=""/>
-                  </span>
-
-                  <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">24/7 Support</h1>
-
-                  <p class="text-gray-500 dark:text-gray-300">
-                  We have an experienced technical team which provides guidance and troubleshoot problems of our customer on 24X7 basis.
-                  </p>
-              </div>
+        <p class="mb-10 text-gray-500 dark:text-gray-800">
+        We provide our customers with unbeatable service, while providing top quality products at competitive prices. </p>
+  
+        <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
+          <div className="relative w-full h-48">
+            <img
+             src="/images/creativity.png" className=" w-[100px] m-10 ml-[90px] rounded"
+              alt="Plan"
+            />
           </div>
-
-           
+          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+            <div>
+              <div className="text-lg font-semibold  text-gray-700 capitalize dark:text-white">Creative innovation</div>
+              <p className="text-sm text-gray-900">
+             We always power talent cultivation and promote inventive innovation, We always put people's interest first before our own.
+               </p>
+               
+            </div>
+            
+          </div>
         </div>
+        <div className="flex flex-col transition duration-300 bg-white rounded shadow-lg hover:shadow">
+          <div className="relative w-full">
+            <img
+              src="/images/user-experience.png"  className=" w-[100px] m-10 ml-[90px] rounded"
+              alt="Vision"
+            />
+          </div>
+          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+            <div>
+              <div className="text-lg font-semibold  text-gray-700 capitalize dark:text-white">Valuable Resources</div>
+              <p className="text-sm text-gray-900">
+              Our resources are the most Valuable asset. Our combined teamwork and effort help us grow better, improve faster,as individuals and also as a company.
+               </p>
+              
+            </div>
+           
+          </div>
+        </div>
+        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
+          <div className="relative w-full h-48">
+            <img
+              src="/images/authorization.png"
+              className=" w-[100px] m-10 ml-[90px] rounded" 
+              alt="Values"
+            />
+          </div>
+          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
+            <div>
+              <div className="text-lg font-semibold  text-gray-700 capitalize dark:text-white">Quality Assurance</div>
+              <p className="text-sm text-gray-900">
+              Our quality assurance process assures that our customer's gets the best quality. Our high-quality products set us apart, ahead of the competition.
+                 </p> 
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
 </section>
 

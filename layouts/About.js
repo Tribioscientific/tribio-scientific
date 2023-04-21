@@ -22,33 +22,28 @@ const About = ({ data,brands, }) => {
 
   return (
     <>
-     <div className="animate relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
-      <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
-        <svg
-          className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
-          viewBox="0 0 100 100"
-          fill="currentColor"
-          preserveAspectRatio="none slice"
-        >
-          <path d="M50 0H100L50 100H0L50 0Z" />
-        </svg>
-        <img
-          className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-          src="/images/about/2.png"
+     <div className="animate">
+   
+     <img
+          className="w-full  bg-cover bg-center bg-no-repeat lg:h-[300px]"
+          src="/images/b1.png"
           alt=""
         />
-      </div>
-      <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
-        <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+      <div className="section container">
+        <div className=" text-center">
+          <p className=" ">
           About Us
           </p>
-          <h1 className="mb-5   font-bold tracking-tight text-primary">
+          <h1 className="mb-5 font-bold tracking-tight text-primary">
           Hello, We’re Tribio Scientific Here For Your Help
           </h1>
           <p className="pr-5 mb-5 text-base ">
           We, Tribio Scientific is a team of young and dynamic professionals with a mission to serve industries with novel products and technologies to improve productivity and add value to manufacturing processes. We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis. We have a group of professionals with domain expertise for different industrial manufacturing processes. In a very short span of time, Tribio with its domestic and international business partner companies have built up a network of a customers in industries such as Sugar & Distillery, Pharmaceuticals, Pulp & Paper, etc.
           </p> 
+          <p>Our cutting-edge technology, methodology, and modern-day laboratory infrastructure enables Tribio to meet every customer supply demand and conquer traditional challenges. Our expert team of biochemists makes sure that our products’ catalytic powers are rightly used in its applications through vigorous R&D and testing. All our in-house products are manufactured under high surveillance and go through stringent quality checks procedure to ensure that our final bio product meets the set industry standards.
+A customer-centric approach is a core of Tribio foundation. We thrive to achieve 100% customer satisfaction through excellent services, customer support. Our services guide individuals and enterprises to overcome traditional production challenges without compromising quality. Our fierce marketing and unmatched distribution network, help us effectively manage and deliver our customers’ needs within the country and around the globe. 
+</p>
+             <b className="justify-center">{works.subtitle}</b>
         </div>
       </div>
       
@@ -63,10 +58,10 @@ const About = ({ data,brands, }) => {
         {/* Works */}
          <div className="section container">
           <div className="animate text-center">
-            <p>Our cutting-edge technology, methodology, and modern-day laboratory infrastructure enables Tribio to meet every customer supply demand and conquer traditional challenges. Our expert team of biochemists makes sure that our products’ catalytic powers are rightly used in its applications through vigorous R&D and testing. All our in-house products are manufactured under high surveillance and go through stringent quality checks procedure to ensure that our final bio product meets the set industry standards.
+            {/* <p>Our cutting-edge technology, methodology, and modern-day laboratory infrastructure enables Tribio to meet every customer supply demand and conquer traditional challenges. Our expert team of biochemists makes sure that our products’ catalytic powers are rightly used in its applications through vigorous R&D and testing. All our in-house products are manufactured under high surveillance and go through stringent quality checks procedure to ensure that our final bio product meets the set industry standards.
 A customer-centric approach is a core of Tribio foundation. We thrive to achieve 100% customer satisfaction through excellent services, customer support. Our services guide individuals and enterprises to overcome traditional production challenges without compromising quality. Our fierce marketing and unmatched distribution network, help us effectively manage and deliver our customers’ needs within the country and around the globe. 
 </p>
-             <b className="justify-center">{works.subtitle}</b>
+             <b className="justify-center">{works.subtitle}</b> */}
             
           </div>
          
@@ -74,7 +69,7 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
 
         {/* Mission */}
  
-    <div className="animate px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="animate relative bg-[url(/images/webbg.jpg)] bg-cover bg-center bg-no-repeat py-10">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
@@ -115,7 +110,7 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
         <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
           <div className="relative w-full h-48">
             <img
-             src="/images/leadership.png"   className="object-cover   w-[200px]  rounded-t"
+             src="/images/leadership.png"   className=" w-[100px] m-10 ml-[90px] rounded"
               alt="Plan"
             />
           </div>
@@ -130,10 +125,10 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
             
           </div>
         </div>
-        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
-          <div className="relative w-full h-48">
+        <div className="flex flex-col transition duration-300 bg-white rounded shadow-lg hover:shadow">
+          <div className="relative w-full">
             <img
-              src="/images/vision.png"  className="object-cover  w-[200px]  rounded-t"
+              src="/images/vision.png"  className=" w-[100px] m-10 ml-[90px] rounded"
               alt="Vision"
             />
           </div>
@@ -152,7 +147,7 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
           <div className="relative w-full h-48">
             <img
               src="/images/balance.png"
-              className="object-cover w-[200px] rounded"
+              className=" w-[100px] m-10 ml-[90px] rounded" 
               alt="Values"
             />
           </div>
@@ -341,7 +336,7 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
       </div>
     </div>
 
-        <div className="section container">
+        <div className="animate relative bg-[url(/images/webbg.jpg)] bg-cover bg-center bg-no-repeat py-10">
           <div className="animate text-center">
             <p>{clients.subtitle}</p>
             {markdownify(clients.title, "h2", "section-title mt-4")}
@@ -449,7 +444,7 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
     
 
       {/* <Cta /> */}
-      <section class="animate relative bg-[url(/images/contbg.png)] bg-cover bg-center bg-no-repeat  ">
+      {/* <section class="animate relative bg-[url(/images/contbg.png)] bg-cover bg-center bg-no-repeat  ">
     <div class="flex flex-col  bg-white/20">
         <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
@@ -483,8 +478,7 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
                                 <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email</label>
                                 <input type="email" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                                 </div>
-                            </div>
-
+                            </div> 
                             <div class="grid gap-8 row-gap-10 lg:grid-cols-2">
                               <div>
                                 <label class="block m-2 text-sm text-gray-600 dark:text-gray-200">Phone Number</label>
@@ -510,7 +504,7 @@ A customer-centric approach is a core of Tribio foundation. We thrive to achieve
             </div>
         </div>
     </div>
-</section>
+</section> */}
     </>
   );
 };
