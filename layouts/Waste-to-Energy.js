@@ -20,15 +20,7 @@ const WasteToEnergy  = ( ) => {
   
 
     return (
-      <section className="section "> 
-
-<form onSubmit={handleSubmit}>
-      <label>
-        Enter a date:
-        <input type="datetime-local" value={date} onChange={(event) => setDate(event.target.value)} />
-      </label>
-      <button type="submit">Submit</button>
-    </form>
+      <section className=" ">  
     <div  class="relative bg-[url(/images/f6.jpg)] bg-cover bg-center bg-no-repeat lg:h-[500px]">
         <div
           class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
