@@ -25,8 +25,8 @@ const About = ({ data,brands, }) => {
      <div className="animate">
    
      <img
-          className="w-full  bg-cover bg-center bg-no-repeat lg:h-[300px]"
-          src="/images/b1.png"
+          className="w-full h-auto "
+          src="/images/laboratory.jpg"
           alt=""
         />
       <div className="section container">
