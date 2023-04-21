@@ -152,7 +152,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                  <div  class="relative bg-[url(/images/Sugar.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
+                  <div  class="relative bg-[url(/images/chini-factory.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
   >
     <div
       class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
