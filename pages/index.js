@@ -443,7 +443,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
           <div className="relative w-full h-48">
             <img
-             src="/images/creativity.png" className=" w-[100px] m-10 ml-[90px] rounded"
+             src="/images/creativity.png" className=" w-[100px] m-10 ml-[110px] rounded"
               alt="Plan"
             />
           </div>
@@ -461,7 +461,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         <div className="flex flex-col transition duration-300 bg-white rounded shadow-lg hover:shadow">
           <div className="relative w-full">
             <img
-              src="/images/user-experience.png"  className=" w-[100px] m-10 ml-[90px] rounded"
+              src="/images/user-experience.png"  className=" w-[100px] m-10 ml-[105px] rounded"
               alt="Vision"
             />
           </div>
@@ -480,7 +480,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           <div className="relative w-full h-48">
             <img
               src="/images/authorization.png"
-              className=" w-[100px] m-10 ml-[90px] rounded" 
+              className=" w-[100px] m-10 ml-[105px] rounded" 
               alt="Values"
             />
           </div>
