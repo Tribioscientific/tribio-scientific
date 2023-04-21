@@ -30,11 +30,11 @@ const WasteToEnergy  = ( ) => {
           class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
         >
           <div class="max-w-xl text-center sm:text-left">
-          <img
+          {/* <img
               alt="Waste Water treatment"
               src= "/images/logo.png"
               className="inset-0 hidden lg:block h-20 w-50   rounded-md"
-            />
+            /> */}
             <h1 class="text-3xl font-extrabold sm:text-5xl">
               {/* Let us find your */}
       
