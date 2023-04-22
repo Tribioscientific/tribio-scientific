@@ -1,23 +1,65 @@
-import Link from "next/link";
-import jsPDF from 'jspdf';
-import { saveAs } from 'file-saver';
+import Link from "next/link"; 
+import { useEffect, useState } from "react";
+ 
 
-const handleDownloadPDF = () => {
-    // Create a new jsPDF instance
-    const doc = new jsPDF();
-
-    // Add some text to the PDF
-    doc.text('Hello world!', 10, 10);
-
-    // Save the PDF file
-    doc.save('myPDF.pdf');
-  };
+//<a href='/images/NutriF-M Product Litrature.pdf'  download>Download pdf</a>
 
 
 const MoreDetailsPdf =  () => {
+    const [showDwonload, setShowDwonload] = useState(false);
+
+    const downloadFile =()=>{
+        setShowDwonload(true)
+    }
+    
 
   return ( 
-  <section class="bg-gray-100">
+ 
+    <>
+{showDwonload ? (   
+<div class="overflow-x-auto section container text-center">
+    <h3 >Download Products Litrature</h3>
+<table class="min-w-full divide-y-2 mt-5 divide-gray-200 text-sm border "> 
+
+  <tbody class="divide-y divide-gray-200">
+    <tr>
+      <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+      NutriF-M Product Litrature
+      </td>
+      
+      <td class="whitespace-nowrap px-4 py-2">
+        <a
+          href="/images/NutriF-M Product Litrature.pdf"  download
+          class="inline-block rounded bg-primary px-4 py-2 text-xs font-medium text-white hover:bg-green-700"
+        >
+          Download PDF
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+      Tribio Powermix Product Litrature
+      </td>
+     
+      <td class="whitespace-nowrap px-4 py-2">
+        <a
+          href="/images/Tribio Powermix Product Litrature.pdf"  download
+          class="inline-block rounded bg-primary px-4 py-2 text-xs font-medium text-white hover:bg-green-700"
+        >
+        Download PDF
+        </a>
+      </td>
+    </tr>
+
+   
+  </tbody>
+</table>
+</div>
+
+   ) :  
+
+ <section class="bg-gray-100">
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
         <div class="lg:col-span-2 lg:py-12">
@@ -39,15 +81,13 @@ const MoreDetailsPdf =  () => {
 
             
           </div>
- <button onClick={handleDownloadPDF}>
-      Download PDF
-    </button>
+          </div>
+        
 
-          
-        </div>
+       
   
         <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
-          <form action="" class="space-y-4">
+          <form onSubmit={downloadFile} class="space-y-4">
             <div>
               <label class="sr-only" for="name">Company Name</label>
               <input
@@ -188,7 +228,7 @@ const MoreDetailsPdf =  () => {
               <button
                 type="submit"
                 class="inline-block w-full rounded-lg btn btn-primary px-5 py-3 font-medium text-white sm:w-auto"
-              >
+               >
                 Send Enquiry/Download
               </button>
             </div>
@@ -196,7 +236,9 @@ const MoreDetailsPdf =  () => {
         </div>
       </div>
     </div>
-  </section>
+  </section>}
+
+  </>
   
   
   );

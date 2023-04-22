@@ -128,17 +128,17 @@ const  Our = ({ data }) => {
 
   <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
 
-<div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-1  lg:gap-16"> 
-  <div class="lg:py-16">
+<div className=" my-10 grid grid-cols-1 gap-8 lg:grid-cols-2  lg:gap-16"> 
+  <div class="lg:py-5">
     <article className="space-y-4 text-black">
-      <h3 className="text-center mb-10">- Application Development </h3>
+      <h3 className="mb-10">- Application Development </h3>
       <p>
       Tribio Scientific Continuous working along with Chromato Scientific and Oxygen Lab to Application development Protein digestibility improvement
         </p> 
         
     </article> 
     <div class="w-full"> 
-            <div class="grid gap-6 mt-8 sm:grid-cols-2">
+            <div class=" mt-8">
                 <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
                     <span class="mx-2">•	Process improvement in Sugar and Distilleries</span>
                 </p>
@@ -153,14 +153,7 @@ const  Our = ({ data }) => {
                 
 
                     <span class="mx-2">•	Stability and activity enhancement of enzymes formulations</span>
-                </p> 
-                <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
-                
-
-                    <span class="mx-2"><img src="/images/laball.jpg"/></span>
-                </p> 
-
-
+                </p>  
             </div>
         
         </div>
@@ -169,13 +162,13 @@ const  Our = ({ data }) => {
     </div>
   
 
-  {/* <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+  <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
     <img
       alt="Waste Water treatment"
-      src= "/images/waterwt.jpg"
-      className="absolute inset-0 h-full w-full object-cover rounded-md"
+      src= "/images/laball.jpg"
+      className="absolute inset-0 h-full w-[500px]  rounded-md"
     />
-  </div> */}
+  </div> 
 </div>
 </div>
 </section> 
@@ -388,7 +381,7 @@ const  Our = ({ data }) => {
         
     </article> 
     <div class="w-full"> 
-            <div class="grid gap-6 mt-8 sm:grid-cols-2">
+            <div class="grid gap-1 mt-8 sm:grid-cols-2">
                 <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
                     <span class="mx-2">•	 Assays and chemical tests</span>
                 </p>
@@ -553,7 +546,7 @@ const  Our = ({ data }) => {
         
     </article> 
     <div class="w-full"> 
-            <div class="grid gap-6 mt-8 sm:grid-cols-2">
+            <div class="grid gap-1 mt-8 sm:grid-cols-2">
                 <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
                     <span class="mx-2">•	FTIR Spectrophotometer</span>
                 </p>
