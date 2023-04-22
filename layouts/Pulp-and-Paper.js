@@ -4,7 +4,7 @@ const PulpAndPaper  = ( ) => {
     return (
       <section className="">
  
-    <div  class="relative bg-[url(/images/f3.jpg)] bg-cover bg-center bg-no-repeat lg:h-[500px]">
+    <div  class="relative bg-[url(/images/Pulp.jpeg)] bg-cover bg-center bg-no-repeat lg:h-[500px]">
     <div
       class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
     ></div>

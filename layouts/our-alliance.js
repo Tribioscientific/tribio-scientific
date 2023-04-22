@@ -15,11 +15,11 @@ const  Our = ({ data }) => {
       class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
     >
       <div class="max-w-xl text-center sm:text-left">
-      <img
+      {/* <img
           alt="Waste Water treatment"
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        />
+        /> */}
         <h1 class="text-3xl font-extrabold sm:text-5xl">
           {/* Let us find your */}
   
@@ -35,16 +35,87 @@ const  Our = ({ data }) => {
       </div>
     </div> 
     </div>
-    <section>
 
-  <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8">
-    <div class="max-w-3xl">
-      <h2 class="text-3xl font-bold sm:text-4xl">
-      •	Product & Solutions
-      </h2>
+
+
+
+
+
+
+    <section class="bg-white dark:bg-gray-900">
+    
+   
+    <div class="container px-6 py-16 mx-auto text-center">
+        <div class="mx-auto">
+            <h1 class="text-primary">The Power of Partnership</h1>
+
+            <p class="mt-6 text-black">
+         <b>   Tribio Scientific is work in alliance with Chromto Scientific Mumbai & Oxygen Lab . Chromato Scientific Have state of Art R& D at Taloja Mumbai .</b>  Chromato scientific& Tribio Scientific team consists youth & experience; qualified, experienced research professionals. The team has the capability to understand the science behind each project. The technical expertise and knowledge of the team spreads across Chemical Synthesis ,Biochemistry, Microbiology, Fermentation technology , Biotechnology, Animal Nutrition, Analytical Chemistry, Environmental Chemistry and Wastewater Management. 
+            </p>
+
+            
+        </div>
+
+      
     </div>
+</section> 
 
-    <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+
+
+
+
+
+
+
+
+
+
+
+    <section> 
+  <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
+
+    <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16"> 
+      <div class="lg:py-16">
+        <article className="space-y-4 text-gray-600">
+          <h3>- Water Management Solutions </h3>
+          <p>
+          Tribio Scientific maintains a focus on keeping the environment clean by developing sustainable technologies. Our Team focus on developing 
+            </p> 
+            
+        </article> 
+        <div class="w-full"> 
+                <div class="mt-8 space-y-5">
+                    <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200"> 
+                        <span class="mx-2">• COD removal using biological and chemical agents</span>
+                    </p>
+
+                    <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                        
+
+                        <span class="mx-2">• Induction/enhancement in biodegradation (anaerobic and aerobic)</span>
+                    </p>
+
+                    <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                    
+
+                        <span class="mx-2">• Resource Recovery</span>
+                    </p>
+
+                    <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                        
+
+                        <span class="mx-2">•	Recycle & Reuse</span>
+                    </p>
+
+
+                </div>
+            
+            </div>
+        
+       
+        </div>
+      
+
       <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
         <img
           alt="Waste Water treatment"
@@ -52,23 +123,63 @@ const  Our = ({ data }) => {
           className="absolute inset-0 h-full w-full object-cover rounded-md"
         />
       </div>
-
-      <div class="lg:py-16">
-        <article className="space-y-4 text-gray-600">
-          <h3>Waste Water Treatment </h3>
-          <p>
-          Wastewater treatment has gained immense significance in today’s context where protecting the environment is a prime concern also to achieve ZLD. The main objective of our company for waste water treatment is to treat the effluents before they are discharged so that the environment is not polluted, also to re-use of process water. 
-          </p>
-
-          <p>
-          To enhance the treatment of wastewater from these processing industries, combination of specialized enzymes facilitates hydrolysis of BOD and renders it suitable for decomposition by various treatment process. 
-          </p>
-        </article>
-      </div>
     </div>
   </div>
-</section> 
 
+  <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
+
+<div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-1  lg:gap-16"> 
+  <div class="lg:py-16">
+    <article className="space-y-4 text-black">
+      <h3 className="text-center mb-10">- Application Development </h3>
+      <p>
+      Tribio Scientific Continuous working along with Chromato Scientific and Oxygen Lab to Application development Protein digestibility improvement
+        </p> 
+        
+    </article> 
+    <div class="w-full"> 
+            <div class="grid gap-6 mt-8 sm:grid-cols-2">
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	Process improvement in Sugar and Distilleries</span>
+                </p>
+
+                <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                    
+
+                    <span class="mx-2">•	Urea and Sodium Hydroxide replacement</span>
+                </p>
+
+                <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                    <span class="mx-2">•	Stability and activity enhancement of enzymes formulations</span>
+                </p> 
+                <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                    <span class="mx-2"><img src="/images/laball.jpg"/></span>
+                </p> 
+
+
+            </div>
+        
+        </div>
+    
+   
+    </div>
+  
+
+  {/* <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+    <img
+      alt="Waste Water treatment"
+      src= "/images/waterwt.jpg"
+      className="absolute inset-0 h-full w-full object-cover rounded-md"
+    />
+  </div> */}
+</div>
+</div>
+</section> 
+{/* 
 <section>
   <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
     <div class="max-w-3xl">
@@ -237,10 +348,406 @@ const  Our = ({ data }) => {
 
   
  
-</section>
+</section> */}
+
+
+
+<section class="bg-white dark:bg-gray-900">
+    
+   
+    <div class="container px-6 mx-auto text-center">
+        <div class="mx-auto">
+            <h1 class="underline text-primary">OXIGEN ANALYTICAL LABORATORIES</h1>
+
+            <p class="mt-6 text-black">
+            OXIGEN ANALYTICAL LABORATORIES is approved by Health and Family Welfare Department, ISO and NABL Accredited Testing Laboratory for the analysis of drug and cosmetic products. Oxygen Analytical lab is immersing company. We provide quality control testing for pharmaceutical and cosmetic products including method development and method validation. We have professional expertise and regulatory qualifications needed to accurately perform essential chemical and physiochemical tests on raw materials, APIs, finished products of pharmaceutical and cosmetic products. We are supported by excellent dedicated, well qualified, trained and experienced staff.We offer comprehensive testing services, in well equipped, state of the art laboratories, according to the pharmacopoeia (e.g. IP, EP, USP, BP, JP) and your specifications.
+                </p>
+
+            
+        </div>
+
+      
+    </div>
+
+   
+
+
+
+ 
+</section> 
+
+<div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
+
+<div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-1  lg:gap-16"> 
+  <div class="">
+    <article className="space-y-4 text-black">
+      <h3 className="text-primary mb-10">
+- Our services for pharmaceuticals and cosmetics include:
+</h3>
+     
+        
+    </article> 
+    <div class="w-full"> 
+            <div class="grid gap-6 mt-8 sm:grid-cols-2">
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Assays and chemical tests</span>
+                </p>
+
+                <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                    
+
+                    <span class="mx-2">	•	 UV/Vis</span>
+                </p>
+
+                <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                    <span class="mx-2">	•	 IR</span>
+                </p> 
+
+                <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	•	 Chromatographic tests</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">•	 HPLC</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">•	 GC</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	•	 Identification of active ingredients and impurities</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">•	Physical and physico-chemical determinations</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	•	 pH</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	•	 Viscosity</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	•	 Melting point</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 Loss on drying</span>
+            </p> 
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	•	 Limit tests</span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	•	 Elemental impurities  </span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 •	 Ash  </span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 • Residual solvents  </span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2"> •	 Volatile organic compounds (VOC)  </span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 •	 Organic volatile impurities (OVI)  </span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 •	 Organic volatile impurities (OVI)  </span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 •	 Disintegration  </span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 •	 Dissolution  </span>
+            </p> 
+
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 •	 Element Impurities  </span>
+            </p> 
+            <p class="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                
+
+                <span class="mx-2">	 •	 Micro Biology  </span>
+            </p>  
+
+            </div> 
+            
+        </div>  
+    </div>
+  
+
+  {/* <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+    <img
+      alt="Waste Water treatment"
+      src= "/images/waterwt.jpg"
+      className="absolute inset-0 h-full w-full object-cover rounded-md"
+    />
+  </div> */}
+</div>
+</div>
+
+
+
+<div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
+
+<div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-1  lg:gap-16"> 
+  <div class="">
+    <article className="space-y-4 text-black">
+      <h3 className="text-primary mb-10">
+- We are well equipped with latest instruments :
+</h3>
+     
+        
+    </article> 
+    <div class="w-full"> 
+            <div class="grid gap-6 mt-8 sm:grid-cols-2">
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	FTIR Spectrophotometer</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 HPLC</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Gas Chromatograph with Head space analyser</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 UV-Visible spectrophotometer</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">• Dissolution apparatus</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Potentiometer</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Conductivity meter</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Polarimeter</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 pH meter</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Analytical Balances</span>
+                </p>
+
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 HPLC water system</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 LOD Oven</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Furnace Oven</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Nitrogen assembly etc</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Disintegration Tester</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Melting Point Apparatus</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Flame photometer</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Atomic Absorption Spectroscopy</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Digital photo Fluorometer</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Digital Polarimeter</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Digital Refractometer</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Digital Turbidity Meter</span>
+                </p>
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Bio Safety Cabinet</span>
+                </p>
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Laminar Air Flow</span>
+                </p>
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Autoclave Horizontal(Sterilization)</span>
+                </p>
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Colony Counter</span>
+                </p>
+ 
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Antibiotic Zone Reader</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Microscope</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 BOD Incubator</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Anaerobic Jar</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Particle Counter</span>
+                </p>
+
+
+                <p class="flex items-center  -mx-2 text-gray-700 dark:text-gray-200"> 
+                    <span class="mx-2">•	 Air Sampler</span>
+                </p>
+
+
+
+
+
+                 
+
+            </div> 
+            
+        </div>  
+    </div>
+  
+
+  {/* <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+    <img
+      alt="Waste Water treatment"
+      src= "/images/waterwt.jpg"
+      className="absolute inset-0 h-full w-full object-cover rounded-md"
+    />
+  </div> */}
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section>
 
- <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-2"> 
+
+
+
+
+
+ {/* <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-2"> 
       <div className="grid max-w-md gap-8 row-gap-10 sm:mx-auto lg:max-w-full lg:grid-cols-2">
         <div className="flex flex-col sm:flex-row">
           {/* <div className="sm:mr-4">
@@ -259,7 +766,7 @@ const  Our = ({ data }) => {
                 />  
               </svg>
             </div>
-          </div> */}
+          </div> 
           <div>
             <h3 className="mb-2 font-semibold leading-5 text-primary">Tribac-C</h3>
             <p className="my-4 text-sm text-gray-900">
@@ -347,8 +854,8 @@ const  Our = ({ data }) => {
                 />
               </svg>
             </div>
-          </div> */}
-          <div>
+          </div>  
+          {/* <div>
             <h3 className="mb-2 font-semibold leading-5 text-primary">AnaBac-C</h3>
             <p className="my-4 text-sm text-gray-900">
             Ready to use Activated Microbial bio culture for anaerobic process of water treatment used in biological process of water treatment like biodigester, USAB and CPU, Septic tank and bio toilets.
@@ -418,11 +925,11 @@ const  Our = ({ data }) => {
           </div>
         </div>
         
-      </div>
-    </div>
+      </div>  
+    </div> */}
 
 
-     <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-24 lg:px-8">
+     {/* <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-24 lg:px-8">
     <div class="max-w-3xl">
       <h2 class="text-3xl font-bold sm:text-4xl">
       Distillery Process Products
@@ -450,7 +957,7 @@ const  Our = ({ data }) => {
       </div>
     </div>
   </div>
-  
+   */}
 
 </section>
 

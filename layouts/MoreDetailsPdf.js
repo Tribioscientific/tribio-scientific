@@ -1,4 +1,18 @@
 import Link from "next/link";
+import jsPDF from 'jspdf';
+import { saveAs } from 'file-saver';
+
+const handleDownloadPDF = () => {
+    // Create a new jsPDF instance
+    const doc = new jsPDF();
+
+    // Add some text to the PDF
+    doc.text('Hello world!', 10, 10);
+
+    // Save the PDF file
+    doc.save('myPDF.pdf');
+  };
+
 
 const MoreDetailsPdf =  () => {
 
@@ -22,7 +36,14 @@ const MoreDetailsPdf =  () => {
             <address class="mt-2 not-italic">
             info@tribioscientific.com
             </address>
+
+            
           </div>
+ <button onClick={handleDownloadPDF}>
+      Download PDF
+    </button>
+
+          
         </div>
   
         <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">

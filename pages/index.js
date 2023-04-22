@@ -134,7 +134,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
       
         <h1 class=""> 
           <strong class="block font-extrabold ">
-          Variuos Scientific Solution for Industries !
+          Various Scientific Solution for Industries !
           </strong>
         </h1>
   <h2>
@@ -344,7 +344,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           <p className="text-md text-start ">
           Tribio is a pioneer in robust development, manufacturing and distributor of the best quality of nutrients & Ingredients for various industries globally. We expertise in the art of manufacturing the best industrial enzymes & nutrients, uniquely tailored to meet our customers’ needs.  Our production caters to Sugar & Distillery, Pulp & Paper, Pharmaceuticals, Food & Beverage, Textile, Animal Feed, Sugar & Starch Processing & Detergent industries. Our extensive knowledge in the biotech domain, comprehensive research of bioscience & continuous development, enables us to manufacture enzymes & nutrients that catalyse production for our clients while enhancing the quality of life for all  </p>
          
-          <p className="text-start">We are equipped with modern infrastructure & biotechnologies that allows us to uniquely tailor & manufacture various enzymes for various industries to supply and export globally, helping them to overcome traditional problems of upscaling quantity and enhancing the quality of their related products. Our expert team of biochemists enables Tribio scientific to manufacture customized products according to an individual’s needs</p>
+          <p className="text-start">We are equipped with modern infrastructure & biotechnologies that allows us to uniquely tailor & manufacture various enzymes for various industries to supply and export globally, helping them to overcome traditional problems of upscaling quantity and enhancing the quality of their related products. Our expert team of biochemists enables Tribio scientific to manufacture customized products according to an individual’s needs.</p>
          
         
            
