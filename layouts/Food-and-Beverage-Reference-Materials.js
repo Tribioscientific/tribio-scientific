@@ -58,6 +58,89 @@ Chromato Scientific offers such a comprehensive range of matrix materials for fo
           </div>
         </div>
       </div>
+      <section className="px-10">
+      <table className="shadow-lg bg-white border-collapse">
+   <thead>
+   <tr>
+     <th className="bg-blue-100 border text-left px-8 py-4">Food Standards</th>
+     <th className="bg-blue-100 border text-left px-8 py-4">Catalogue Code</th>
+     <th className="bg-blue-100 border text-left px-8 py-4">CAS Number</th>
+     <th className="bg-blue-100 border text-left px-8 py-4">	Stock Status</th>
+   </tr>
+     </thead>
+       <tbody>
+   <tr>
+     <td className="border px-8 py-4">(S)-alpha-Terpineol</td>
+     <td className="border px-8 py-4">-</td>
+     <td className="border px-8 py-4">	10482-56-1</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">2-(2,4-Diaminophenoxy)ethanol dihydrochloride</td>
+     <td className="border px-8 py-4">	CHR-9122018-1381</td>
+     <td className="border px-8 py-4">	2847-30-5</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">4-Fluoro-1,3-dioxolan-2-one</td>
+     <td className="border px-8 py-4">CHR-9122018-1673</td>
+     <td className="border px-8 py-4">	111625-28-6</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">Acesulfame K</td>
+     <td className="border px-8 py-4">		CHR-9122018-4608</td>
+     <td className="border px-8 py-4">86404-04-8</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">Acetic acid</td>
+     <td className="border px-8 py-4">	CHR-9122018-4698</td>
+     <td className="border px-8 py-4">		108-79-2</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">Acetobromo-alpha-D-glucose</td>
+     <td className="border px-8 py-4">	CHR-9122018-1269</td>
+     <td className="border px-8 py-4">	2022-85-7</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">Acetoin</td>
+     <td className="border px-8 py-4">	CHR-9122018-3610</td>
+     <td className="border px-8 py-4">	74-79-3</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">2-Acetonaphthone</td>
+     <td className="border px-8 py-4">CHR-9122018-4697</td>
+     <td className="border px-8 py-4">136470-78-5</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">Acetone</td>
+     <td className="border px-8 py-4">	CHR-9122018-4073</td>
+     <td className="border px-8 py-4">	60-35-5</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+   <td className="border px-8 py-4">Acetophenone</td>
+     <td className="border px-8 py-4">CHR-9122018-3310</td>
+     <td className="border px-8 py-4">89796-99-6</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   </tbody>
+   </table> 
+   <div className="py-10 text-center">
+   <a
+          href="/images/food.pdf"   target="_blank"
+          class="inline-block rounded bg-primary px-4 py-2 text-xs font-medium text-white hover:bg-green-700"
+        >
+       View All
+        </a>
+        </div>
+   </section>
+
     </div>
   </section> 
 

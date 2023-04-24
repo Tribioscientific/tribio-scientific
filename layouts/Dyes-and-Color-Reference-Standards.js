@@ -1,3 +1,4 @@
+import Link from "next/link";
 const DyesAndColorReferenceStandards   = () =>{
 
     return(
@@ -58,6 +59,237 @@ Chromato Scientific offers such a comprehensive range of matrix materials for fo
           </div>
         </div>
       </div>
+      <section>
+  <div className="max-w-screen-xl px-4 mx-auto sm:px-6 sm:py-12 lg:px-8">
+   
+    <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2 content-center">
+      <li>
+      <table className="shadow-lg bg-white border-collapse">
+   <thead>
+   <tr>
+     <th className="bg-blue-100 border text-left px-8 py-4">European Pharmacopeia Reference Standards</th>
+     <th className="bg-blue-100 border text-left px-8 py-4">Catalogue Code</th> 
+     <th className="bg-blue-100 border text-left px-8 py-4">	Stock Status</th>
+   </tr>
+     </thead>
+       <tbody>
+   <tr>
+     <td className="border px-8 py-4">Aciclovir CRS</td>
+     <td className="border px-8 py-4">A0220000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   
+   <tr>
+     <td className="border px-8 py-4">Alpha tocopheryl AcetateCRS</td>
+     <td className="border px-8 py-4">T1600000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+
+   <tr>
+     <td className="border px-8 py-4">Biotin CRS</td>
+     <td className="border px-8 py-4">	B1116000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+
+    <tr>
+     <td className="border px-8 py-4">Citalopram for system suitability CRS</td>
+     <td className="border px-8 py-4">Y0000855</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+
+   <tr>
+     <td className="border px-8 py-4">Dexpanthenol CRS  </td>
+     <td className="border px-8 py-4">D0730000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+
+    <tr>
+     <td className="border px-8 py-4">Diclofenac for system suitability CRS  </td>
+     <td className="border px-8 py-4">	Y0001635</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+
+    <tr>
+     <td className="border px-8 py-4">Folic acid CRS  </td>
+     <td className="border px-8 py-4">	F0300000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+
+    <tr>
+     <td className="border px-8 py-4">Folic acid for system suitability CRS  </td>
+     <td className="border px-8 py-4">Y0001979</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+
+    <tr>
+     <td className="border px-8 py-4">Gabapentin CRS  </td>
+     <td className="border px-8 py-4">Y0001280</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+
+    <tr>
+     <td className="border px-8 py-4">Guaifenesin for peak identification CRS  </td>
+     <td className="border px-8 py-4">Y0001956</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Ibuprofen CRS  </td>
+     <td className="border px-8 py-4">	I0020000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Isomalt CRS  </td>
+     <td className="border px-8 py-4">I0465000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Letrozole Impurity A CRS  </td>
+     <td className="border px-8 py-4">I0020000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Maltitol CRS  </td>
+     <td className="border px-8 py-4">M0160000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Mannitol CRS  </td>
+     <td className="border px-8 py-4">M0200000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Methyl salicylate CRS  </td>
+     <td className="border px-8 py-4">Y0002083</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Montelukast sodium CRS  </td>
+     <td className="border px-8 py-4">	Y0001434</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Ondansetron impurity A CRS  </td>
+     <td className="border px-8 py-4">Y0001345</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Phenylephrine hydrochloride CRS  </td>
+     <td className="border px-8 py-4">P1250000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr><tr>
+     <td className="border px-8 py-4">Pyridoxine hydrochloride CRS  </td>
+     <td className="border px-8 py-4">P4100000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Pyridoxine impurity A  </td>
+     <td className="border px-8 py-4">	Y0001226</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Rosuvastatin for peak identification CRS  </td>
+     <td className="border px-8 py-4">Y0002150</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Sorbitol CRS  </td>
+     <td className="border px-8 py-4">S1000000</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Thiamine hydrochloride CRS  </td>
+     <td className="border px-8 py-4">Y0000467</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr> 
+
+   </tbody>
+   </table> 
+
+      </li>
+      <table className="shadow-lg bg-white border-collapse">
+   <thead>
+   <tr>
+     <th className="bg-blue-100 border text-left px-8 py-4">British Pharmacopeia Reference Standards</th>
+     <th className="bg-blue-100 border text-left px-8 py-4">Catalogue Code</th> 
+     <th className="bg-blue-100 border text-left px-8 py-4">	Stock Status</th>
+   </tr>
+     </thead>
+       <tbody>
+   <tr>
+     <td className="border px-8 py-4">Albendazole</td>
+     <td className="border px-8 py-4">763</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Amlodipine besylate</td>
+     <td className="border px-8 py-4">1221</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Aspirin</td>
+     <td className="border px-8 py-4">617</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Benzyl benzoate</td>
+     <td className="border px-8 py-4">426</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Carboplatin</td>
+     <td className="border px-8 py-4">711</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Cisplatin</td>
+     <td className="border px-8 py-4">809</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Doxorubicin hydrochloride</td>
+     <td className="border px-8 py-4">990</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Epirubicin hydrochloride</td>
+     <td className="border px-8 py-4">992</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Ibuprofen</td>
+     <td className="border px-8 py-4">539</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Potassium trichloroammineplatinate</td>
+     <td className="border px-8 py-4">510</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Pyridoxine hydrochloride</td>
+     <td className="border px-8 py-4">458</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Transplatin</td>
+     <td className="border px-8 py-4">544</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   <tr>
+     <td className="border px-8 py-4">Ursodeoxycholic acid</td>
+     <td className="border px-8 py-4">706</td>
+     <td className="border px-8 py-4">In-Stock</td>
+   </tr>
+   </tbody>
+   </table> 
+      <li>
+
+     
+      </li> 
+    </ul>
+  </div>
+</section>
+
     </div>
   </section> 
 
