@@ -95,8 +95,8 @@ const PulpAndPaper  = ( ) => {
 
   <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
     <img
-      alt=" Sugar and Distillery"
-      src= "/images/Sugar.png"
+      alt=" Pulp and paper industry"
+      src= "/images/pulp.jpg"
       className="absolute inset-0 rounded-md"
     />
   </div>
