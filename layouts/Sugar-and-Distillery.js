@@ -1,3 +1,4 @@
+import Link from "next/link";
 const SugarAndDistillery = ( ) => {
   
 
@@ -33,31 +34,63 @@ const SugarAndDistillery = ( ) => {
     </div> 
     </div> 
    
-    <div className="relative px-4 pt-8 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
-      <div className="max-w-xl mx-auto lg:max-w-screen-xl">
-        <div className="mb-16 lg:max-w-lg lg:mb-0">
-          <div className="max-w-xl mb-6">  
-            <h2 className="max-w-lg mb-6">
-            Sugar and Distillery
-             
-            </h2>
-            <p className="text-base">
-            The distillation process begins with raw materials like Grains/ Molasses, which are grinded in order to make it a mash. During this process, the starch is converted into sugar. The fermentation of this mash is carried out in fermentation tanks.
-                 </p>
-          </div> 
+  
+
+    
+
+   <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
+
+    <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16"> 
+      <div class="lg:py-1">
+        <article className="space-y-4 text-gray-600">
+          <h3>-  Sugar and Distillery </h3>
+          <p>
+          The distillation process begins with raw materials like Grains/ Molasses, which are grinded in order to make it a mash. During this process, the starch is converted into sugar. The fermentation of this mash is carried out in fermentation tanks.
+              </p> 
+            
+        </article> 
+        <div class="w-full"> 
+     
+                <div class="mt-8 space-y-5 text-blue-500" >
+                <h6>Product Links :-</h6>
+                    <Link class="flex items-center -mx-2 hover:text-primary hover:underline"  href="/nutrients"> 
+                        <span class="mx-2"> • Distillery Nutrient</span>
+                    </Link>
+
+                    <Link class="flex items-center -mx-2 hover:text-primary hover:underline"  href="/etp-cpu-nutrient"> 
+                        <span class="mx-2"> •  ETP/CPU Nutrient</span>
+                    </Link>
+                    <Link class="flex items-center -mx-2 hover:text-primary hover:underline"  href="/digester-nutrient"> 
+                        <span class="mx-2"> •  Digester Nutrient</span>
+                    </Link>
+
+                    <Link class="flex items-center -mx-2 hover:text-primary hover:underline"  href="/microbial-culture"> 
+                        <span class="mx-2"> •   Microbial Culture</span>
+                    </Link>
+
+
+                </div>
+            
+            </div>
+        
+       
         </div>
-      </div>
-      <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
+      
+
+      <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
         <img
-          src="/images/Sugar.png"
-          className="object-cover object-top w-full h-60 max-w-xl   rounded shadow-2xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
           alt=" Sugar and Distillery"
+          src= "/images/Sugar.png"
+          className="absolute inset-0 rounded-md"
         />
       </div>
     </div>
-  
+  </div>
    
     </section>
+
+
+
   );
 };
 

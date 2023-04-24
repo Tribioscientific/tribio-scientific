@@ -59,18 +59,7 @@ const  Our = ({ data }) => {
       
     </div>
 </section> 
-
-
-
-
-
-
-
-
-
-
-
-
+ 
     <section> 
   <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
 

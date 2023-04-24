@@ -8,7 +8,7 @@ import { CgClose } from "react-icons/cg";
 
 const Header = () => {
   // distructuring the main menu from menu object
-  const { main } = menu;
+  const { main ,submenu} = menu;
 
   // states declaration
   const [showMenu, setShowMenu] = useState(false);
@@ -83,7 +83,8 @@ const Header = () => {
                           </Link>
                         </li>
                       ))}
-                    </ul>
+                      
+                    </ul> 
                   </li>
                 ) : (
                   <li className="nav-item">
@@ -109,7 +110,9 @@ const Header = () => {
                 </Link>
               </li>
             )}
+           
           </ul>
+          
           <div className="order-1 ml-auto flex items-center md:ml-0">
             {config.nav_button.enable && (
               <Link
@@ -150,6 +153,7 @@ const Header = () => {
           </div>
         </nav>
       </header>
+     
     </>
   );
 };
