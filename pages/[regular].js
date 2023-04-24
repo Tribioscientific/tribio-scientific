@@ -15,7 +15,15 @@ import ETPCPU from "@layouts/ETP-CPU-Nutrient";
 import DigesterNutrient from "@layouts/DigesterNutrient";
 import MicrobialCulture from "@layouts/MicrobialCulture";
 import MoreDetailsPdf from "@layouts/MoreDetailsPdf";
- 
+import PharmaceuticalsImpurities from "@layouts/Pharmaceuticals-Impurities";
+import PharmaceuticalsStandards from "@layouts/Pharmaceuticals-Standards";
+import WorkingStandard from "@layouts/Working-Standard";
+import FoodAndBeverageReferenceMaterials from "@layouts/Food-and-Beverage-Reference-Materials";
+import DyesAndColorReferenceStandards from "@layouts/Dyes-and-Color-Reference-Standards";
+import PharmacopiealReferenceStandards from "@layouts/Pharmacopieal-Reference-Standards";
+import ImpurityStandards from "@layouts/Impurity-Standards";
+import NitrosaminesImpurities from "@layouts/Nitrosamines-Impurities";
+
 
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
@@ -74,7 +82,31 @@ const RegularPages = ({ data }) => {
       )
       : layout === "moredetailspdf" ? (
         <MoreDetailsPdf  data={data} />
+      )
+      : layout === "pharmaceuticals-impurities" ? (
+        <PharmaceuticalsImpurities  data={data} />
+      )
+      : layout === "pharmaceuticals-standards" ? (
+        <PharmaceuticalsStandards  data={data} />
+      )
+      : layout === "working-standard" ? (
+        <WorkingStandard  data={data} />
+      )
+      : layout === "pharmacopieal-reference-standards" ? (
+        <PharmacopiealReferenceStandards  data={data} />
+      )
+      : layout === "food-and-beverage-reference-materials" ? (
+        <FoodAndBeverageReferenceMaterials  data={data} />
+      )
+      : layout === "dyes-and-color-reference-standards" ? (
+        <DyesAndColorReferenceStandards  data={data} />
       ) 
+      : layout === "impurity-standards" ? (
+        <ImpurityStandards  data={data} />
+      )
+      : layout === "nitrosamines-impurities" ? (
+        <NitrosaminesImpurities  data={data} />
+      )
       : (
         <Default data={data} />
       )}

@@ -72,7 +72,7 @@ const PulpAndPaper  = ( ) => {
     <div class="w-full"> 
  
             <div class="mt-8 space-y-5 text-blue-500 ">
-            <h6>Product Links :-</h6> 
+            <h6>Products Link :-</h6> 
                 <Link class="flex items-center -mx-2 hover:text-primary hover:underline"  href="/etp-cpu-nutrient"> 
                     <span class="mx-2"> •  ETP/CPU Nutrient</span>
                 </Link>
