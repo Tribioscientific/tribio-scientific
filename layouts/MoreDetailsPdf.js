@@ -52,6 +52,21 @@ const MoreDetailsPdf =  () => {
       </td>
     </tr>
 
+
+    <tr>
+      <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+      NutriE-WT Product Litrature
+      </td>
+     
+      <td class="whitespace-nowrap px-4 py-2">
+        <a
+          href="/images/NutriE-WT Product Litrature.pdf"  download
+          class="inline-block rounded bg-primary px-4 py-2 text-xs font-medium text-white hover:bg-green-700"
+        >
+        Download PDF
+        </a>
+      </td>
+    </tr>
    
   </tbody>
 </table>
