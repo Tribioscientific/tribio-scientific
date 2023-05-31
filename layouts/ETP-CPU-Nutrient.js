@@ -45,12 +45,12 @@ const ETPCPU =  () => {
         </div> */}
         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
           <div class="px-6 py-12 md:px-12">
-            <h2 class="text-3xl text-primary font-bold mb-6">NutriX- WT</h2>
+            <h2 class="text-3xl text-primary font-bold mb-6">NutriE-WT</h2>
             <i> 
             A Symbiotic blend of Bio-Nutrients for replacing inorganic nitrogen & phosphorus sources like Urea & DAP and other essential micronutrients like Zn, Mg etc. for bacterial growth in both type of water treatment like anaerobic and aerobic process.
             </i>
             <p class="text-gray-800 mb-6">
-            Bacteria plays a very important role in water treatment process. NutriX-WT is rich source of biologically available nitrogen in form of protein enzyme, essential amino acid, minerals and vitamin to keep bacteria healthy and aid faster & robust growth of MLSS (Mixed Liquid Suspended Solids) in both aerobic and anaerobic process and makes effluent treatment more efficient.
+            Bacteria plays a very important role in water treatment process. NutriE-WT  is rich source of biologically available nitrogen in form of protein enzyme, essential amino acid, minerals and vitamin to keep bacteria healthy and aid faster & robust growth of MLSS (Mixed Liquid Suspended Solids) in both aerobic and anaerobic process and makes effluent treatment more efficient.
               </p>
 <b>Benefits:-</b>
             <div class="grid mt-5 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-x-6">
