@@ -3,9 +3,9 @@
     "title": "Tribio Scienctific - Benefitting Industry through Biotechnology",
     "base_url": "/",
     "favicon": "/images/favicon.ico",
-    "logo": "/images/logo.png",
+    "logo": "/images/logo-png.png",
     "logo_width": "200",
-    "logo_height": "80",
+    "logo_height": "75",
     "logo_text": "Tribio Scienctific"
   },
 
@@ -18,7 +18,7 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "footer_content": "Mission to serve industries with innovative products and technologies to improve productivity and add value to manufacturing processes.",
+    "footer_content": "Making possible with biotechnology.",
     "copyright": "Designed & Developed By [Tribio Scienctific](/)"
   },
 
@@ -36,7 +36,7 @@
 
   "metadata": {
     "meta_author": "Tribio Scienctific",
-    "meta_image": "/images/logo.jpg",
+    "meta_image": "/images/logo-png.png",
     "meta_description": "Formulator and manufacturing company"
   },
 

@@ -12,9 +12,9 @@ import { useEffect, useRef } from "react";
 import { TbQuote } from "react-icons/tb";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel,caption } from 'react-responsive-carousel';
+import Image from "next/image";
 
 
 const Home = ({ banner, swipers, brands, features, intro, speciality, testimonial }) => {
@@ -103,6 +103,42 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
   return (
     <Base>
+      <section className=" bg-gradient-to-b from-blue-300 to-[#eae8ee]">
+       
+          <div className="animate container flex flex-col justify-center mx-auto sm:py-12 lg:py-12 lg:flex-row lg:justify-between">
+            <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+              <h1 className="py-2 text-2xl font-bold sm:text-5xl  lg:leading-tight md:mx-auto text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]  ">
+              Making possible with biotechnology
+              </h1>
+              <p className="mb-8 sm:text-2xl lg:text-xl sm:mb-12 text-neutral-800">
+              Mission to serve industries with innovative products and technologies to improve productivity and add value to manufacturing processes.
+              </p>
+              <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+                <Link
+                  href="/contact"
+                  className="px-8 py-3 btn btn-primary"
+                >
+                  Get started
+                </Link>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center ">
+              <Image
+                src="/images/home/hero-tribio.svg"
+                width={550}
+                height={500}
+                alt="engagenest-Banner"
+                className=" "
+              />
+            </div>
+          </div>
+        
+      </section>
+
+ 
+
+{/* 
     <section className="relative ">  
             <Swiper
             pagination
@@ -145,7 +181,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       <Link className="btn btn-primary" href={banner.link.href}>
                         {banner.link.label}
                       </Link>
-                    </div> */}
+                    </div>  
   
       </div>
     </div> 
@@ -166,9 +202,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           alt="Waste Water treatment"
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        /> */}
+        /> 
         <h1 class="  font-extrabold  ">
-          {/* Let us find your */}
+          {/* Let us find your 
   
           <strong class="block font-extrabold">
           Products for Sugar and Distillery !
@@ -184,7 +220,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       </Link> 
                       {/* <Link className="btn btn-primary mx-4" href= "/contact">
                         Contact Us
-                      </Link> */}
+                      </Link>  
                     </div>
   
       </div>
@@ -206,9 +242,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           alt="Waste Water treatment"
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        /> */}
+        />  
           <h1 class="  font-extrabold  ">
-          {/* Let us find your */}
+          {/* Let us find your  
   
           <strong class="block font-extrabold  ">
           Pulp & Paper Industry 
@@ -224,7 +260,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       </Link> 
                       {/* <Link className="btn btn-primary mx-4" href= "/contact">
                         Contact Us
-                      </Link> */}
+                      </Link> 
                     </div>
   
       </div> 
@@ -249,9 +285,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           alt="Waste Water treatment"
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        /> */}
+        />  
           <h1 class="  font-extrabold  ">
-          {/* Let us find your */}
+          {/* Let us find your  
   
           <strong class="block font-extrabold">
           Pharmaceuticals
@@ -268,8 +304,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       </Link> 
                       {/* <Link className="btn btn-primary mx-4" href= "/contact">
                         Contact Us
-                      </Link> */}
-                    </div>
+                      </Link>  
   
       </div>
     </div> 
@@ -290,9 +325,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           alt="Waste Water treatment"
           src= "/images/logo.png"
           className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        /> */}
+        />  
           <h1 class="  font-extrabold  ">
-          {/* Let us find your */}
+          {/* Let us find your  
   
           <strong class="block font-extrabold">
           Agriculture & animal feed
@@ -308,7 +343,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       </Link> 
                       {/* <Link className="btn btn-primary mx-4" href= "/contact">
                         Contact Us
-                      </Link> */}
+                      </Link>  
                     </div>
   
       </div>
@@ -320,43 +355,56 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                 </Swiper>
   
 
-    </section> 
+    </section>  */}
 
       {/* Features */}
 
-      <div className="animate px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="max-w-xl  md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"> 
-        <h2 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-        Nutrients & Ingredients manufacturer , Exporter & Supplier
+      <div className="animate px-4 mx-auto container lg:px-20 lg:py-20 pt-14">
+      <div className="text-center md:mx-auto lg:max-w-2xl md:mb-12"> 
+        <h2 className="text-2xl font-bold capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+        Nutrients & Ingredients manufacturer Exporter & Supplier
         </h2> 
-        <div class="mt-2 mb-10 text-center">
-            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+        <div class="mt-2 mb-10">
+            <span class="inline-block w-40 h-1 bg-blue-800 rounded-full"></span>
+            <span class="inline-block w-3 h-1 ml-1 bg-blue-800 rounded-full"></span>
+            <span class="inline-block w-1 h-1 ml-1 bg-blue-800 rounded-full"></span>
         </div>
+ 
       </div>
      
 
       <div className="grid gap-8 row-gap-10 lg:grid-cols-2">
-        <div className=" mt-5 sm:mx-auto sm:text-center">
-        
-          <h6 className="mb-3 text-xl  selection: leading-5"> </h6>
-          <p className="text-md text-start ">
-          Tribio is a pioneer in robust development, manufacturing and distributor of the best quality of nutrients & Ingredients for various industries globally. We expertise in the art of manufacturing the best industrial enzymes & nutrients, uniquely tailored to meet our customers’ needs.  Our production caters to Sugar & Distillery, Pulp & Paper, Pharmaceuticals, Food & Beverage, Textile, Animal Feed, Sugar & Starch Processing & Detergent industries. Our extensive knowledge in the biotech domain, comprehensive research of bioscience & continuous development, enables us to manufacture enzymes & nutrients that catalyse production for our clients while enhancing the quality of life for all  </p>
+        <div className=" mt-5 sm:mx-auto sm:text-center"> 
+          <p className="text-md text-start text-gray-800 lg:mt-20">
+          We expertise in the art of manufacturing the best industrial enzymes & nutrients, uniquely tailored to meet our customers’ needs.  Our production caters to Sugar & Distillery, Pulp & Paper, Pharmaceuticals, Food & Beverage, Textile, Animal Feed, Sugar & Starch Processing & Detergent industries. Our extensive knowledge in the biotech domain, comprehensive research of bioscience & continuous development, enables us to manufacture enzymes & nutrients that catalyse production for our clients while enhancing the quality of life for all. </p>
          
-          <p className="text-start">We are equipped with modern infrastructure & biotechnologies that allows us to uniquely tailor & manufacture various enzymes for various industries to supply and export globally, helping them to overcome traditional problems of upscaling quantity and enhancing the quality of their related products. Our expert team of biochemists enables Tribio scientific to manufacture customized products according to an individual’s needs.</p>
          
-        
            
         </div>
-        <div className="max-w-md sm:mx-auto sm:text-center">
-         
-         <img className="mt-[100px]" src="/images/logo.png"/>
+        <div className="max-w-md sm:mx-auto sm:text-center"> 
+         <Image className="" width={400} height={300} src="/images/home/nutrients.svg"/>
           
         </div> 
         
       </div>
       
+      <div className="grid gap-8 row-gap-10 lg:grid-cols-2 lg:mt-10">
+      <div className="max-w-md sm:mx-auto sm:text-center"> 
+         <Image className="" width={400} height={300} src="/images/home/equipped.svg"/>
+          
+        </div> 
+        <div className=" mt-5 sm:mx-auto sm:text-center lg:mt-20">  
+          <p className="text-start text-gray-800 pt-2">We are equipped with modern infrastructure & biotechnologies that allows us to uniquely tailor & manufacture various enzymes for various industries to supply and export globally, helping them to overcome traditional problems of upscaling quantity and enhancing the quality of their related products. Our expert team of biochemists enables Tribio scientific to manufacture customized products according to an individual’s needs.</p>
+         
+        
+           
+        </div>
+     
+        
+      </div>
+
+
+
     </div>
 
 
@@ -427,73 +475,103 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
   {/* Why choose us */}
 
-  <section class="animate relative bg-[url(/images/webbg.jpg)] bg-cover bg-center bg-no-repeat py-10">
-    <div class="container px-6 py-10 mx-auto text-center ">
-        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Why Choose Us</h1>
+  <section class="animate bg-gradient-to-b from-blue-300 to-[#eae8ee] py-10">
+    <div class="container px-6 lg:py-10  py-5 mx-auto text-center ">
+        <h1 class="text-2xl font-bold capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Why Choose Us</h1>
 
         <div class="mt-2">
-            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-40 h-1 bg-blue-800 rounded-full"></span>
+            <span class="inline-block w-3 h-1 ml-1 bg-blue-800 rounded-full"></span>
+            <span class="inline-block w-1 h-1 ml-1 bg-blue-800 rounded-full"></span>
         </div>
-        <p class="mb-10 text-gray-500 dark:text-gray-800">
+        <p class="mb-10 text-gray-800 text-lg mt-4" >
         We provide our customers with unbeatable service, while providing top quality products at competitive prices. </p>
   
-        <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
-        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
-          <div className="relative w-full h-48">
-            <img
-             src="/images/creativity.png" className=" w-[100px] m-10 ml-[110px] rounded"
-              alt="Plan"
-            />
-          </div>
-          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
-            <div>
-              <div className="text-lg font-semibold  text-gray-700 capitalize dark:text-white">Creative innovation</div>
-              <p className="text-sm text-gray-900">
-             We always power talent cultivation and promote inventive innovation, We always put people's interest first before our own.
-               </p>
-               
-            </div>
-            
-          </div>
-        </div>
-        <div className="flex flex-col transition duration-300 bg-white rounded shadow-lg hover:shadow">
-          <div className="relative w-full">
-            <img
-              src="/images/user-experience.png"  className=" w-[100px] m-10 ml-[105px] rounded"
-              alt="Vision"
-            />
-          </div>
-          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
-            <div>
-              <div className="text-lg font-semibold  text-gray-700 capitalize dark:text-white">Valuable Resources</div>
-              <p className="text-sm text-gray-900">
-              Our resources are the most Valuable asset. Our combined teamwork and effort help us grow better, improve faster,as individuals and also as a company.
-               </p>
+        <div className="grid max-w-xl gap-2 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-4 xl:max-w-screen-xl sm:mx-auto">
+       
+
+
+        <div className="flex flex-col justify-between p-5 border-2 rounded border-blue-800 bg-white shadow-md hover:shadow-lg">
+                <div>
+                  <div className="flex items-center justify-center  mx-auto mb-4">
+                    <Image
+                      src="/images/home/nutrients.svg"
+                      alt=" E-Commerce & Retail"
+                      height={200}
+                      width={200}
+                      className="items-center"
+                    />
+                  </div>
+                  <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                  Creative innovation
+                  </h6>
+                  <p className="mb-3 text-sm text-gray-700">
+                  We always power talent cultivation and promote inventive innovation, We always put people's interest first before our own.
+                  </p>
+                </div>
               
-            </div>
-           
-          </div>
-        </div>
-        <div className="flex flex-col transition duration-300 bg-white rounded shadow-sm hover:shadow">
-          <div className="relative w-full h-48">
-            <img
-              src="/images/authorization.png"
-              className=" w-[100px] m-10 ml-[105px] rounded" 
-              alt="Values"
-            />
-          </div>
-          <div className="flex flex-col justify-between flex-grow p-8 border border-t-0 rounded-b">
-            <div>
-              <div className="text-lg font-semibold  text-gray-700 capitalize dark:text-white">Quality Assurance</div>
-              <p className="text-sm text-gray-900">
-              Our quality assurance process assures that our customer's gets the best quality. Our high-quality products set us apart, ahead of the competition.
-                 </p> 
-            </div>
-            
-          </div>
-        </div>
+              </div>
+              
+        <div className="flex flex-col justify-between p-5 border-2 rounded border-blue-800 bg-white shadow-md hover:shadow-lg">
+                <div>
+                  <div className="flex items-center justify-center  mx-auto mb-4">
+                    <Image
+                      src="/images/home/nutrients.svg"
+                      alt=" E-Commerce & Retail"
+                      height={200}
+                      width={200}
+                      className="items-center"
+                    />
+                  </div>
+                  <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                  Valuable Resources
+                  </h6>
+                  <p className="mb-3 text-sm text-gray-700">
+                  Our resources are the most Valuable asset. Our combined teamwork and effort help us grow better, improve faster,as individuals and also as a company.
+                  </p>
+                </div>
+              
+              </div>
+              <div className="flex flex-col justify-between p-5 border-2 rounded border-blue-800 bg-white shadow-md hover:shadow-lg">
+                <div>
+                  <div className="flex items-center justify-center  mx-auto mb-4">
+                    <Image
+                      src="/images/home/nutrients.svg"
+                      alt=" E-Commerce & Retail"
+                      height={200}
+                      width={200}
+                      className="items-center"
+                    />
+                  </div>
+                  <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                  Quality Assurance
+                  </h6>
+                  <p className="mb-3 text-sm text-gray-700">
+                  Our quality assurance process assures that our customer's gets the best quality. Our high-quality products set us apart, ahead of the competition.
+                  </p>
+                </div>
+              
+              </div>
+              <div className="flex flex-col justify-between p-5 border-2 rounded border-blue-800 bg-white shadow-md hover:shadow-lg">
+                <div>
+                  <div className="flex items-center justify-center  mx-auto mb-4">
+                    <Image
+                      src="/images/home/nutrients.svg"
+                      alt=" E-Commerce & Retail"
+                      height={200}
+                      width={200}
+                      className="items-center"
+                    />
+                  </div>
+                  <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                  Technical Suporrt
+                  </h6>
+                  <p className="mb-3 text-sm text-gray-700">
+                 We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.
+                  </p>
+                </div>
+              
+              </div>
       </div>
 
 
@@ -501,252 +579,122 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     </div>
 </section>
 
-
-      {/* Short Into */}
-      {/* <section className="section pt-0">
-        <div className="container-xl">
-          <div className="relative px-4 py-[70px]">
-            <div className="text-center">
-              <div className="animate">
-                <p>{intro.subtitle}</p>
-                {markdownify(intro.title, "h2", "mt-4 section-title")}
-                {markdownify(intro.description, "p", "mt-10")}
-              </div>
-              <div className="mx-auto mt-10 h-full max-h-[394px] w-full max-w-[716px]">
-                <VideoPopup id={intro.video_id} thumbnail={intro.thumbnail} />
-              </div>
-            </div>
-            <div className="absolute top-0 left-0 w-fullbg-scroll h-[500px] w-[auto]" style={{
-        backgroundImage: `url(${banner.bgimg})`,
-      }}>
-           
-             <Circle
-                className="left-[10%] top-12"
-                width={32}
-                height={32}
-                fill={false}
-              />
-              <Circle className="left-[3%] top-[30%]" width={85} height={85} />
-              <Circle
-                className="left-[22%] bottom-[52%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="left-[15%] bottom-[35%]"
-                width={47}
-                height={47}
-                fill={false}
-              />
-              <Circle
-                className="left-[6%] bottom-[6%]"
-                width={62}
-                height={62}
-                fill={false}
-              />
-              <Circle
-                className="right-[12%] top-[12%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="right-[2%] top-[30%]"
-                width={73}
-                height={73}
-                fill={false}
-              />
-              <Circle
-                className="right-[19%] top-[50%]"
-                width={37}
-                height={37}
-                fill={false}
-              />
-              <Circle
-                // className="right-[33%] top-[52%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="right-[5%] bottom-[18%]"
-                width={65}
-                height={65}
-              />  
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* Special Features */}
-      {/* <section className="">
-        <div className="container  mb-11 animate">
-          <div className="row items-center justify-center">
-            <div className="animate lg:col-6 lg:order-2">
-              <ImageFallback
-                className="mx-auto"
-                src={speciality.primary.image}
-                width={575}
-                height={511}
-                alt="primary speciality"
-              />
-            </div>
-            <div className="animate lg:col-5 lg:order-1">
-              <p>{speciality.primary.subtitle}</p>
-              {markdownify(
-                speciality.primary.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(speciality.primary.description, "p", "mt-10")}
-            </div>
-          </div>
-          <div className="row items-center mt-[100px] animate">
-            <div className="lg:col-6">
-              <ImageFallback
-                className="mx-auto rounded-md"
-                src={speciality.secondary.image}
-                width={575}
-                height={511}
-                alt="secondary speciality"
-              />
-            </div>
-            <div className="lg:col-5">
-              <p>{speciality.secondary.subtitle}</p>
-              {markdownify(
-                speciality.secondary.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(speciality.secondary.description, "p", "mt-10")}
-            </div>
-          </div>
-          <div className="row items-center justify-center mt-[100px] ">
-            <div className="lg:col-6 lg:order-2">
-              <ImageFallback
-                className="mx-auto rounded-md"
-                src={speciality.secondary3.image}
-                width={575}
-                height={511}
-                alt="primary speciality"
-              />
-            </div>
-            <div className="lg:col-5 lg:order-1">
-              <p>{speciality.secondary3.subtitle}</p>
-              {markdownify(
-                speciality.secondary3.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(speciality.secondary3.description, "p", "mt-10")}
-            </div>
-          </div>
-          <div className="row items-center mt-[100px]">
-            <div className="lg:col-6">
-              <ImageFallback
-                className="mx-auto rounded-md"
-                src={speciality.secondary4.image}
-                width={575}
-                height={511}
-                alt="secondary speciality"
-              />
-            </div>
-            <div className="lg:col-5">
-              <p>{speciality.secondary4.subtitle}</p>
-              {markdownify(
-                speciality.secondary4.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(speciality.secondary4.description, "p", "mt-10")}
-            </div>
-          </div>
-          <div className="row items-center justify-center mt-[100px]">
-            <div className="lg:col-6 lg:order-2">
-              <ImageFallback
-                className="mx-auto rounded-md"
-                src={speciality.secondary5.image}
-                width={575}
-                height={511}
-                alt="primary speciality"
-              />
-            </div>
-            <div className="lg:col-5 lg:order-1">
-              <p>{speciality.secondary5.subtitle}</p>
-              {markdownify(
-                speciality.secondary5.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(speciality.secondary5.description, "p", "mt-10")}
-            </div>
-          </div>
-          <div className="row items-center mt-[100px]">
-            <div className="lg:col-6">
-              <ImageFallback
-                className="mx-auto rounded-md"
-                src={speciality.secondary6.image}
-                width={575}
-                height={511}
-                alt="secondary speciality"
-              />
-            </div>
-            <div className="lg:col-5">
-              <p>{speciality.secondary6.subtitle}</p>
-              {markdownify(
-                speciality.secondary6.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(speciality.secondary6.description, "p", "mt-10")}
-            </div>
-          </div>
-          <div className="row items-center justify-center mt-[100px] mb-[100px]">
-            <div className=" lg:col-6 lg:order-2">
-              <ImageFallback
-                className="mx-auto rounded-md"
-                src={speciality.secondary7.image}
-                width={575}
-                height={511}
-                alt="primary speciality"
-              />
-            </div>
-            <div className="lg:col-5 lg:order-1">
-              <p>{speciality.secondary7.subtitle}</p>
-              {markdownify(
-                speciality.secondary7.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(speciality.secondary7.description, "p", "mt-10")}
-            </div>
-          </div>
-        </div>
-      </section> */}
-{/* 
-Product and services  */}
  
- 
-    <div className="animate px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="max-w-xl  md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"> 
-        <h2 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-          Our Product Application
+    <div className="animate px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-4xl md:px-24 lg:px-8 lg:py-20 py-14">
+      <div className="max-w-xl  md:mx-auto sm:text-center lg:max-w-4xl md:mb-12"> 
+        <h2 className="text-2xl font-bold capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+        Our Product Application
+        {/* We offer consistent goods and services to the industry */}
         </h2> 
         <div class="mt-2 mb-10 text-center">
-            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-40 h-1 bg-blue-800 rounded-full"></span>
+            <span class="inline-block w-3 h-1 ml-1 bg-blue-800 rounded-full"></span>
+            <span class="inline-block w-1 h-1 ml-1 bg-blue-800 rounded-full"></span>
+        </div>
+        {/* <p className="mb-3 text-lg text-gray-700"> Our industry has come to rely on our dependable goods and services. We consistently deliver high-quality products and services to meet their needs.</p>*/}
+      </div> 
+      {/* <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14"> 
+      <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-100 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-blue-800 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Sugar & Distillery</h6>
+          {/* <p className="max-w-md mb-3 text-md text-gray-900 sm:mx-auto">
+            Cheese on toast airedale the big cheese. Danish fontina cheesy grin
+            airedale danish
+          </p> 
+          <Link
+            href="/"
+            aria-label=""
+            className="inline-flex items-center   transition-colors duration-200 text-blue-800  "
+          >
+            Learn more
+          </Link>
+        </div>
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-100 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-blue-800 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Pulp and paper</h6>
+          {/* <p className="max-w-md mb-3 text-md text-gray-900 sm:mx-auto">
+          Pressing the sheet removes the water by force. Once the water is forced from the sheet, a special kind of felt
+          </p>  
+          <Link
+            href="/"
+            aria-label=""
+            className="inline-flex items-center   transition-colors duration-200 text-blue-800  "
+          >
+            Learn more
+          </Link>
+        </div>
+        <div className="sm:text-center">
+          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
+            <svg
+              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              />
+            </svg>
+          </div>
+          <h6 className="mb-2 font-semibold leading-5">Pick up truck</h6>
+          <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
+            Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
+            mechad
+          </p>
+          <a
+            href="/"
+            aria-label=""
+            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+          >
+            Learn more
+          </a>
         </div>
       </div>
+    </div>
+    */}
      
 
-      <div className="grid gap-8 row-gap-10 lg:grid-cols-3">
+    <div className="container grid gap-8 row-gap-10 lg:grid-cols-3">
         <div className="max-w-md mt-5 sm:mx-auto sm:text-center">
         
-          <h6 className="mb-3 text-xl  selection: leading-5">Nutrient for Distillery</h6>
+          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Nutrient for Distillery</h6>
           <p className="mb-3 text-sm ">
            Our enhanced distillery processing enzymes & nutrients gives you better and non-contaminated yield of ethanol at a faster rate.
           </p>
         
-          <h6 className="mb-3 mt-10 text-xl  first-letter: leading-5">Pharmaceuticals Reference Standard and Impurities</h6>
+          <h6 className="mb-2 mt-8 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Pharmaceuticals Reference Standard and Impurities</h6>
           <p className="mb-3 text-sm ">
             Our team of scientist develope and synthesis very hign quality of inhouse reference Standard, working Standard and impurity for Pharmaceuticals quality control. 
             </p>
@@ -756,17 +704,17 @@ Product and services  */}
         </div>
         <div className="max-w-md sm:mx-auto sm:text-center">
          
-         <img className="w-[200px] mt-[100px] " src="/images/logo.png"/>
+         <Image className="" width={700} height={500} src="/images/home/products.svg"/>
           
         </div>
         <div className="max-w-md mt-5 sm:mx-auto sm:text-center">
         
-          <h6 className="mb-3 text-xl  selection: leading-5">Products for Water Treatment</h6>
+          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Products for Water Treatment</h6>
           <p className="mb-3 text-sm ">
            Our enhanced distillery processing enzymes & nutrients gives you a better and non-contaminated yield of ethanol at a fasterrate.
           </p>
         
-          <h6 className="mb-3 mt-10 text-xl  first-letter: leading-5">Nutrient for Pulp & Paper</h6>
+          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Nutrient for Pulp & Paper</h6>
           <p className="mb-3 text-sm ">
             Tribio paper and Pulp nutrients reduce the dependency of harmful and toxic inorganic nutrients which damages the environment.
           </p>
@@ -776,7 +724,7 @@ Product and services  */}
         
       </div>
       <div className="text-center">
-      <h6 className="mb-3 mt-10 text-xl first-letter: leading-5">Ingredients for Food, cattle feed and Pharmaceuticals</h6>
+      <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Ingredients for Food, cattle feed and Pharmaceuticals</h6>
       <p className="mb-3 max-w-md text-sm ">
            
           </p>
@@ -784,153 +732,25 @@ Product and services  */}
            We provoide various Ingredient used in Pharmaceuticals and food industry.
           </p>
           </div>
-          <div className="text-center">
+          {/* <div className="text-center">
           <Link className="mt-10 btn btn-primary" href="/nutrients">View All</Link>  
-          </div>
+          </div>   */}
     </div>
 
 
-    {/* Certified by */}
 
+   
 
-{/* 
-      <section className="animate section banner pt-0">
-        <div className="container-xl">
-          <div className="relative"> 
-           <div className="row border-y border-border py-5">
-              <div className="animate from-right col-12">
-              <h2 className="text-center mb-6">Certified by </h2>
-                <Swiper
-                  loop={true}
-                  slidesPerView={3}
-                  breakpoints={{
-                    992: {
-                      slidesPerView: 5,
-                    },
-                  }}
-                  spaceBetween={20}
-                  modules={[Autoplay]}
-                  autoplay={{ delay: 3000 }}
-                >  
-                  {brands.map((brand, index) => (
-                    <SwiperSlide
-                      className=" h-[150px] cursor-pointer py-6 px-6 transition hover:grayscale-0 lg:px-10"
-                      key={"brand-" + index}
-                    >
-                      <div className="relative h-full">
-                      
-                        <ImageFallback
-                          className="object-contain"
-                          src={brand}
-                          sizes="100vw"
-                          alt=""
-                          fill={true}
-                          priority={true}
-                        />
-                      </div>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </div>
-            </div>  
-          </div>
-        </div>
-      </section>  */}
-
-      {/* Testimonial */}
-        {/* <section className="section pt-0">
-        <div className="container">
-          <div className="animate text-center">
-            <p>{testimonial.subtitle}</p>
-            {markdownify(testimonial.title, "h2", "mt-4 section-title")}
-            {markdownify(testimonial.description, "p", "mt-10")}
-          </div>
-          <div className="animate row mt-10 items-center justify-center">
-            <div className="xl:col-11">
-              <div className="row items-center justify-center">
-                <div className="hidden lg:col-3 xl:col-4 lg:block">
-                  <ImageFallback
-                    src="/images/testimonials-01.png"
-                    width={455}
-                    height={522}
-                    alt="testimonials"
-                  />
-                </div>
-                <div className="md:col-7 lg:col-6 xl:col-4">
-                  {
-                    <Swiper
-                      modules={[Pagination, Autoplay]}
-                      pagination={{
-                        el: testimonialPaginationRef.current,
-                        type: "bullets",
-                        dynamicBullets: true,
-                        clickable: true,
-                      }}
-                      autoplay={{ delay: 3000 }}
-                      onBeforeInit={(swiper) => {
-                        swiper.params.pagination.el =
-                          testimonialPaginationRef.current;
-                      }}
-                      className="testimonial-slider mx-auto max-w-[420px] cursor-pointer lg:max-w-[480px]"
-                    >
-                      {testimonial.list.map((item, index) => (
-                        <SwiperSlide
-                          className="text-center"
-                          key={"testimonial-" + index}
-                        >
-                          <div className="py-6 px-8 sm:py-12 md:px-10 lg:px-20 xl:px-12">
-                            <TbQuote className="mx-auto rotate-180 text-5xl text-body sm:text-6xl lg:text-8xl" />
-                            {markdownify(
-                              item.content,
-                              "p",
-                              "text-[17px] lg:text-lg text-body mt-4 md:mt-5 xl:mt-8"
-                            )}
-                            <div className="mt-7 inline-block rounded-md bg-body p-7 shadow-[0_10px_50px_rgba(0,0,0,.08)] md:mt-5 lg:mt-8 xl:mt-5">
-                              <ImageFallback
-                                className="mx-auto rounded-full"
-                                src={item.avatar}
-                                width={90}
-                                height={90}
-                                priority={true}
-                                alt={item.author}
-                              />
-                              <h6>{item.author}</h6>
-                              <p>{item.profession}</p>
-                            </div>
-                          </div>
-                        </SwiperSlide>
-                      ))}
-                    </Swiper>
-                  }
-                  <div className="relative h-8">
-                    <div
-                      className="pagination absolute left-1/2 -translate-x-1/2"
-                      ref={testimonialPaginationRef}
-                    ></div>
-                  </div>
-                </div>
-                <div className="hidden lg:col-3 xl:col-4 lg:block">
-                  <ImageFallback
-                    src="/images/testimonials-02.png"
-                    width={455}
-                    height={522}
-                    alt="testimonials"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>   */}
+ 
 
       {/* Cta */}
 
-      <section class="animate relative bg-[url(/images/contbg.png)] bg-cover bg-center bg-no-repeat  ">
+      <section class="animate  bg-gradient-to-b from-blue-300 to-[#eae8ee]">
     <div class="flex flex-col  bg-white/20">
         <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
                 <div class="text-white lg:w-1/2 lg:mx-6">
-                    <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">WHY YOU SHOULD CONTACT US!</h1>
+                    <h1 class="text-2xl font-semibold lg:text-3xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">WHY YOU SHOULD CONTACT US!</h1>
 
                     <p class="max-w-xl text-bold text-black mt-6">
                     We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.
@@ -977,7 +797,7 @@ Product and services  */}
                                 <textarea type="text" placeholder="" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
                             </div>
 
-                            <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                            <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-800 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
                               Send Now
                             </button>
                         </form>
@@ -1003,11 +823,11 @@ Product and services  */}
           Our Clients
              
             </h2>
-            <h2 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+            <h2 className="mb-2 font-bold text-xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-[#131146]">
             Trusted by world-class brands and organizations of all sizes.
              
             </h2>
-            <p className="mt-4">
+            <p className="mt-4 text-gray-700">
              Our prestigious domestic clients are Dalmia Bharat sugar industries ltd, Alkem Laboratories, Aristo Pharmaceutical Private Limited, Shree Venkatesh International Limited and many clients from Nepal.
             </p>
           </div>

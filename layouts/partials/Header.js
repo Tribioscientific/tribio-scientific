@@ -40,9 +40,9 @@ const Header = () => {
 
   return (
     <>
-      <div className="header-height-fix shadow-xl"></div>
+      <div className="header-height-fix shadow-3xl"></div>
       <header
-        className={`header ${sticky && "header-sticky"} ${
+        className={`header shadow-lg ${sticky && "header-sticky"} ${
           direction === 1 && "unpinned"
         }`}
         ref={headerRef}

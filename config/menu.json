@@ -5,10 +5,6 @@
       "url": "/"
     },
     {
-      "name": "About us",
-      "url": "/about"
-    },
-    {
       "name": "Industry",
       "url": "",
       "hasChildren": true,
@@ -72,6 +68,10 @@
     {
       "name": "Our Alliance",
       "url": "/our-alliance"
+    },
+    {
+      "name": "About us",
+      "url": "/about"
     }
   ],
   "footer": [

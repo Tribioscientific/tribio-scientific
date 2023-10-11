@@ -5,10 +5,10 @@
 
 // container
 .container {
-  @apply mx-auto max-w-[1380px] px-3;
+  @apply mx-auto max-w-[1380px] lg:px-24;
   
   &-xl {
-    @apply max-w-[1440px] mx-auto px-3;
+    @apply max-w-[1440px] mx-auto lg:px-24;
   }
 }
 
@@ -36,7 +36,7 @@
 .notice {
   .notice-body {
     p {
-      @apply my-0 text-[#666666];
+      @apply my-0 text-[#000000];
     }
   }
 

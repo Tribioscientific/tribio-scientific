@@ -1,12 +1,12 @@
 
 .header-height-fix {
-  @apply h-[116px];
+  @apply h-[90px];
 }
 .header {
-  @apply fixed left-0 w-full  top-0 z-50 bg-white py-[29px] transition-all duration-500 ;
+  @apply fixed left-0 w-full  top-0 z-50 bg-white py-[8px] transition-all duration-500 ;
 
   &-sticky {
-    @apply py-[18px] shadow-[0_2px_8px_rgba(32,45,73,0.1)];
+    @apply py-[8px] shadow-xl;
   }
 
   &.unpinned {
