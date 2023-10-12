@@ -15,8 +15,8 @@ const Footer = () => {
         <div className="row border-y border-border py-12">
           <div className="md:col-6 lg:col-4">
             {/* <Logo /> */}
-            <img src="/images/logo-png.png" className="" />
-           {markdownify(footer_content, "h6", "mt-3 font-semibold text-center text-white")}  
+            <img src="/images/logo-png.png" className="h-[75px] w-[200px]" />
+           {markdownify(footer_content, "h6", "mt-3 font-semibold text-white")}  
           </div>
           <div className="mt-8 md:col-6 lg:col-2 lg:mt-0">
             {/* <h3 className="h5">Socials</h3> */}

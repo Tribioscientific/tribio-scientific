@@ -686,7 +686,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     */}
      
 
-    <div className="container grid gap-8 row-gap-10 lg:grid-cols-3">
+    <div className="animate container grid gap-8 row-gap-10 lg:grid-cols-3">
         <div className="max-w-md mt-5 sm:mx-auto sm:text-center">
         
           <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Nutrient for Distillery</h6>
@@ -814,7 +814,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
        {/*Clients  */}
  
-       <div className=" animate px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+       <div className="animate px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
           
