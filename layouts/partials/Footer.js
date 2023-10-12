@@ -10,13 +10,13 @@ const Footer = () => {
   const { copyright, footer_content } = config.params;
   const { email, phone, location } = config.contact_info;
   return (
-    <footer className=" bg-[#97d0ff] text-black">
+    <footer className=" bg-[#1e40af] text-white">
       <div className="container">
         <div className="row border-y border-border py-12">
           <div className="md:col-6 lg:col-4">
             {/* <Logo /> */}
             <img src="/images/logo-png.png" className="" />
-           {markdownify(footer_content, "h6", "mt-3 font-semibold text-center")}  
+           {markdownify(footer_content, "h6", "mt-3 font-semibold text-center text-white")}  
           </div>
           <div className="mt-8 md:col-6 lg:col-2 lg:mt-0">
             {/* <h3 className="h5">Socials</h3> */}
@@ -27,14 +27,14 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5  ">Quick Links</h3>
+            <h3 className="h5  text-white ">Quick Links</h3>
             {/* footer menu */}
             <ul className="mt-5 leading-10">
               {menu.footer.map((menu) => (
                 <li key={menu.name}>
                   <Link
                     href={menu.url}
-                    className=" hover:text-primary hover:underline"
+                    className="  hover:underline"
                   >
                     {menu.name}
                   </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5  ">Location & Contact</h3>
+            <h3 className="h5 text-white ">Location & Contact</h3>
             <ul className="mt-5 leading-10">
               <li>{markdownify(location)}</li>
               {phone && (

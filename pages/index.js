@@ -495,15 +495,15 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                 <div>
                   <div className="flex items-center justify-center  mx-auto mb-4">
                     <Image
-                      src="/images/home/nutrients.svg"
-                      alt=" E-Commerce & Retail"
+                      src="/images/home/innovation.svg"
+                      alt="Creative Innovation"
                       height={200}
                       width={200}
                       className="items-center"
                     />
                   </div>
                   <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
-                  Creative innovation
+                  Creative Innovation
                   </h6>
                   <p className="mb-3 text-sm text-gray-700">
                   We always power talent cultivation and promote inventive innovation, We always put people's interest first before our own.
@@ -516,8 +516,8 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                 <div>
                   <div className="flex items-center justify-center  mx-auto mb-4">
                     <Image
-                      src="/images/home/nutrients.svg"
-                      alt=" E-Commerce & Retail"
+                      src="/images/home/resources.svg"
+                      alt="Valuable Resources"
                       height={200}
                       width={200}
                       className="items-center"
@@ -536,8 +536,8 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                 <div>
                   <div className="flex items-center justify-center  mx-auto mb-4">
                     <Image
-                      src="/images/home/nutrients.svg"
-                      alt=" E-Commerce & Retail"
+                      src="/images/home/assurance.svg"
+                      alt=" Quality Assurance"
                       height={200}
                       width={200}
                       className="items-center"
@@ -556,8 +556,8 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                 <div>
                   <div className="flex items-center justify-center  mx-auto mb-4">
                     <Image
-                      src="/images/home/nutrients.svg"
-                      alt=" E-Commerce & Retail"
+                      src="/images/home/suporrt.svg"
+                      alt="Technical Suporrt"
                       height={200}
                       width={200}
                       className="items-center"
@@ -861,6 +861,8 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         </div>
       </div>
     </div>
+
+   
 
 
     </Base>
