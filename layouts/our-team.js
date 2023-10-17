@@ -58,7 +58,7 @@ const OurTeam =  () => {
     ]
 
   return (
-    <section className="py-14">
+    <section className="animate py-14">
            <section className=" bg-gradient-to-b from-blue-300 to-[#eae8ee] -mt-16">
        
        <div className="animate container flex flex-col justify-center mx-auto sm:py-12 lg:py-12 lg:flex-row lg:justify-between">
