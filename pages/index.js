@@ -812,17 +812,18 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
       {/* <Cta />  */}
 
-       {/*Clients  */}
- 
-       <div className="animate px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="grid gap-10 lg:grid-cols-2">
-        <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+       {/*Clients  */} 
+   
+    <div className=" animate py-14">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8 text-center">
+            <h2 className="max-w-lg mb-6 text-primary ">
           
-          <div className="max-w-xl mb-6">
-          <h2 className="max-w-lg mb-6 text-primary">
-          Our Clients
              
             </h2>
+            <h2 className="text-2xl font-bold mb-6  lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+            Our Clients
+        {/* We offer consistent goods and services to the industry */}
+        </h2> 
             <h2 className="mb-2 font-bold text-xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-[#131146]">
             Trusted by world-class brands and organizations of all sizes.
              
@@ -830,38 +831,125 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
             <p className="mt-4 text-gray-700">
              Our prestigious domestic clients are Dalmia Bharat sugar industries ltd, Alkem Laboratories, Aristo Pharmaceutical Private Limited, Shree Venkatesh International Limited and many clients from Nepal.
             </p>
-          </div>
-       
-        </div>
-        <div className="flex items-center justify-center -mx-4 lg:pl-8">
-          <div className="flex flex-col items-end px-3">
-            <img
-              className="object-cover w-60 mb-6 rounded shadow-lg "
-              src="/images/c1.jpeg"
-              alt=""
-            />
-            <img
-              className="object-cover w-60  rounded shadow-lg "
-              src="/images/c2.jpeg"
-               alt=""
-            />
-          </div>
-          <div className="px-3">
-            <img
-              className="object-cover w-60  rounded shadow-lg "
-              src="/images/c3.jpeg"
-               alt=""
-            />
-             <img
-              className="object-cover w-60  rounded shadow-lg  "
-              src="/images/c4.jpeg"
-               alt=""
-            />
-          </div>
-        </div>
-      </div>
-    </div>
+            <div className="mt-12">
+                    <ul className="flex gap-y-6 flex-wrap items-center justify-center [&>*]:px-12 lg:divide-x">
+                        {/* LOGO 1 */}
+                        <li className="flex-none">
+                            <Image 
+                            src="/images/client/c5.gif"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
 
+                        {/* LOGO 2 */}
+                        <li className="flex-none">
+                        <Image 
+                            src="/images/client/c6.png"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                        {/* LOGO 3 */}
+                        <li className="flex-none">
+                        <Image 
+                            src="/images/client/c7.png"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                        {/* LOGO 4 */}
+                        <li className="flex-none">
+                        <Image 
+                            src="/images/client/c8.png"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                    </ul>
+                </div>
+                <div className="mt-10">
+                    <ul className="flex gap-y-6 flex-wrap items-center justify-center [&>*]:px-12 lg:divide-x">
+                        {/* LOGO 1 */}
+                        <li className="flex-none">
+                            <Image 
+                            src="/images/client/c1.jpeg"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                        {/* LOGO 2 */}
+                        <li className="flex-none">
+                        <Image 
+                            src="/images/client/c9.jpg"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                        {/* LOGO 3 */}
+                        <li className="flex-none">
+                        <Image 
+                            src="/images/client/c3.jpeg"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                        {/* LOGO 4 */}
+                        <li className="flex-none">
+                        <Image 
+                            src="/images/client/c4.jpeg"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div className="py-10">
+                    <ul className="flex gap-y-6 flex-wrap items-center justify-center [&>*]:px-12 lg:divide-x">
+                      
+                     
+
+                        {/* LOGO 3 */}
+                        <li className="flex-none">
+                        <Image 
+                            src="/images/client/c2.jpeg"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                        {/* LOGO 4 */}
+                        <li className="flex-none">
+                        <Image 
+                            src="/images/client/c10.jpg"
+                            alt="client"
+                            height={100}
+                            width={100}
+                            />
+                        </li>
+
+                    </ul>
+                </div>
+              
+            </div>
+        </div>
    
 
 
