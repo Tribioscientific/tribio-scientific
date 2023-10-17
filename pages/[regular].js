@@ -23,6 +23,7 @@ import DyesAndColorReferenceStandards from "@layouts/Dyes-and-Color-Reference-St
 import PharmacopiealReferenceStandards from "@layouts/Pharmacopieal-Reference-Standards";
 import ImpurityStandards from "@layouts/Impurity-Standards";
 import NitrosaminesImpurities from "@layouts/Nitrosamines-Impurities";
+import OurTeam from "@layouts/our-team";
 
 
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
@@ -106,6 +107,9 @@ const RegularPages = ({ data }) => {
       )
       : layout === "nitrosamines-impurities" ? (
         <NitrosaminesImpurities  data={data} />
+      )
+      : layout === "our-team" ? (
+        <OurTeam  data={data} />
       )
       : (
         <Default data={data} />

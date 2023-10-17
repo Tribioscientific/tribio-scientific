@@ -52,7 +52,7 @@ const Footer = () => {
                 </li>
                 
               )}
-              <li>Email : info@tribioscientific.com</li>
+              <li>Email : sales@tribioscientific.com</li>
             </ul>
           </div>
         </div>

@@ -1,6 +1,8 @@
 import config from "@config/config.json";
 import Banner from "./components/Banner";
 import ImageFallback from "./components/ImageFallback";
+import Link from "next/link";
+import Image from "next/image";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
@@ -8,29 +10,49 @@ const Contact = ({ data }) => {
 
   return (
     <section className="section">
-      {/* <Banner title={title} /> */}
-      <h3 className="text-center text-primary">Contact Us</h3>
-    
+      
+
+      <section className=" bg-gradient-to-b from-blue-300 to-[#eae8ee] -mt-16">
+       
+       <div className="animate container flex flex-col justify-center mx-auto sm:py-12 lg:py-12 lg:flex-row lg:justify-between">
+         <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+           <h1 className="py-2 text-2xl font-bold sm:text-5xl  lg:leading-tight md:mx-auto text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]  ">
+           Why you should contact us!
+           </h1>
+           <p className="mb-8 sm:text-2xl lg:text-xl sm:mb-12 text-neutral-800">
+           We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.  
+            
+           </p>
+           
+         </div>
+
+         <div className="flex items-center justify-center ">
+           <Image
+             src="/images/contact.svg"
+             width={550}
+             height={500}
+             alt="contact-tribio"
+             className=" "
+           />
+         </div>
+       </div>
+     
+   </section>
+
+
+
+
+
+      
       <div className="container">
       
         <div className="section row items-center justify-center">
       
-          <div className="animate lg:col-5">
-          <div className="mb-12 max-w-[570px] lg:mb-0">
-              {/* <span className="text-primary mb-4 block text-base font-semibold">
-                Contact Us
-              </span> */}
-              <h2
-                className="text-dark mb-6 text-[20px] font-bold uppercase sm:text-[40px] lg:text-[30px] xl:text-[30px]"
-              >
-                Why you should contact us!
-              </h2>
-              <p className="text-body-color mb-9 text-base leading-relaxed">
-              We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.  </p>
-            
-              <div className="mb-8 flex w-full max-w-[370px]">
+          <div className="animate lg:col-6">
+          <div className="max-w-5xl lg:mb-0">
+                  <div className="mb-8 flex w-full max-w-xl">
                 <div
-                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-xl items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
                 >
                   <svg
                     width="24"
@@ -51,11 +73,35 @@ const Contact = ({ data }) => {
                 </div>
                 <div className="w-full">
                   <h4 className="text-dark mb-1 text-xl font-bold">Contact</h4>
-                  <p className="text-body-color text-base">(+91)7699 069609</p>
-                  <p className="text-body-color text-base">info@tribioscientific.com</p>
+                  <p className="text-body-color text-base">+91 - 9593284185</p>
+                  <p className="text-body-color text-base">sales@Tribioscientific.com</p>
                 </div>
               </div>
 
+
+              <div className="mb-8 flex w-full max-w-2xl">
+                <div
+                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    className="fill-current"
+                  >
+                    <path
+                      d="M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full">
+                  <h4 className="text-dark mb-1 text-xl font-bold">Head office</h4>
+                  <p className="text-body-color text-base">
+                  4th FLOOR, 28/A, 80 FEET ROAD,
+MICHEAL PALYA, Indiranagar, Bangalore, Karnataka 560038
+. </p>
+                </div>
+              </div>
 
               <div className="mb-8 flex w-full max-w-[370px]">
                 <div
@@ -73,31 +119,12 @@ const Contact = ({ data }) => {
                   </svg>
                 </div>
                 <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">Corporate Office</h4>
+                  <h4 className="text-dark mb-1 text-xl font-bold">Corporate office </h4>
                   <p className="text-body-color text-base">
-                  Suite No. E/1, B-8, 3rd Floor, M/S ARNAVI SOLUTION, Sector 2, Noida, Gautam Buddha Uttar Pradesh, 201301. </p>
-                </div>
-              </div>
-
-              <div className="mb-8 flex w-full max-w-[370px]">
-                <div
-                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
-                >
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    className="fill-current"
-                  >
-                    <path
-                      d="M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"
-                    />
-                  </svg>
-                </div>
-                <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">R&D Center </h4>
-                  <p className="text-body-color text-base">
-                  307, Primus Business Park, Plot no. A195, Rd Number 16A, Wagle Industrial Estate, Thane West, Maharashtra 400604.
+                  Corporate office
+Suite No. E/1, B-8, 3rd Floor, M/S ARNAVI
+SOLUTION, Sector 2, Noida, Gautam
+Buddha Uttar Pradesh, 201301.
  </p>
                 </div>
               </div>
@@ -118,13 +145,15 @@ const Contact = ({ data }) => {
                   </svg>
                 </div>
                 <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">Bangalore Branch office </h4>
+                  <h4 className="text-dark mb-1 text-xl font-bold">Mumbai office </h4>
                   <p className="text-body-color text-base">
-                  No. 45/B, Shubham Complex, 1st A Main, 3rd Floor, Rear Wing, Sarakki Industrial Layout, 3rd Phase, J. P. Nagar, Bengaluru, Karnataka 560078.
+                  307, Primus Business Park , Plot No. 195A
+, Wagle Industrial state, Road No 16A,
+Thane (W), Maharastra ,
+India  - 400604 .
 </p>
                 </div>
               </div>
-
               <div className="mb-8 flex w-full max-w-[370px]">
                 <div
                   className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
@@ -141,7 +170,33 @@ const Contact = ({ data }) => {
                   </svg>
                 </div>
                 <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">Gorakhpur Ware house</h4>
+                  <h4 className="text-dark mb-1 text-xl font-bold">R&D and manufacturing </h4>
+                  <p className="text-body-color text-base">
+                  Unit No. A-529, Plot no-G-6, Silver
+Springs , MIDC Taloja, Navi Mumbai
+, Maharstra 410208.
+
+</p>
+                </div>
+              </div>
+
+              <div className="mb-8 flex w-full max-w-2xl">
+                <div
+                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    className="fill-current"
+                  >
+                    <path
+                      d="M21.8182 24H16.5584C15.3896 24 14.4156 23.0256 14.4156 21.8563V17.5688C14.4156 17.1401 14.0649 16.7893 13.6364 16.7893H10.4026C9.97403 16.7893 9.62338 17.1401 9.62338 17.5688V21.8173C9.62338 22.9866 8.64935 23.961 7.48052 23.961H2.14286C0.974026 23.961 0 22.9866 0 21.8173V8.21437C0 7.62972 0.311688 7.08404 0.818182 6.77223L11.1039 0.263094C11.6494 -0.0876979 12.3896 -0.0876979 12.9351 0.263094L23.2208 6.77223C23.7273 7.08404 24 7.62972 24 8.21437V21.7783C24 23.0256 23.026 24 21.8182 24ZM10.3636 15.4251H13.5974C14.7662 15.4251 15.7403 16.3995 15.7403 17.5688V21.8173C15.7403 22.246 16.0909 22.5968 16.5195 22.5968H21.8182C22.2468 22.5968 22.5974 22.246 22.5974 21.8173V8.25335C22.5974 8.13642 22.5195 8.01949 22.4416 7.94153L12.1948 1.4324C12.0779 1.35445 11.9221 1.35445 11.8442 1.4324L1.55844 7.94153C1.44156 8.01949 1.4026 8.13642 1.4026 8.25335V21.8563C1.4026 22.285 1.75325 22.6358 2.18182 22.6358H7.48052C7.90909 22.6358 8.25974 22.285 8.25974 21.8563V17.5688C8.22078 16.3995 9.19481 15.4251 10.3636 15.4251Z"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full">
+                  <h4 className="text-dark mb-1 text-xl font-bold">Warehouse - Uttar Pradesh </h4>
                   <p className="text-body-color text-base">
                   34, LIG, Rapti Nagar Phase 4, Chargawan, Gorakhpur, Gorakhpur,
 Uttar Pradesh, 273013 </p>

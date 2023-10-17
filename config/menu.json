@@ -5,6 +5,36 @@
       "url": "/"
     },
     {
+      "name": "Products & Services",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Distillery Nutrient",
+          "url": "/nutrients" 
+        },
+        {
+          "name": "ETP/CPU Nutrient",
+          "url": "/etp-cpu-nutrient" 
+        },
+        {
+          "name": "Digester Nutrient",
+          "url": "/digester-nutrient" 
+        },
+        {
+          "name": "Microbial Culture",
+          "url": "/microbial-culture" 
+        },{
+          "name": "Pharmaceuticals Standards",
+          "url": "/pharmaceuticals-standards"
+        },{
+          "name": "Pharmaceuticals Impurities",
+          "url": "/pharmaceuticals-impurities"
+        }
+        
+      ]
+    }, 
+    {
       "name": "Industry",
       "url": "",
       "hasChildren": true,
@@ -35,44 +65,33 @@
         }
       ]
     },  
-    {
-      "name": "Products & Services",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Distillery Nutrient",
-          "url": "/nutrients" 
-        },
-        {
-          "name": "ETP/CPU Nutrient",
-          "url": "/etp-cpu-nutrient" 
-        },
-        {
-          "name": "Digester Nutrient",
-          "url": "/digester-nutrient" 
-        },
-        {
-          "name": "Microbial Culture",
-          "url": "/microbial-culture" 
-        },{
-          "name": "Pharmaceuticals Standards",
-          "url": "/pharmaceuticals-standards"
-        },{
-          "name": "Pharmaceuticals Impurities",
-          "url": "/pharmaceuticals-impurities"
-        }
-        
-      ]
-    },  
+    
     {
       "name": "Our Alliance",
       "url": "/our-alliance"
     },
     {
-      "name": "About us",
-      "url": "/about"
-    }
+      "name": "Company",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "About Us",
+          "url": "/about" 
+        },
+        {
+          "name": "Our Team",
+          "url": "/our-team" 
+        } 
+        ,
+        {
+          "name": "Contact Us",
+          "url": "/contact" 
+        } 
+        
+      ]
+    } 
+    
   ],
   "footer": [
     {
