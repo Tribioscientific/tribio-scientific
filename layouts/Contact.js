@@ -98,7 +98,8 @@ const Contact = ({ data }) => {
                   <h4 className="text-dark mb-1 text-xl font-bold">Head office</h4>
                   <p className="text-body-color text-base">
                   4th FLOOR, 28/A, 80 FEET ROAD,
-MICHEAL PALYA, Indiranagar, Bangalore, Karnataka 560038
+MICHEAL PALYA, <br/>
+Indiranagar, Bangalore, Karnataka 560038
 . </p>
                 </div>
               </div>
@@ -198,7 +199,7 @@ Springs , MIDC Taloja, Navi Mumbai
                 <div className="w-full">
                   <h4 className="text-dark mb-1 text-xl font-bold">Warehouse - Uttar Pradesh </h4>
                   <p className="text-body-color text-base">
-                  34, LIG, Rapti Nagar Phase 4, Chargawan, Gorakhpur, Gorakhpur,
+                  34, LIG, Rapti Nagar Phase 4, Chargawan,<br/> Gorakhpur, Gorakhpur,
 Uttar Pradesh, 273013 </p>
                 </div>
               </div>

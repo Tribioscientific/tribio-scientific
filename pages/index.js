@@ -384,11 +384,14 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     <div className="flex flex-col  bg-white/20">
         <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
-                <div className="text-white lg:w-1/2 lg:mx-6">
+                <div className="text-white lg:w-1/2 lg:mx-16">
                     <h1 className="text-2xl font-semibold lg:text-3xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">WHY YOU SHOULD CONTACT US!</h1>
 
                     <p className="max-w-xl text-bold text-black mt-6">
-                    We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.
+                    Driven by Research & Proven
+methodology to enhance the
+productivity & performance of our
+customers globally.
                     </p> 
                     <div className="flex pt-8 flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                 <Link
