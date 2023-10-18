@@ -23,7 +23,7 @@ const DigesterNutrient =  () => {
           {/* Let us find your */}
   
           <strong class="block font-extrabold text-primary">
-          Digester Nutrient
+          Tribio Powermix
           </strong>
         </h1>
   
@@ -46,7 +46,7 @@ const DigesterNutrient =  () => {
         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
           <div class="px-6 py-12 md:px-12">
             <h2 class="text-3xl text-primary font-bold mb-6">
-                DigesterNutrient
+              Tribio Powermix
                 
                 </h2>
             <i> 

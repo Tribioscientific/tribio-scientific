@@ -18,7 +18,7 @@
           "url": "/etp-cpu-nutrient" 
         },
         {
-          "name": "Digester Nutrient",
+          "name": "Tribio Powermix",
           "url": "/digester-nutrient" 
         },
         {
@@ -44,7 +44,7 @@
           "url": "/sugar-and-distillery"
         },
         {
-          "name": "Pulp and paper industry",
+          "name": "Pulp and paper",
           "url": "/pulp-and-paper"
         },
         {
@@ -52,12 +52,8 @@
           "url": "/pharmaceuticals"
         },
         {
-          "name": "Agriculture",
-          "url": "/agriculture"
-        },
-        {
-          "name": "Waste to energy",
-          "url": "/waste-to-energy"
+          "name": "Water Treatment",
+          "url": "/water-treatment"
         },
         {
           "name": "Animal feed",

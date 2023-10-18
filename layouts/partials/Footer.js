@@ -63,7 +63,7 @@ const Footer = () => {
     //     </div>
     //   </div>
     // </footer>
-    <footer className="px-4 pt-10 pb-18 bg-[#0a083b] text-white">
+    <footer className="px-4 pt-16 bg-[#0a083b] text-white">
     <div className="mx-auto max-w-6xl">
       <div className="flex flex-col items-start justify-between space-y-8 md:flex-row md:space-y-0">
         <div>
@@ -107,7 +107,7 @@ const Footer = () => {
             <Link
               href="/digester-nutrient"
               className="block text-gray-300 text-[15px] hover:text-white"
-            >Digester Nutrient
+            > Tribio Powermix
 
 
             </Link>
@@ -158,7 +158,7 @@ const Footer = () => {
               href="/pulp-and-paper"
               className="block text-gray-300 text-[15px] hover:text-white"
             >
-            Pulp and paper industry
+            Pulp and paper  
             </Link>
             <Link
               href="/pharmaceuticals"
@@ -221,7 +221,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mt-12 py-8 flex flex-col space-x-0 space-y-4 text-sm font-medium sm:flex-row sm:space-y-0 sm:space-x-6 text-gray-500">
+      <div className="py-8 flex flex-col space-x-0 space-y-4 text-sm font-medium sm:flex-row sm:space-y-0 sm:space-x-6 text-gray-500">
         <span>Copyright &copy; 2023-24 - Tribio Scientific</span>
         {/* <a href="#" className="text-text/50 hover:text-heading">
           Terms of Service

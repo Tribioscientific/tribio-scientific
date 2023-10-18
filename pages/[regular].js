@@ -27,6 +27,7 @@ import OurTeam from "@layouts/our-team";
 
 
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
+import WaterTreatment from "@layouts/water-treatment";
 
 // for all regular pages
 const RegularPages = ({ data }) => {
@@ -107,6 +108,8 @@ const RegularPages = ({ data }) => {
       )
       : layout === "nitrosamines-impurities" ? (
         <NitrosaminesImpurities  data={data} />
+      ): layout === "water-treatment" ? (
+        <WaterTreatment  data={data} />
       )
       : layout === "our-team" ? (
         <OurTeam  data={data} />

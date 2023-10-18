@@ -64,37 +64,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         },
       });
 
-   // const position = (banner.offsetHeight - bannerBg.offsetHeight) * 0.4;
-    //  parallaxTl
-    //    .fromTo(
-    //      bannerBg,
-    //      {
-    //        y: 0,
-    //      },
-    //      {
-    //        y: -position,
-    //      }
-    //    )
-    //    .fromTo(
-    //      bannerContent,
-    //      {
-    //        y: 0,
-    //      },
-    //      {
-    //        y: position,
-    //      },
-    //      "<"
-    //    )
-    //    .fromTo(
-    //      ".banner-bg .circle",
-    //      {
-    //        y: 0,
-    //      },
-    //      {
-    //        y: position,
-    //      },
-    //      "<"
-    //    );
+   
     });
 
     return () => ctx.revert();
@@ -103,6 +73,8 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
   return (
     <Base>
+    
+      {/* Banner */}
       <section className=" bg-gradient-to-b from-blue-300 to-[#eae8ee]">
        
           <div className="animate container flex flex-col justify-center mx-auto sm:py-12 lg:py-12 lg:flex-row lg:justify-between">
@@ -128,7 +100,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                 src="/images/home/hero-tribio.svg"
                 width={550}
                 height={500}
-                alt="engagenest-Banner"
+                alt="tribio-Banner"
                 className=" "
               />
             </div>
@@ -138,232 +110,15 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
  
 
-{/* 
-    <section className="relative ">  
-            <Swiper
-            pagination
-                  loop={true}
-                  navigation={true}
-                  slidesPerView={1}
-                  breakpoints={{
-                    992: {
-                      slidesPerView: 1,
-                    },
-                  }}
-                  spaceBetween={20}
-                  modules={[Autoplay]}
-                  autoplay={{ delay: 3000 }}
-
-                >  
-                   
-                  <SwiperSlide>
-                  <div  class="relative bg-[url(/images/b1.png)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
-  >
-    <div
-      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
-    ></div>
-  
-    <div
-      class="relative mx-auto max-w-screen-xl px-4 py-2 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-    >
-      <div class="max-w-2xl text-center sm:text-left">
-      
-        <h1 class=""> 
-          <strong class="block font-extrabold ">
-          Various Scientific Solution for Industries !
-          </strong>
-        </h1>
-  <h2>
-         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-         </strong>
-         </h2>
-{/* <div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href={banner.link.href}>
-                        {banner.link.label}
-                      </Link>
-                    </div>  
-  
-      </div>
-    </div> 
-    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                  <div  class="relative bg-[url(/images/chini-factory.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
-  >
-    <div
-      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
-    ></div>
-  
-    <div
-      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-    >
-      <div class="max-w-xl text-center sm:text-left">
-      {/* <img
-          alt="Waste Water treatment"
-          src= "/images/logo.png"
-          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        /> 
-        <h1 class="  font-extrabold  ">
-          {/* Let us find your 
-  
-          <strong class="block font-extrabold">
-          Products for Sugar and Distillery !
-          </strong>
-        </h1>
-  <h2>
-         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-          </strong>
-</h2>
-<div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href="/sugar-and-distillery">
-                      Explore More
-                      </Link> 
-                      {/* <Link className="btn btn-primary mx-4" href= "/contact">
-                        Contact Us
-                      </Link>  
-                    </div>
-  
-      </div>
-    </div> 
-    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                  <div  class="relative bg-[url(/images/pulp.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
-  >
-    <div
-      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
-    ></div>
-  
-    <div
-      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-    >
-      <div class="max-w-xl text-center sm:text-left">
-      {/* <img
-          alt="Waste Water treatment"
-          src= "/images/logo.png"
-          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        />  
-          <h1 class="  font-extrabold  ">
-          {/* Let us find your  
-  
-          <strong class="block font-extrabold  ">
-          Pulp & Paper Industry 
-          </strong>
-        </h1>
-  <h2>
-         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-         </strong>
-</h2> 
-<div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href="/pulp-and-paper">
-                      Explore More
-                      </Link> 
-                      {/* <Link className="btn btn-primary mx-4" href= "/contact">
-                        Contact Us
-                      </Link> 
-                    </div>
-  
-      </div> 
-   
-    </div> 
-
-    </div>
-    
-                  </SwiperSlide>
-                  <SwiperSlide>
-                  <div  class="relative bg-[url(/images/Pharmaceuticals.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
-  >
-    <div
-      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
-    ></div>
-  
-    <div
-      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-    >
-      <div class="max-w-xl text-center sm:text-left">
-      {/* <img
-          alt="Waste Water treatment"
-          src= "/images/logo.png"
-          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        />  
-          <h1 class="  font-extrabold  ">
-          {/* Let us find your  
-  
-          <strong class="block font-extrabold">
-          Pharmaceuticals
-          </strong>
-        </h1>
-  <h2>
-         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-         </strong>
-</h2>
-
-<div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href="/pharmaceuticals">
-                      Explore More
-                      </Link> 
-                      {/* <Link className="btn btn-primary mx-4" href= "/contact">
-                        Contact Us
-                      </Link>  
-  
-      </div>
-    </div> 
-    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                  <div  class="relative bg-[url(/images/Agriculture4.jpg)] bg-cover bg-center bg-no-repeat lg:h-[550px]"
-  >
-    <div
-      class="absolute inset-0 bg-white/50 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
-    ></div>
-  
-    <div
-      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-    >
-      <div class="max-w-xl text-center sm:text-left">
-      {/* <img
-          alt="Waste Water treatment"
-          src= "/images/logo.png"
-          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        />  
-          <h1 class="  font-extrabold  ">
-          {/* Let us find your  
-  
-          <strong class="block font-extrabold">
-          Agriculture & animal feed
-          </strong>
-        </h1>
-  <h2>
-         <strong class="mt-4 max-w-lg text-black sm:leading-relaxed">
-          </strong>
-</h2>
-<div className="banner-btn mt-5 opacity-0">
-                      <Link className="btn btn-primary" href="/agriculture">
-                      Explore More
-                      </Link> 
-                      {/* <Link className="btn btn-primary mx-4" href= "/contact">
-                        Contact Us
-                      </Link>  
-                    </div>
-  
-      </div>
-    </div> 
-    </div>
-                  </SwiperSlide>
-                  
-                 
-                </Swiper>
-  
-
-    </section>  */}
+ 
 
       {/* Features */}
 
       <div className="animate px-4 mx-auto container lg:px-20 lg:py-20 pt-14">
       <div className="text-center md:mx-auto lg:max-w-2xl md:mb-12"> 
-        <h2 className="text-2xl font-bold capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+        <h1 className="text-2xl font-bold capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
         Nutrients & Ingredients manufacturer Exporter & Supplier
-        </h2> 
+        </h1> 
         <div class="mt-2 mb-10">
             <span class="inline-block w-40 h-1 bg-blue-800 rounded-full"></span>
             <span class="inline-block w-3 h-1 ml-1 bg-blue-800 rounded-full"></span>
@@ -382,7 +137,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
            
         </div>
         <div className="max-w-md sm:mx-auto sm:text-center"> 
-         <Image className="" width={400} height={300} src="/images/home/nutrients.svg"/>
+         <Image className="" width={400} height={300} src="/images/home/nutrients.svg" alt="manufacturer"/>
           
         </div> 
         
@@ -390,13 +145,12 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
       
       <div className="grid gap-8 row-gap-10 lg:grid-cols-2 lg:mt-10">
       <div className="max-w-md sm:mx-auto sm:text-center"> 
-         <Image className="" width={400} height={300} src="/images/home/equipped.svg"/>
+         <Image className="" width={400} height={300} src="/images/home/equipped.svg" alt="equipped"/>
           
         </div> 
         <div className=" mt-5 sm:mx-auto sm:text-center lg:mt-20">  
           <p className="text-start text-gray-800 pt-2">We are equipped with modern infrastructure & biotechnologies that allows us to uniquely tailor & manufacture various enzymes for various industries to supply and export globally, helping them to overcome traditional problems of upscaling quantity and enhancing the quality of their related products. Our expert team of biochemists enables Tribio scientific to manufacture customized products according to an individual’s needs.</p>
-         
-        
+          
            
         </div>
      
@@ -405,71 +159,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
 
 
-    </div>
-
-
-
-      {/* <section className="section">
-        <div className="container text-center">
-          <div className="animate">
-            <p className="uppercase">{features.sub_title}</p>
-            
-            {markdownify(features.title, "h2", "mt-0 ")}
-            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-            <span class="inline-block w-3 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            <span class="inline-block w-1 h-1 ml-1 bg-blue-500 rounded-full"></span>
-            {/* {markdownify(features.description, "p", "mt-10")}  
-            <p className="mt-10">Tribio is a pioneer in robust development, manufacturing and distributor of the best quality of nutrients & Ingredients for various industries globally. We expertise in the art of manufacturing the best industrial enzymes & nutrients, uniquely tailored to meet our customers’ needs.  Our production caters to Sugar & Distillery, Pulp & Paper, Pharmaceuticals, Food & Beverage, Textile, Animal Feed, Sugar & Starch Processing & Detergent industries. Our extensive knowledge in the biotech domain, comprehensive research of bioscience & continuous development, enables us to manufacture enzymes & nutrients that catalyse production for our clients while enhancing the quality of life for all.</p>
-            <p className="">We are equipped with modern infrastructure & biotechnologies that allows us to uniquely tailor & manufacture various enzymes for various industries to supply and export globally, helping them to overcome traditional problems of upscaling quantity and enhancing the quality of their related products. Our expert team of biochemists enables Tribio scientific to manufacture customized products according to an individual’s needs</p>
-          </div>
-          {/* <div className="animate from-right relative mt-10">
-            <Swiper
-              loop={true}
-              slidesPerView={1}
-              pagination={{
-                type: "bullets",
-                el: paginationRef.current,
-                clickable: true,
-                dynamicBullets: true,
-              }}
-              autoplay={{ delay: 1000 }}
-              onBeforeInit={(swiper) => {
-                swiper.params.pagination.el = paginationRef.current;
-              }}
-              modules={[Pagination]}
-              breakpoints={{
-                768: {
-                  slidesPerView: 2,
-                },
-                1200: {
-                  slidesPerView: 3,
-                },
-              }}
-            >
-              {features.list.map((item, index) => (
-                <SwiperSlide key={"feature-" + index}>
-                  <div className="feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
-                    <div className="feature-card-icon inline-flex items-center justify-center rounded-md border border-[#fff7f3] text-primary">
-                      <Image src={item.icon} width={600} height={400} />
-                    </div>
-                    <h3 className="h4 mt-6 mb-5 text-primary">{item.title}</h3>
-                    <p>{item.content}</p>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div className="relative mt-9 flex justify-center">
-              <div className="pagination " ref={paginationRef}></div>
-            </div>
-          </div> * 
-        </div>
-      </section> */}
-
-      
-{/*     */}
-  
-   
-
+    </div> 
 
 
 
@@ -502,9 +192,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       className="items-center"
                     />
                   </div>
-                  <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                  <h1 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
                   Creative Innovation
-                  </h6>
+                  </h1>
                   <p className="mb-3 text-sm text-gray-700">
                   We always power talent cultivation and promote inventive innovation, We always put people's interest first before our own.
                   </p>
@@ -523,9 +213,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       className="items-center"
                     />
                   </div>
-                  <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                  <h1 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
                   Valuable Resources
-                  </h6>
+                  </h1>
                   <p className="mb-3 text-sm text-gray-700">
                   Our resources are the most Valuable asset. Our combined teamwork and effort help us grow better, improve faster,as individuals and also as a company.
                   </p>
@@ -543,9 +233,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       className="items-center"
                     />
                   </div>
-                  <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                  <h1 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
                   Quality Assurance
-                  </h6>
+                  </h1>
                   <p className="mb-3 text-sm text-gray-700">
                   Our quality assurance process assures that our customer's gets the best quality. Our high-quality products set us apart, ahead of the competition.
                   </p>
@@ -563,9 +253,9 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                       className="items-center"
                     />
                   </div>
-                  <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                  <h1 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
                   Technical Suporrt
-                  </h6>
+                  </h1>
                   <p className="mb-3 text-sm text-gray-700">
                  We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.
                   </p>
@@ -579,6 +269,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
     </div>
 </section>
 
+  {/*Our Product Application */}
  
     <div className="animate px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-4xl md:px-24 lg:px-8 lg:py-20 py-14">
       <div className="max-w-xl  md:mx-auto sm:text-center lg:max-w-4xl md:mb-12"> 
@@ -593,148 +284,92 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
         </div>
         {/* <p className="mb-3 text-lg text-gray-700"> Our industry has come to rely on our dependable goods and services. We consistently deliver high-quality products and services to meet their needs.</p>*/}
       </div> 
-      {/* <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14"> 
-      <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
-        <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-100 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-blue-800 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Sugar & Distillery</h6>
-          {/* <p className="max-w-md mb-3 text-md text-gray-900 sm:mx-auto">
-            Cheese on toast airedale the big cheese. Danish fontina cheesy grin
-            airedale danish
-          </p> 
-          <Link
-            href="/"
-            aria-label=""
-            className="inline-flex items-center   transition-colors duration-200 text-blue-800  "
-          >
-            Learn more
-          </Link>
-        </div>
-        <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-100 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-blue-800 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Pulp and paper</h6>
-          {/* <p className="max-w-md mb-3 text-md text-gray-900 sm:mx-auto">
-          Pressing the sheet removes the water by force. Once the water is forced from the sheet, a special kind of felt
-          </p>  
-          <Link
-            href="/"
-            aria-label=""
-            className="inline-flex items-center   transition-colors duration-200 text-blue-800  "
-          >
-            Learn more
-          </Link>
-        </div>
-        <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">Pick up truck</h6>
-          <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-            Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
-            mechad
-          </p>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </a>
-        </div>
-      </div>
-    </div>
-    */}
+ 
      
 
     <div className="animate container grid gap-8 row-gap-10 lg:grid-cols-3">
         <div className="max-w-md mt-5 sm:mx-auto sm:text-center">
         
-          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Nutrient for Distillery</h6>
-          <p className="mb-3 text-sm ">
+          <h1 className="mb-2 font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Nutrient for Distillery</h1>
+          <p className="mb-2  text-[15px] ">
            Our enhanced distillery processing enzymes & nutrients gives you better and non-contaminated yield of ethanol at a faster rate.
           </p>
+          <Link
+                    className="text-[14px] px-4 py-2  text-indigo-600  inline-flex items-center transition ease-in-out delay-150 hover:translate-x-1"
+                    href="/sugar-and-distillery">
+                    View Products
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 duration-150 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </Link>
         
-          <h6 className="mb-2 mt-8 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Pharmaceuticals Reference Standard and Impurities</h6>
-          <p className="mb-3 text-sm ">
+          <h1 className="mb-2 mt-8 font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Pharmaceuticals Reference Standard and Impurities</h1>
+          <p className="mb-3  text-[15px] ">
             Our team of scientist develope and synthesis very hign quality of inhouse reference Standard, working Standard and impurity for Pharmaceuticals quality control. 
             </p>
-
+            <Link
+                    className="text-[14px] px-4 py-2  text-indigo-600  inline-flex items-center transition ease-in-out delay-150 hover:translate-x-1"
+                    href="/pharmaceuticals">
+                    View Products
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 duration-150 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </Link>
         
            
         </div>
         <div className="max-w-md sm:mx-auto sm:text-center">
          
-         <Image className="" width={700} height={500} src="/images/home/products.svg"/>
+         <Image width={700} height={500} src="/images/home/products.svg" alt="products"/>
           
         </div>
         <div className="max-w-md mt-5 sm:mx-auto sm:text-center">
         
-          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Products for Water Treatment</h6>
-          <p className="mb-3 text-sm ">
+          <h1 className="mb-2 font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Products for Water Treatment</h1>
+          <p className="mb-3 text-[15px] ">
            Our enhanced distillery processing enzymes & nutrients gives you a better and non-contaminated yield of ethanol at a fasterrate.
           </p>
+          <Link
+                    className="text-[14px] px-4 py-2  text-indigo-600  inline-flex items-center transition ease-in-out delay-150 hover:translate-x-1"
+                    href="/water-treatment">
+                    View Products
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 duration-150 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </Link>
         
-          <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Nutrient for Pulp & Paper</h6>
-          <p className="mb-3 text-sm ">
+          <h1 className="mb-2  mt-8 font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Nutrient for Pulp & Paper</h1>
+          <p className="mb-3 text-[15px]">
             Tribio paper and Pulp nutrients reduce the dependency of harmful and toxic inorganic nutrients which damages the environment.
-          </p>
+          </p>  <Link
+                    className="text-[14px] px-4 py-2  text-indigo-600  inline-flex items-center transition ease-in-out delay-150 hover:translate-x-1"
+                    href="/pulp-and-paper">
+                    View Products
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 duration-150 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </Link>
            
         </div>
        
         
       </div>
       <div className="text-center">
-      <h6 className="mb-2 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Ingredients for Food, cattle feed and Pharmaceuticals</h6>
-      <p className="mb-3 max-w-md text-sm ">
-           
-          </p>
-          <p className="mb-3 text-sm ">
+      <h1 className="mb-2 mt-8 font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Ingredients for Food, cattle feed and Pharmaceuticals</h1>
+      
+          <p className="mb-3 text-[15px] ">
            We provoide various Ingredient used in Pharmaceuticals and food industry.
           </p>
+          <Link
+                    className="text-[14px] px-4 py-2  text-indigo-600  inline-flex items-center transition ease-in-out delay-150 hover:translate-x-1"
+                    href="/animal-feed">
+                    View Products
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 duration-150 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </Link>
           </div>
-          {/* <div className="text-center">
-          <Link className="mt-10 btn btn-primary" href="/nutrients">View All</Link>  
-          </div>   */}
+            
     </div>
 
 
@@ -773,31 +408,31 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                             <div class="grid gap-8 row-gap-10 lg:grid-cols-2">
                               <div>
                                 <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
-                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md  " />
                                 </div>
                                 <div>
                                 <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email</label>
-                                <input type="email" placeholder="" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                <input type="email" placeholder="" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md   " />
                                 </div>
                             </div>
 
                             <div class="grid gap-8 row-gap-10 lg:grid-cols-2">
                               <div>
                                 <label class="block m-2 text-sm text-gray-600 dark:text-gray-200">Phone Number</label>
-                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                <input type="text" placeholder=" " class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md  " />
                                 </div>
                                 <div>
                                 <label class="block m-2 text-sm text-gray-600 dark:text-gray-200">Subject</label>
-                                <input type="text" placeholder="" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                <input type="text" placeholder="" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md   " />
                                 </div>
                             </div>
 
                             <div class="flex-1 mt-6">
                                 <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Your Message here</label>
-                                <textarea type="text" placeholder="" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                                <textarea type="text" placeholder="" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md   " />
                             </div>
 
-                            <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-800 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                            <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-800 rounded-md hover:bg-blue-500   focus:ring-blue-400 focus:ring-opacity-50">
                               Send Now
                             </button>
                         </form>
@@ -810,7 +445,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
 
 
-      {/* <Cta />  */}
+      
 
        {/*Clients  */} 
    
@@ -820,10 +455,10 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
           
              
             </h2>
-            <h2 className="text-2xl font-bold mb-6  lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+            <h1 className="text-2xl font-bold mb-6  lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
             Our Clients
         {/* We offer consistent goods and services to the industry */}
-        </h2> 
+        </h1> 
             <h2 className="mb-2 font-bold text-xl lg:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-[#131146]">
             Trusted by world-class brands and organizations of all sizes.
              
@@ -831,15 +466,15 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
             <p className="mt-4 text-gray-700">
              Our prestigious domestic clients are Dalmia Bharat sugar industries ltd, Alkem Laboratories, Aristo Pharmaceutical Private Limited, Shree Venkatesh International Limited and many clients from Nepal.
             </p>
-            <div className="mt-12">
+            <div className="mt-14">
                     <ul className="flex gap-y-6 flex-wrap items-center justify-center [&>*]:px-12 lg:divide-x">
                         {/* LOGO 1 */}
                         <li className="flex-none">
                             <Image 
-                            src="/images/client/c5.gif"
+                            src="/images/client/c1.jpeg"
                             alt="client"
                             height={100}
-                            width={100}
+                            width={150}
                             />
                         </li>
 
@@ -849,7 +484,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                             src="/images/client/c6.png"
                             alt="client"
                             height={100}
-                            width={100}
+                            width={150}
                             />
                         </li>
 
@@ -859,7 +494,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                             src="/images/client/c7.png"
                             alt="client"
                             height={100}
-                            width={100}
+                            width={150}
                             />
                         </li>
 
@@ -869,21 +504,21 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                             src="/images/client/c8.png"
                             alt="client"
                             height={100}
-                            width={100}
+                            width={150}
                             />
                         </li>
 
                     </ul>
                 </div>
-                <div className="mt-10">
+                <div className="py-14">
                     <ul className="flex gap-y-6 flex-wrap items-center justify-center [&>*]:px-12 lg:divide-x">
                         {/* LOGO 1 */}
                         <li className="flex-none">
                             <Image 
-                            src="/images/client/c1.jpeg"
+                            src="/images/client/c4.jpeg"
                             alt="client"
                             height={100}
-                            width={100}
+                            width={150}
                             />
                         </li>
 
@@ -893,7 +528,7 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                             src="/images/client/c9.jpg"
                             alt="client"
                             height={100}
-                            width={100}
+                            width={150}
                             />
                         </li>
 
@@ -903,29 +538,11 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                             src="/images/client/c3.jpeg"
                             alt="client"
                             height={100}
-                            width={100}
+                            width={150}
                             />
                         </li>
 
                         {/* LOGO 4 */}
-                        <li className="flex-none">
-                        <Image 
-                            src="/images/client/c4.jpeg"
-                            alt="client"
-                            height={100}
-                            width={100}
-                            />
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div className="py-10">
-                    <ul className="flex gap-y-6 flex-wrap items-center justify-center [&>*]:px-12 lg:divide-x">
-                      
-                     
-
-                        {/* LOGO 3 */}
                         <li className="flex-none">
                         <Image 
                             src="/images/client/c2.jpeg"
@@ -934,11 +551,10 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                             width={100}
                             />
                         </li>
-
-                        {/* LOGO 4 */}
-                        <li className="flex-none">
+                          {/* LOGO 4 */}
+                          <li className="flex-none">
                         <Image 
-                            src="/images/client/c10.jpg"
+                            src="/images/client/c10.png"
                             alt="client"
                             height={100}
                             width={100}
@@ -947,6 +563,8 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
 
                     </ul>
                 </div>
+
+                
               
             </div>
         </div>
