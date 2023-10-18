@@ -11,59 +11,8 @@ const Footer = () => {
   const { copyright, footer_content } = config.params;
   const { email, phone, location } = config.contact_info;
   return (
-    // <footer className=" bg-[#1e40af] text-white">
-    //   <div className="container">
-    //     <div className="row border-y border-border py-12">
-    //       <div className="md:col-6 lg:col-4">
-    //         {/* <Logo /> */}
-    //         <img src="/images/logo-png.png" className="h-[75px] w-[200px]" />
-    //        {markdownify(footer_content, "h6", "mt-3 font-semibold text-white")}  
-    //       </div>
-    //       <div className="mt-8 md:col-6 lg:col-2 lg:mt-0">
-    //         {/* <h3 className="h5">Socials</h3> */}
-    //         <div className="mt-5">
-    //           {/* {email && <Link href={`mailto:${email}`}>{email}</Link>} */}
-    //           {/* social icons */}
-    //           {/* <Social source={social} className="social-icons mt-5" /> */}
-    //         </div>
-    //       </div>
-    //       <div className="mt-8 md:col-6 lg:col-3 lg:mt-0">
-    //         <h3 className="h5  text-white ">Quick Links</h3>
-    //         {/* footer menu */}
-    //         <ul className="mt-5 leading-10">
-    //           {menu.footer.map((menu) => (
-    //             <li key={menu.name}>
-    //               <Link
-    //                 href={menu.url}
-    //                 className="  hover:underline"
-    //               >
-    //                 {menu.name}
-    //               </Link>
-    //             </li>
-    //           ))}
-    //         </ul>
-    //       </div>
-    //       <div className="mt-8 md:col-6 lg:col-3 lg:mt-0">
-    //         <h3 className="h5 text-white ">Location & Contact</h3>
-    //         <ul className="mt-5 leading-10">
-    //           <li>{markdownify(location)}</li>
-    //           {phone && (
-    //             <li>
-    //               <Link href={`tel:${phone}`}>{phone}</Link>
-    //             </li>
-                
-    //           )}
-    //           <li>Email : info@tribioscientific.com</li>
-    //         </ul>
-    //       </div>
-    //     </div>
-    //     {/* copyright */}
-    //     <div className=" py-6 text-center">
-    //       {markdownify(copyright, "p", "footer-copy-write")}
-    //     </div>
-    //   </div>
-    // </footer>
-    <footer className="px-4 pt-16 bg-[#0a083b] text-white">
+   
+    <footer className="px-4 pt-16 bg-[#1c274d] text-white">
     <div className="mx-auto max-w-6xl">
       <div className="flex flex-col items-start justify-between space-y-8 md:flex-row md:space-y-0">
         <div>
@@ -221,7 +170,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-8 flex flex-col space-x-0 space-y-4 text-sm font-medium sm:flex-row sm:space-y-0 sm:space-x-6 text-gray-500">
+      <div className="py-8 flex flex-col space-x-0 space-y-4 text-sm font-light  sm:flex-row sm:space-y-0 sm:space-x-6">
         <span>Copyright &copy; 2023-24 - Tribio Scientific</span>
         {/* <a href="#" className="text-text/50 hover:text-heading">
           Terms of Service
