@@ -20,8 +20,8 @@
     "font_family": {
       "primary": "Poppins:wght@400",
       "primary_type": "Poppins",
-      "secondary": "",
-      "secondary_type": ""
+      "secondary": "Poppins:wght@400",
+      "secondary_type": "Poppins"
     },
     "font_size": {
       "base": "16",

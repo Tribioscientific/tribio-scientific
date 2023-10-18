@@ -390,11 +390,19 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                     <p className="max-w-xl text-bold text-black mt-6">
                     We want our customers to experience the best by investing least. We have an experienced technical team which provides guidance and shoot out troubles of our customer on 24X7 basis.
                     </p> 
+                    <div className="flex pt-8 flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+                <Link
+                  href="/contact"
+                  className="px-8 py-3 btn btn-primary text-center"
+                >
+                 Contact Now
+                </Link>
+              </div>
                      
                 </div>
 
                 <div className="mt-8 lg:w-1/2 lg:mx-6">
-                    <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                    {/* <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
                         <h1 className="text-xl font-medium text-gray-700 dark:text-gray-200">Contact Us</h1>
 
                         <p className="mt-2 text-gray-500 dark:text-gray-400">
@@ -434,7 +442,14 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                               Send Now
                             </button>
                         </form>
-                    </div>
+                    </div> */}
+                    <Image
+                src="/images/home/cta.svg"
+                width={550}
+                height={500}
+                alt="contact us"
+                className=" "
+              />
                 </div>
             </div>
         </div>
