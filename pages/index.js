@@ -406,28 +406,28 @@ const Home = ({ banner, swipers, brands, features, intro, speciality, testimonia
                             <div className="grid gap-8 row-gap-10 lg:grid-cols-2">
                               <div>
                                 <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
-                                <input type="text"  className="block w-full px-5 py-3   text-gray-700 bg-white border border-gray-200 rounded-md  " />
+                                <input type="text"  className="form-box" />
                                 </div>
                                 <div>
                                 <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email</label>
-                                <input type="email"  className="block w-full px-5 py-3   text-gray-700 bg-white border border-gray-200 rounded-md   " />
+                                <input type="email"  className="form-box" />
                                 </div>
                             </div>
 
                             <div class="grid gap-8 row-gap-10 lg:grid-cols-2">
                               <div>
                                 <label class="block mt-2 text-sm text-gray-600 dark:text-gray-200">Phone Number</label>
-                                <input type="text"  className="block w-full px-5 py-3   text-gray-700 bg-white border border-gray-200 rounded-md  " />
+                                <input type="text"  className="form-box" />
                                 </div>
                                 <div>
                                 <label class="block mt-2 text-sm text-gray-600 dark:text-gray-200">Subject</label>
-                                <input type="text" className="block w-full px-5 py-3  text-gray-700 bg-white border border-gray-200 rounded-md   " />
+                                <input type="text" className="form-box" />
                                 </div>
                             </div>
 
-                            <div class="flex-1 mt-6">
-                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Your Message here</label>
-                                <textarea type="text"   className="block w-full px-5 py-3   text-gray-700 bg-white border border-gray-200 rounded-md   " />
+                            <div className="flex-1 mt-6">
+                                <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Your Message here</label>
+                                <textarea type="text"   className="form-box" />
                             </div>
 
                             <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-800 rounded-md hover:bg-blue-500   focus:ring-blue-400 focus:ring-opacity-50">
