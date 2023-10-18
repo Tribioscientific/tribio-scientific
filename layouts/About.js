@@ -86,7 +86,7 @@ const About = ({ data,brands, }) => {
            
         </div>
         <div className="max-w-md sm:mx-auto sm:text-center"> 
-         <Image className="" width={400} height={300} src="/images/home/nutrients.svg" alt="manufacturer"/>
+         <Image className="" width={400} height={300} src="/images/about/team.svg" alt="team"/>
           
         </div> 
         
@@ -94,7 +94,7 @@ const About = ({ data,brands, }) => {
       
       <div className="grid gap-8 row-gap-10 lg:grid-cols-2 lg:mt-10">
       <div className="max-w-md sm:mx-auto sm:text-center"> 
-         <Image className="" width={400} height={300} src="/images/home/equipped.svg" alt="equipped"/>
+         <Image className="" width={400} height={300} src="/images/about/infrastructure.svg" alt="infrastructure"/>
           
         </div> 
         <div className=" mt-5 sm:mx-auto sm:text-center lg:mt-20"> 
@@ -108,7 +108,7 @@ const About = ({ data,brands, }) => {
       </div>
 
       <div className="grid gap-8 row-gap-10 lg:grid-cols-2 lg:mt-14">
-        <div className=" mt-5 sm:mx-auto sm:text-center"> 
+        <div className="mt-5 sm:mx-auto sm:text-center"> 
         <h1 className="text-primary text-xl lg:text-2xl text-left">We guarantee complete customer satisfaction </h1>
           <p className="text-md text-start text-gray-800 lg:mt-2">
           A customer-centric approach is a core of Tribio foundation. We thrive to achieve 100% customer satisfaction through excellent services, customer support. Our services guide individuals and enterprises to overcome traditional production challenges without compromising quality. Our fierce marketing and unmatched distribution network, help us effectively manage and deliver our customers’ needs within the country and around the globe. </p>
@@ -117,7 +117,7 @@ const About = ({ data,brands, }) => {
            
         </div>
         <div className="max-w-md sm:mx-auto sm:text-center"> 
-         <Image className="" width={400} height={300} src="/images/home/nutrients.svg" alt="manufacturer"/>
+         <Image className="" width={400} height={300} src="/images/about/customers.svg" alt="customer"/>
           
         </div> 
         
