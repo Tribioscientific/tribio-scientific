@@ -59,14 +59,16 @@ const OurTeam =  () => {
 
   return (
     <section className="animate py-14">
-           <section className=" bg-gradient-to-b from-blue-300 to-[#eae8ee] -mt-16">
+           <section className="bg-gradient-to-b from-blue-300 to-[#eae8ee] -mt-16">
        
        <div className="animate container flex flex-col justify-center mx-auto sm:py-12 lg:py-12 lg:flex-row lg:justify-between">
          <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-           <h1 className="py-2 text-2xl font-bold sm:text-5xl  lg:leading-tight md:mx-auto text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]  ">
+           <h1 className="py-2 text-2xl font-bold sm:text-5xl md:text-left lg:leading-tight md:mx-auto text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]  ">
            Meet our team
            </h1> 
-           
+           <p className="text-gray-800 mt-3 text-md">
+        We are a multi-disciplinary R&D team of biologists, chemists, lab specialists, and biostatisticians, all of whom are working hard to enhance productivity and add value to industrial processes.
+            </p>  
          </div>
 
          <div className="flex items-center justify-center ">
@@ -86,9 +88,7 @@ const OurTeam =  () => {
           <h3 className="block font-extrabold text-primary mt-6">
           Company Directors
             </h3>
-            {/* <p className="text-gray-600 mt-3">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy.
-            </p> */}
+       
     <div className="mt-12">
             <ul className="grid gap-2 sm:grid-cols-1 md:grid-cols-2 ">
                 {

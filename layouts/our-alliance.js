@@ -66,7 +66,7 @@ const  Our = ({ data }) => {
     <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16"> 
       <div class="lg:py-16">
         <article className="space-y-4 text-gray-600">
-          <h3>- Water Management Solutions </h3>
+          <h3>Water Management Solutions </h3>
           <p>
           Tribio Scientific maintains a focus on keeping the environment clean by developing sustainable technologies. Our Team focus on developing 
             </p> 
@@ -120,7 +120,7 @@ const  Our = ({ data }) => {
 <div className=" my-10 grid grid-cols-1 gap-8 lg:grid-cols-2  lg:gap-16"> 
   <div class="lg:py-5">
     <article className="space-y-4 text-black">
-      <h3 className="mb-10">- Application Development </h3>
+      <h3 className="mb-10">Application Development </h3>
       <p>
       Tribio Scientific Continuous working along with Chromato Scientific and Oxygen Lab to Application development Protein digestibility improvement
         </p> 
@@ -364,7 +364,7 @@ const  Our = ({ data }) => {
   <div class="">
     <article className="space-y-4 text-black">
       <h3 className="text-primary mb-10">
-- Our services for pharmaceuticals and cosmetics include:
+ Our services for pharmaceuticals and cosmetics include:
 </h3>
      
         
@@ -529,7 +529,7 @@ const  Our = ({ data }) => {
   <div class="">
     <article className="space-y-4 text-black">
       <h3 className="text-primary mb-10">
-- We are well equipped with latest instruments :
+ We are well equipped with latest instruments :
 </h3>
      
         

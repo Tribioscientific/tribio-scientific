@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
           </a>
           <div className="mt-6 flex space-x-4 text-text max-w-md">
-           <p className="text-gray-300 text-[16px]">Our aim is to generate opportunities using biotechnology, thereby paving the way for progress and growth.</p>
+           <p className="text-gray-300 text-[15px]">Tribio Scientific Private limited (Formerly known as Tribio Scientific ) is biotechnology company aim to  generate opportunities using biotechnology having Head office at Bangalore and CIN is U20119KA2023PTC178688 . Our branch offices are in Mumbai , Noida, and Gorakhpur.</p>
           </div>
         </div>
         <div>
@@ -170,7 +170,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-8 flex flex-col space-x-0 space-y-4 text-sm font-light  sm:flex-row sm:space-y-0 sm:space-x-6">
+      <div className="py-8 pt-20 flex flex-col space-x-0 space-y-4 text-sm font-light  sm:flex-row sm:space-y-0 sm:space-x-6">
         <span>Copyright &copy; 2023-24 - Tribio Scientific</span>
         {/* <a href="#" className="text-text/50 hover:text-heading">
           Terms of Service
