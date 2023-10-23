@@ -171,7 +171,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-8 pt-20 flex flex-col space-x-0 space-y-4 text-sm font-light  sm:flex-row sm:space-y-0 sm:space-x-6">
-        <span>Copyright &copy; 2023-24 - Tribio Scientific</span>
+        <span>Copyright &copy; 2023-24 - Tribio Scientific Pvt ltd.</span>
         {/* <a href="#" className="text-text/50 hover:text-heading">
           Terms of Service
         </a>
