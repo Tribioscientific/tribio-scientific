@@ -45,13 +45,19 @@ const Contact = ({ data }) => {
 
       
       <div className="container">
-      
-        <div className="section row items-center justify-center">
-      
-          <div className="animate lg:col-6">
-          <div className="max-w-5xl lg:mb-0">
-                  <div className="mb-8 flex w-full max-w-xl">
-                <div
+      <section class="animate bg-white">
+    <div class="container grid grid-cols-1 gap-10 px-6 py-12 mx-auto lg:grid-cols-3">
+        <div>
+        <p class="font-medium text-blue-500 dark:text-blue-400">Our locations</p>
+            
+            <h1 class="mt-2 text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146] md:text-3xl  ">Tribio Scientific Pvt ltd.</h1>
+
+            <p class="mt-3  text-gray-700 dark:text-gray-400">Find us at these locations.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2">
+        <div>
+        <div
                   className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-xl items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
                 >
                   <svg
@@ -71,17 +77,12 @@ const Contact = ({ data }) => {
                     />
                   </svg>
                 </div>
-                <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">Contact</h4>
-                  <p className="text-body-color text-base">+91 - 9593284185</p>
-                  <p className="text-body-color text-base">sales@Tribioscientific.com</p>
-                </div>
-              </div>
-
-
-              <div className="mb-8 flex w-full max-w-2xl">
-                <div
-                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+                <h2 class="font-medium text-2xl text-gray-800   text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Contact Details</h2>
+                <p class="mt-2  text-gray-700 dark:text-gray-400">+91 - 9593284185 <br/>sales@Tribioscientific.com</p>
+            </div>
+            <div>
+            <div
+                  className=" bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
                 >
                   <svg
                     width="24"
@@ -94,19 +95,13 @@ const Contact = ({ data }) => {
                     />
                   </svg>
                 </div>
-                <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">Head office</h4>
-                  <p className="text-body-color text-base">
-                  4th FLOOR, 28/A, 80 FEET ROAD,
-MICHEAL PALYA, <br/>
-Indiranagar, Bangalore, Karnataka 560038
-. </p>
-                </div>
-              </div>
+                <h2 class="font-medium text-2xl text-gray-800   text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Head Office</h2>
+                <p class="mt-2  text-gray-700 dark:text-gray-400">4th FLOOR, 28/A, 80 FEET ROAD, MICHEAL PALYA, Indiranagar, Bangalore, Karnataka 560038 .</p>
+            </div>
 
-              <div className="mb-8 flex w-full max-w-[370px]">
-                <div
-                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+            <div>
+            <div
+                  className=" bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
                 >
                   <svg
                     width="24"
@@ -119,20 +114,13 @@ Indiranagar, Bangalore, Karnataka 560038
                     />
                   </svg>
                 </div>
-                <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">Corporate office </h4>
-                  <p className="text-body-color text-base">
-                  Corporate office
-Suite No. E/1, B-8, 3rd Floor, M/S ARNAVI
-SOLUTION, Sector 2, Noida, Gautam
-Buddha Uttar Pradesh, 201301.
- </p>
-                </div>
-              </div>
+                <h2 class="font-medium text-2xl text-gray-800   text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Corporate Office</h2>
+                <p class="mt-2  text-gray-700 dark:text-gray-400">Suite No. E/1, B-8, 3rd Floor, M/S ARNAVI SOLUTION, Sector 2, Noida, Gautam Buddha Uttar Pradesh, 201301.</p>
+            </div>
 
-              <div className="mb-8 flex w-full max-w-[370px]">
-                <div
-                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+            <div>
+            <div
+                  className=" bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
                 >
                   <svg
                     width="24"
@@ -145,19 +133,13 @@ Buddha Uttar Pradesh, 201301.
                     />
                   </svg>
                 </div>
-                <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">Mumbai office </h4>
-                  <p className="text-body-color text-base">
-                  307, Primus Business Park , Plot No. 195A
-, Wagle Industrial state, Road No 16A,
-Thane (W), Maharastra ,
-India  - 400604 .
-</p>
-                </div>
-              </div>
-              <div className="mb-8 flex w-full max-w-[370px]">
-                <div
-                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+                <h2 className="font-medium text-2xl text-gray-800   text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Mumbai Office</h2>
+                <p class="mt-2  text-gray-700 dark:text-gray-400">307, Primus Business Park , Plot No. 195A , Wagle Industrial state, Road No 16A, Thane (W), Maharastra , India - 400604.</p>
+            </div>
+
+            <div>
+            <div
+                  className=" bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
                 >
                   <svg
                     width="24"
@@ -170,20 +152,13 @@ India  - 400604 .
                     />
                   </svg>
                 </div>
-                <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">R&D and manufacturing </h4>
-                  <p className="text-body-color text-base">
-                  Unit No. A-529, Plot no-G-6, Silver
-Springs , MIDC Taloja, Navi Mumbai
-, Maharstra 410208.
+                <h2 class="font-medium text-2xl text-gray-800   text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">R&D and manufacturing</h2>
+                <p class="mt-2  text-gray-700 dark:text-gray-400">Unit No. A-529, Plot no-G-6, Silver Springs, MIDC Taloja, Navi Mumbai , Maharstra 410208.</p>
+            </div>
 
-</p>
-                </div>
-              </div>
-
-              <div className="mb-8 flex w-full max-w-2xl">
-                <div
-                  className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+            <div>
+            <div
+                  className=" bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
                 >
                   <svg
                     width="24"
@@ -196,86 +171,92 @@ Springs , MIDC Taloja, Navi Mumbai
                     />
                   </svg>
                 </div>
-                <div className="w-full">
-                  <h4 className="text-dark mb-1 text-xl font-bold">Warehouse - Uttar Pradesh </h4>
-                  <p className="text-body-color text-base">
-                  34, LIG, Rapti Nagar Phase 4, Chargawan,<br/> Gorakhpur, Gorakhpur,
-Uttar Pradesh, 273013 </p>
-                </div>
-              </div>
-         
-             
-            </div> 
-          
-          </div>
-          <div className="animate lg:col-5">
-            <form
-              method="POST"
-               action="/"
-              // {config.params.contact_form_action}
-              className="contact-form rounded-xl p-6 shadow-[0_4px_25px_rgba(0,0,0,0.05)]"
-            >
-              <h2 className="h4 mb-6">Send A Message</h2>
-              <div className="mb-6">
-                <label
-                  className="mb-2 block font-medium text-dark"
-                  htmlFor="name"
-                >
-                  Name
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="name"
-                  placeholder="Full Name"
-                  type="text"
-                  required
-                />
-              </div>
-              <div className="mb-6">
-                <label
-                  className="mb-2 block font-medium text-dark"
-                  htmlFor="email"
-                >
-                  Email
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="email"
-                  placeholder="Email Address"
-                  type="email"
-                  required
-                />
-              </div>
-              <div className="mb-6">
-                <label
-                  className="mb-2 block font-medium text-dark"
-                  htmlFor="subject"
-                >
-                  Subject
-                </label>
-                <input
-                  className="form-input w-full"
-                  name="subject"
-                  type="text"
-                  required
-                />
-              </div>
-              <div className="mb-6">
-                <label
-                  className="mb-2 block font-medium text-dark"
-                  htmlFor="message"
-                >
-                  Message
-                </label>
-                <textarea className="form-textarea w-full" rows="6" />
-              </div>
-              <button className="btn btn-primary block w-full">
-                Submit Now
-              </button>
-            </form>
-          </div>
+                <h2 class="font-medium text-2xl text-gray-800   text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">Warehouse - Uttar Pradesh</h2>
+                <p class="mt-2  text-gray-700 dark:text-gray-400">34, LIG, Rapti Nagar Phase 4, Chargawan,
+Gorakhpur, Gorakhpur, Uttar Pradesh, 273013.</p>
+            </div>
+
+            
         </div>
+    </div>
+</section>
+
+
+
+ 
+ 
+ 
       </div>
+
+            
+<main className="animate py-14 bg-gradient-to-b from-blue-300 to-[#eae8ee]">
+            <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
+                <div className="max-w-lg mx-auto space-y-3 sm:text-center">
+                    <h3 className="text-indigo-600 font-semibold">
+                        Contact
+                    </h3>
+                    <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        Get in touch
+                    </p>
+                    <p>
+                        We’d love to hear from you! Please fill out the form bellow.
+                    </p>
+                </div>
+                <div className="mt-12 max-w-lg mx-auto">
+                    <form 
+                        className="space-y-5"
+                        action="/"
+                    >
+                        <div className="flex flex-col items-center gap-y-5 gap-x-6 [&>*]:w-full sm:flex-row">
+                            <div>
+                                <label className="font-medium">
+                                    First name
+                                </label>
+                                <input
+                                    type="text"
+                                    required
+                                    className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                                />
+                            </div>
+                            <div>
+                                <label className="font-medium">
+                                    Last name
+                                </label>
+                                <input
+                                    type="text"
+                                    required
+                                    className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <label className="font-medium">
+                                Email
+                            </label>
+                            <input
+                                type="email"
+                                required
+                                className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                            />
+                        </div>
+                         
+                        <div>
+                            <label className="font-medium">
+                                Message
+                            </label>
+                            <textarea required className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"></textarea>
+                        </div>
+                        <button
+                            className="w-full px-4 py-2 text-white font-medium bg-primary rounded-lg duration-150"
+                            type="submit"
+                        >
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+ 
     </section>
   );
 };
