@@ -50,7 +50,7 @@ const DigesterNutrient =  () => {
                 
                 </h2>
             <i> 
-            A blend of Micro & Marco nutrient for conversion of VFA into methane gas generation of all type of anaerobic process like USAB, ICX, IC & Biodigester as well.
+            A blend of Micro & Marco nutrient for conversion of VFA into methane gas generation of all type of anaerobic process like USAB and Biodigester.
              </i>
             <p class="text-gray-800 mb-6">
             Anaerobic digestion of organic matter for biogas (CH4 + CO2) production has become a successful and growing area during the last decades. However, there is in many cases room for improvements of the efficiency of CH4-production and of the stability of the process.
