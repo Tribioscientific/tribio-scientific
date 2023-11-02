@@ -1,64 +1,43 @@
 import { markdownify } from "@lib/utils/textConverter";
+import Image from "next/image";
 
 const  Our = ({ data }) => {
   const { frontmatter, content } = data;
 
   return (
 <section >
-    <div  class="relative bg-[url(/images/b1.png)] bg-cover bg-center bg-no-repeat lg:h-[500px]"
-  >
-    <div
-      class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/10"
-    ></div>
-  
-    <div
-      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-    >
-      <div class="max-w-xl text-center sm:text-left">
-      {/* <img
-          alt="Waste Water treatment"
-          src= "/images/logo.png"
-          className="hidden lg:block inset-0 lg:h-20 lg:w-50   rounded-md"
-        /> */}
-        <h1 class="text-3xl font-extrabold sm:text-5xl">
-          {/* Let us find your */}
-  
-          <strong class="block font-extrabold text-primary">
-          Our Alliance
-          </strong>
-        </h1>
-  
-        {/* <p class="mt-4 max-w-lg sm:text-xl text-black sm:leading-relaxed">
-        Trust, Quality, and Commitment are three fundamental tenets that form the foundation of Tribio Scientific’s business philosophy and “To improve the quality of life innovatively by suppling high quality products for medicine manufacturing”.
-        </p>
-  */}
-      </div>
-    </div> 
-    </div>
 
 
-
-
-
-
-
-    <section class="bg-white dark:bg-gray-900">
-    
-   
-    <div class="container px-6 py-16 mx-auto text-center">
-        <div class="mx-auto">
-            <h1 class="text-primary">The Power of Partnership</h1>
-
-            <p class="mt-6 text-black">
-         <b>   Tribio Scientific is work in alliance with Chromto Scientific Mumbai & Oxygen Lab . Chromato Scientific Have state of Art R& D at Taloja Mumbai .</b>  Chromato scientific& Tribio Scientific team consists youth & experience; qualified, experienced research professionals. The team has the capability to understand the science behind each project. The technical expertise and knowledge of the team spreads across Chemical Synthesis ,Biochemistry, Microbiology, Fermentation technology , Biotechnology, Animal Nutrition, Analytical Chemistry, Environmental Chemistry and Wastewater Management. 
+<div className=" bg-gradient-to-b from-blue-300 to-[#eae8ee]">
+        
+        <div className="animate flex flex-col items-center justify-center px-4 py-14 mx-auto sm:max-w-xl md:max-w-full lg:pt-16 md:px-0 ">
+          <div className="flex flex-col items-center max-w-5xl md:px-8">
+            <div className="max-w-5xl mb-1 md:mx-auto text-center lg:max-w-5xl md:mb-12">
+              <div>
+                <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-primary uppercase rounded-full bg-teal-accent-400">
+                Our Alliance
+                </p>
+              </div>
+              <h1 className="py-2 text-2xl font-bold sm:text-5xl  lg:leading-tight md:mx-auto text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146] ">
+              The Power of Partnership
+                {/* <br /> (Your No. 1 Destination for Cutting-Edge CPaaS Excellence) */}
+              </h1>
+              <p className="text-base text-gray-700 md:text-lg">
+              <b> Tribio Scientific is work in alliance with Chromto Scientific Mumbai & Oxygen Lab . Chromato Scientific Have state of Art R D at Taloja Mumbai .</b>  Chromato scientific& Tribio Scientific team consists youth & experience; qualified, experienced research professionals. The team has the capability to understand the science behind each project. The technical expertise and knowledge of the team spreads across Chemical Synthesis ,Biochemistry, Microbiology, Fermentation technology , Biotechnology, Animal Nutrition, Analytical Chemistry, Environmental Chemistry and Wastewater Management. 
             </p>
-
-            
+            </div>
+          </div>
+          <Image
+            src="/images/about/alliance.svg"
+            width={650}
+            height={600}
+            alt="about tribio scientific"
+            className="object-contain"
+          />
         </div>
-
       
     </div>
-</section> 
+ 
  
     <section> 
   <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
@@ -109,7 +88,7 @@ const  Our = ({ data }) => {
         <img
           alt="Waste Water treatment"
           src= "/images/waterwt.jpg"
-          className="absolute inset-0 h-full w-full object-cover rounded-md"
+          className="absolute inset-0 h-full w-full object-cover rounded-xl   "
         />
       </div>
     </div>
@@ -155,7 +134,7 @@ const  Our = ({ data }) => {
     <img
       alt="Waste Water treatment"
       src= "/images/laball.jpg"
-      className="absolute inset-0 h-full w-[500px]  rounded-md"
+      className="absolute inset-0  py-4 h-[250px] w-[400px]  rounded-md"
     />
   </div> 
 </div>
@@ -339,7 +318,7 @@ const  Our = ({ data }) => {
    
     <div class="container px-6 mx-auto text-center">
         <div class="mx-auto">
-            <h1 class="underline text-primary">OXIGEN ANALYTICAL LABORATORIES</h1>
+            <h1 class="py-2 text-2xl font-bold sm:text-5xl  lg:leading-tight md:mx-auto text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146] ">OXIGEN ANALYTICAL LABORATORIES</h1>
 
             <p class="mt-6 text-black">
             OXIGEN ANALYTICAL LABORATORIES is approved by Health and Family Welfare Department, ISO and NABL Accredited Testing Laboratory for the analysis of drug and cosmetic products. Oxygen Analytical lab is immersing company. We provide quality control testing for pharmaceutical and cosmetic products including method development and method validation. We have professional expertise and regulatory qualifications needed to accurately perform essential chemical and physiochemical tests on raw materials, APIs, finished products of pharmaceutical and cosmetic products. We are supported by excellent dedicated, well qualified, trained and experienced staff.We offer comprehensive testing services, in well equipped, state of the art laboratories, according to the pharmacopoeia (e.g. IP, EP, USP, BP, JP) and your specifications.

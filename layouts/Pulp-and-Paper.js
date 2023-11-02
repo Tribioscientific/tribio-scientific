@@ -1,107 +1,125 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const PulpAndPaper  = ( ) => {
-  
+  const features = [
+    
+    {
+        icon:
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+            </svg>,
+        title: "ETP/CPU Nutrient",
+        desc: "A Symbiotic blend of Bio-Nutrients for replacing inorganic nitrogen & phosphorus sources like Urea & DAP and other essential micronutrients.",
+        href: "/etp-cpu-nutrient"
+    },
+    
+    {
+        icon:
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+            </svg>,
+        title: "Tribio Powermix",
+        desc: "A blend of Micro & Marco nutrient for conversion of VFA into methane gas generation of all type of anaerobic process.",
+        href: "/digester-nutrient"
+    },
+    {
+        icon:
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+            </svg>,
+        title: "Microbial culture",
+        desc: "Tribio microbial culture is a wonderful microbial product to resolve complex problems of sewage and solid waste treatment.",
+        href: "/microbial-culture"
+    },
+    
+]
 
     return (
       <section className="">
- 
-    <div  class="relative bg-[url(/images/Paper-and-Pulp.jpeg)] bg-cover bg-center bg-no-repeat lg:h-[500px]">
-    <div
-      class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/60 sm:to-white/10"
-    ></div>
-  
-    <div
-      class="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
-    >
-      <div class="max-w-xl text-center sm:text-left">
-      {/* <img
-          alt="Waste Water treatment"
-          src= "/images/logo.png"
-          className="inset-0 hidden lg:block h-20 w-50   rounded-md"
-        /> */}
-        <h1 class="text-3xl font-extrabold sm:text-5xl">
-          {/* Let us find your */}
-  
-          <strong class="block font-extrabold text-primary">
-          Pulp and paper industry
-          </strong>
-        </h1>
-  
-        {/* <p class="mt-4 max-w-lg sm:text-xl text-black sm:leading-relaxed">
-        Depending on the raw material, the conditions of fermentation….,organic load in effluents  and the spirits you want to craft, we have various formulations to assist you in your challenge.   </p>
-  */}
-      </div>
-    </div> 
-    </div> 
-    {/* <div className="relative px-4 pt-8 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
-      <div className="max-w-xl mx-auto lg:max-w-screen-xl">
-        <div className="mb-16 lg:max-w-lg lg:mb-0">
-          <div className="max-w-xl mb-6">  
-            <h2 className="max-w-lg mb-6">
-            Pulp and paper industry
+
+<>
+         <section className=" bg-gradient-to-b from-blue-300 to-[#eae8ee] -mt-16">
+       
+       <div className="animate container flex flex-col justify-center mx-auto sm:py-12 lg:py-12 lg:flex-row lg:justify-between">
+         <div className="flex flex-col  justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+           <h1 className="pt-20 text-2xl font-bold sm:text-5xl  lg:leading-tight md:mx-auto text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]  ">
+           Pulp and paper industry
+           </h1> 
+           <p className="mb-8 sm:text-2xl lg:text-xl sm:mb-12 text-neutral-800">
+           Pressing the sheet removes the water by force. Once the water is forced from the sheet, a special kind of felt, which is not to be confused with the traditional one, is used to collect the water. Whereas, when making paper by hand, a blotter sheet is used instead.
+
+           </p>
+           
+         </div>
+
+         <div className="flex items-center justify-center pt-20">
+           <Image
+             src="/images/industry/pp.png"
+             width={550}
+             height={500}
+             alt="Pulp and paper industry"
+             className=" "
+           />
+         </div>
+       </div>
+
+       
+     
+   </section>
+
+   <div className=" animate py-14">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8 text-center">
+            <h2 className="max-w-lg mb-6 text-primary ">
+          
              
             </h2>
-            <p className="text-base">
-            Pressing the sheet removes the water by force. Once the water is forced from the sheet, a special kind of felt, which is not to be confused with the traditional one, is used to collect the water. Whereas, when making paper by hand, a blotter sheet is used instead.
-                   </p>
-          </div> 
-        </div>
-      </div>
-      <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
-        <img
-          src="/images/Pulp.jpg"
-          className="object-cover object-top w-full h-60 max-w-xl   rounded shadow-2xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
-          alt="Pulp and paper industry"
-        />
-      </div>
-    </div> */}
+            <h2 className="text-2xl font-bold mb-6  lg:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+          Products and Services
+        {/* We offer consistent goods and services to the industry */}
+        </h2> 
+            
+               
+            <div className="mt-14">
 
-
-    <div class="mx-auto max-w-screen-xl px-4 py-1 sm:px-6 sm:py-10 lg:px-8"> 
-
-<div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16"> 
-  <div class="lg:py-1">
-    <article className="space-y-4 text-gray-600">
-      <h3>-    Pulp and paper industry </h3>
-      <p>
-      Pressing the sheet removes the water by force. Once the water is forced from the sheet, a special kind of felt, which is not to be confused with the traditional one, is used to collect the water. Whereas, when making paper by hand, a blotter sheet is used instead.
-            </p> 
-        
-    </article> 
-    <div class="w-full"> 
- 
-            <div class="mt-8 space-y-5 text-blue-500 ">
-            <h6>Products Link :-</h6> 
-                <Link class="flex items-center -mx-2 hover:text-primary hover:underline"  href="/etp-cpu-nutrient"> 
-                    <span class="mx-2"> •  ETP/CPU Nutrient</span>
-                </Link>
-                <Link class="flex items-center -mx-2 hover:text-primary hover:underline"  href="/digester-nutrient"> 
-                    <span class="mx-2"> •  Digester Nutrient</span>
-                </Link>
-
-                <Link class="flex items-center -mx-2 hover:text-primary hover:underline"  href="/microbial-culture"> 
-                    <span class="mx-2"> •   Microbial Culture</span>
-                </Link>
-
-
+            <ul className="grid gap-y-8 gap-x-12 sm:grid-cols-2 lg:grid-cols-3">
+                        {
+                            features.map((item, idx) => (
+                                <li key={idx} className="flex gap-x-4">
+                                    {/* <div className="flex-none w-12 h-12 bg-indigo-600 text-white rounded-lg flex items-center justify-center">
+                                        {item.icon}
+                                    </div> */}
+                                    <div className="space-y-3">
+                                        <h4 className="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-b from-blue-800 to-[#131146]">
+                                            {item.title}
+                                        </h4>
+                                        <p className="text-[15px]">
+                                            {item.desc}
+                                        </p>
+                                        <Link href={item.href} className="text-sm text-indigo-600 duration-150 hover:text-indigo-400 font-medium inline-flex items-center gap-x-1">
+                                            View Product
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+                                                <path fillRule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clipRule="evenodd" />
+                                            </svg>
+                                        </Link>
+                                    </div>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                   
+                </div>
+            
+                
+              
             </div>
-        
         </div>
-    
    
-    </div>
-  
 
-  <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-    <img
-      alt=" Pulp and paper industry"
-      src= "/images/pulp.jpg"
-      className="absolute inset-0 rounded-md"
-    />
-  </div>
-</div>
-</div>
+     </>
+
+ 
+    
   
      
       </section>

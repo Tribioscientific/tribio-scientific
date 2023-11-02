@@ -52,7 +52,7 @@ const WaterTreatment =  () => {
              src="/images/wt.png"
              width={750}
              height={500}
-             alt="team-tribio"
+             alt="Water Treatment Industry"
              className=" "
            />
          </div>
